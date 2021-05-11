@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Museu Municipal Pedro Nunes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery.modal.min.css" />
+<link rel="stylesheet" href="css/simple-lightbox.min.css" />
+<link rel="stylesheet" href="css/alcacer.css">
+<link rel="stylesheet" href="css/linkview.css">
+<link rel="stylesheet" href="css/linkhotspots.css">
+<link rel="stylesheet" href="css/infoboard.css">
+<link rel="stylesheet" href="css/infohotspots.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+      <a href="javascript:void(0)" class="scene" data-id="0-praa-pedro-nunes"><li class="text">Praça Pedro Nunes</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="1-rua-do-municpio"><li class="text">Rua do Município</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="2-entrada"><li class="text">Entrada</li></a>
+<li class="text nolink">Idade do Ferro</li>
+      <a href="javascript:void(0)" class="scene" data-id="3-idade-do-ferro"><li class="text minus">Um porto de culturas</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="4-um-porto-de-culturas"><li class="text minus">Um porto de culturas</li></a>
+<li class="text  nolink">Na esfera de Roma</li>
+      <a href="javascript:void(0)" class="scene" data-id="5-na-esfera-de-roma"><li class="text minus">Na esfera de Roma</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="6-na-esfera-de-roma"><li class="text minus">Na esfera de Roma</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="7-na-esfera-de-roma"><li class="text minus">Na esfera de Roma</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="8-uma-economia-de-esturio"><li class="text minus">Uma Economia de Estuário</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="9-8-igreja"><li class="text">Igreja</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="10-9-medieval"><li class="text">Medieval</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="11-10-a-capela-e-o-hospital-do-esprito-santo"><li class="text">A Capela e o Hospital do Espírito Santo</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="12-11-altar"><li class="text">Altar</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="13-12-segredos-nas-paredes"><li class="text">Segredos nas paredes</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="14-13-parede"><li class="text">Parede</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="15-14-plpito"><li class="text">Púlpito</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="16-15-modernidade"><li class="text">Modernidade</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="17-16-modernidade"><li class="text">Modernidade</li></a>
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.svg">
+  <img class="icon on" src="img/windowed.svg">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#ficha-modal" class="modal_about modali" rel="modal:open"><img class="icon" src="img/people.svg"></a>
+
+<div id="ficha-modal" class="modal">
+    <div class="modal_content_main">
+        <div class="modal_content_60 modal_content_left">
+          <h1>Lorem ipsum dolor sit</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Lorem ipsum dolor sit</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+        </div>
+        <div class="modal_content_40 modal_content_right">
+          <h1>Lorem ipsum dolor sit</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</div>
+
+
+<a href="mapa.html" class="modal_map modali" rel="modal:open"><img class="icon" src="img/map.svg"></a>
+
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+
+
+<div id="janela_exterior" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/janela_exterior.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/janela_exterior.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Janela Manuelina</span></h1>
+        <p>Janela Manuelina.</p>
+      </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="vtindex.js"></script>
+
+<script src="js/jquery.modal.min.js"></script>
+<script src="js/simple-lightbox.min.js"></script>
+
+<script src="init.js"></script>
+
+
+<script>
+(function() {
+		var $gallery = new SimpleLightbox('.gallery a', {
+      nav: false,
+      captions: false,
+      showCounter: false,
+      animationSpeed: 100
+      });
+    	})();
+</script>
+
+</body>
+</html>
