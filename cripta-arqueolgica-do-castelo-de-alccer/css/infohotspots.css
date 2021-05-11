@@ -1,0 +1,7 @@
+.info-hotspot .info-hotspot-header {background-color: rgb(122, 106, 199);}
+.info-hotspot .info-hotspot-header:hover {background-color: rgb(152, 133, 247);}
+.info-hotspot .info-hotspot-close-wrapper {background-color: rgb(152, 133, 247);}
+.info-hotspot .info-hotspot-text {background-color: rgb(58,68,84, 0.3);}
+.info-hotspot-modal .info-hotspot-text {background-color: rgb(30,30,30);}
+.info-hotspot-modal .info-hotspot-header {background-color: rgb(152, 133, 247); text-transform: uppercase;}
+.info-hotspot-modal .info-hotspot-close-wrapper {background-color: rgb(152, 133, 247);}
