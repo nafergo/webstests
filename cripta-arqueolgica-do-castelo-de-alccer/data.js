@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-0",
-      "name": "0",
+      "name": "Entrada",
       "levels": [
         {
           "tileSize": 256,
@@ -41,28 +41,22 @@ var APP_DATA = {
         {
           "yaw": -0.9074128624275772,
           "pitch": 0.05415706705665002,
-          "title": "<a href='#rio_sado' class='modali hide-small' rel='modal:open'>rio_sado</a><span class='hide-desktop'>rio_sado</span>",
-          "text": "<img src=\'images/rio_sado.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Loren ipsum.</p>"
+          "title": "<a href='#rio_sado' class='modali hide-small' rel='modal:open'>Rio Sado</a><span class='hide-desktop'>Rio Sado</span>",
+          "text": "<img src=\'images/1/sado1.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/1/sado2.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Rio Sado.</p>"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.6970929493498463,
-          "pitch": 0.04761617645517546,
-          "title": "2",
-          "text": "Texto"
-        },
-        {
           "yaw": 2.6595773951236428,
           "pitch": -0.011099973507247896,
-          "title": "3",
-          "text": "Texto"
+          "title": "Fórum romano",
+          "text": "Acesso ao Fórum romano"
         }
       ]
     },
     {
       "id": "1-1",
-      "name": "1",
+      "name": "Receção",
       "levels": [
         {
           "tileSize": 256,
@@ -108,32 +102,32 @@ var APP_DATA = {
         {
           "yaw": 0.8071956427257145,
           "pitch": 0.6178720059215337,
-          "title": "4",
-          "text": "Texto"
+          "title": "A Intervenção arqueológica no Castelo",
+          "text": "A Intervenção arqueológica no Castelo"
         },
         {
           "yaw": -1.6371956097350946,
           "pitch": 0.5197005103365289,
-          "title": "5",
+          "title": "O Convento de Nossa Senhora de Aracaelli",
           "text": "Texto"
         },
         {
           "yaw": -0.5735654636273182,
           "pitch": 0.319970516330919,
-          "title": "6",
+          "title": "Época Medieval – Ordem Militar de Santiago da Espada",
           "text": "Texto"
         },
         {
           "yaw": 1.6098643396569834,
           "pitch": -0.06499521634628636,
-          "title": "7",
+          "title": "Época Muçulmana",
           "text": "Texto"
         }
       ]
     },
     {
       "id": "2-2",
-      "name": "2",
+      "name": "Galeria expositiva",
       "levels": [
         {
           "tileSize": 256,
@@ -179,20 +173,20 @@ var APP_DATA = {
         {
           "yaw": -2.4502027473958066,
           "pitch": 0.5815296292725414,
-          "title": "8",
+          "title": "Época Romana",
           "text": "Texto"
         },
         {
           "yaw": -0.6584976744988609,
           "pitch": 0.5654191076394834,
-          "title": "9",
+          "title": "Idade do Ferro",
           "text": "Texto"
         }
       ]
     },
     {
       "id": "3-3",
-      "name": "3",
+      "name": "A Sala das Pedras",
       "levels": [
         {
           "tileSize": 256,
@@ -233,31 +227,26 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
+"infoboardHotspots": [
+        {
+          "yaw": -0.9567509291800178,
+          "pitch": 0.14062968227440997,
+          "title": "<a href='#doze' class='modali hide-small' rel='modal:open'>Cláudio</a><span class='hide-desktop'>Cláudio</span>",
+          "text": "<img src=\'images/12/12.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Busto do imperador romano Cláudio.</p><p>(Tiberius Claudius Nero Germanicus -10 a.C./54 d.C.)</p>"
+        }
+    ],
 "infoHotspots": [
         {
           "yaw": 0.4608480556552408,
           "pitch": 0.49647854584607565,
-          "title": "10",
-          "text": "Texto"
-        },
-        {
-          "yaw": 2.776267541874394,
-          "pitch": 0.18523144763709531,
-          "title": "11",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.9567509291800178,
-          "pitch": 0.14062968227440997,
-          "title": "12",
-          "text": "Texto"
+          "title": "Transcrição",
+          "text": "<p>[L(ucius) · CORNELIVS · C (aii) · F(ilius) · BOC]CHVS · PR(aefectus) · CAESARVM · BIS/[FLAM(en) · PROVINC(iae) ·PON]T(ifex) · PERP(etuus) · FLAMEN · PERP(etuus)/</p><p>[DVVMVIR · AEDILIS ·] (?) II (bis) · PR(aefectus) · FABR(um) · V (quinquies) ·TR(ibunus) · MIL(itum) · D(e) · S(ua) · P(ecunia) · F(ecit)</p>"
         }
       ]
     },
     {
       "id": "4-4",
-      "name": "4",
+      "name": "Os elementos arquitetónicos",
       "levels": [
         {
           "tileSize": 256,
@@ -303,26 +292,14 @@ var APP_DATA = {
         {
           "yaw": -0.10652849230564243,
           "pitch": -0.04160246332032358,
-          "title": "13",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.798053944219232,
-          "pitch": -0.21683038650603947,
-          "title": "14",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.6835307942782336,
-          "pitch": 0.4935981232366746,
-          "title": "15",
-          "text": "Texto"
+          "title": "Capitel baixo-medieval",
+          "text": "Capitel baixo-medieval utilizado geralmente em contextos palacianos"
         }
       ]
     },
     {
       "id": "5-5",
-      "name": "5",
+      "name": "Do Convento à Ordem Militar de Santiago da Espada ",
       "levels": [
         {
           "tileSize": 256,
@@ -363,25 +340,25 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
+"infoboardHotspots": [
         {
           "yaw": -0.838189868203667,
           "pitch": 0.45515083956072644,
-          "title": "16",
-          "text": "Texto"
+          "title": "<a href='#dezasseis' class='modali hide-small' rel='modal:open'>Fase Conventual (séculos XVI a XIX)</a><span class='hide-desktop'>Fase Conventual (séculos XVI a XIX)</span>",
+          "text": "<img src=\'images/16/16.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Fase Conventual (séculos XVI a XIX).</p><p>Pia de água benta de suspensão.</p>"
         },
         {
           "yaw": 0.9124088183976582,
           "pitch": 0.07664998227244979,
-          "title": "17",
-          "text": "Texto"
+          "title": "<a href='#dezassete' class='modali hide-small' rel='modal:open'>Período Medieval Cristão (séculos XIII a XV/XVI)</a><span class='hide-desktop'>Fase Conventual (séculos XVI a XIX)</span>",
+          "text": "<img src=\'images/17/17.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Período Medieval Cristão (séculos XIII a XV/XVI).</p><p>Taça de faiança.</p>"
         }
-      ]
+      ],
+"infoHotspots": []
     },
     {
       "id": "6-6",
-      "name": "6",
+      "name": "Qaṣr Abī Dānis – Os Almóadas",
       "levels": [
         {
           "tileSize": 256,
@@ -422,31 +399,32 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
+"infoboardHotspots": [
+        {
+          "yaw": 0.4841964720606686,
+          "pitch": 0.05265334062354121,
+          "title": "<a href='#dezanove' class='modali hide-small' rel='modal:open'>Islâmico tardio (séculos XII/XIII)</a><span class='hide-desktop'>Islâmico tardio (séculos XII/XIII)</span>",
+          "text": "<img src=\'images/19/19.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Islâmico tardio (séculos XII/XIII)</p><p>Jarra com decoração esgrafitada.</p>"
+        }
+      ],
 "infoHotspots": [
         {
           "yaw": -0.5124420527458717,
           "pitch": 0.25564397630431124,
-          "title": "18",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.4841964720606686,
-          "pitch": 0.05265334062354121,
-          "title": "19",
-          "text": "Texto"
+          "title": "Islâmico Tardio - Os Almóadas",
+          "text": " Islâmico Tardio - Os Almóadas"
         },
         {
           "yaw": 2.4730348247937375,
           "pitch": 0.09817360161651223,
-          "title": "20",
-          "text": "Texto"
+          "title": "Estruturas habitacionais da Idade do Ferro",
+          "text": "Estruturas habitacionais da Idade do Ferro"
         }
       ]
     },
     {
       "id": "7-7",
-      "name": "7",
+      "name": "Dos Almorávidas aos Omíadas",
       "levels": [
         {
           "tileSize": 256,
@@ -493,31 +471,32 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
-        {
-          "yaw": -2.947725868979365,
-          "pitch": 0.0467898395133286,
-          "title": "21",
-          "text": "Texto"
-        },
+"infoboardHotspots": [
         {
           "yaw": -1.1173054171781214,
           "pitch": 0.20244189244114352,
-          "title": "22",
-          "text": "Texto"
+          "title": "<a href='#vinteedois' class='modali hide-small' rel='modal:open'>Islâmico Inicial – Os Omíadas (Séculos VIII a IX/X)</a><span class='hide-desktop'>Islâmico Inicial – Os Omíadas (Séculos VIII a IX/X)</span>",
+          "text": "<img src=\'images/22/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Islâmico Inicial – Os Omíadas (Séculos VIII a IX/X)</p><p>Bule de chá.</p>"
         },
         {
           "yaw": 1.5421680993551412,
           "pitch": 0.6877506594021412,
-          "title": "23",
-          "text": "Texto"
+          "title": "<a href='#vinteetres' class='modali hide-small' rel='modal:open'>Islâmico Médio – Os Almorávidas (Séculos X a XI/XII)</a><span class='hide-desktop'>Islâmico Médio – Os Almorávidas (Séculos X a XI/XII)</span>",
+          "text": "<img src=\'images/23/23.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Islâmico Médio – Os Almorávidas (Séculos X a XI/XII)</p><p>Alcatruz de nora.</p>"
+        }
+      ],
+"infoHotspots": [
+        {
+          "yaw": -2.947725868979365,
+          "pitch": 0.0467898395133286,
+          "title": "Fundações de Torre islâmica",
+          "text": "Fundações de Torre islâmica"
         }
       ]
     },
     {
       "id": "8-8",
-      "name": "8",
+      "name": "A Casa Romana",
       "levels": [
         {
           "tileSize": 256,
@@ -557,20 +536,14 @@ var APP_DATA = {
         {
           "yaw": 0.1353736271120045,
           "pitch": 0.561213663590058,
-          "title": "24",
-          "text": "Texto"
-        },
-        {
-          "yaw": 1.927330269550433,
-          "pitch": 0.047051225894737314,
-          "title": "25",
-          "text": "Texto"
+          "title": "Ânfora romana",
+          "text": "Ânfora romana"
         }
       ]
     },
     {
       "id": "9-9",
-      "name": "9",
+      "name": "As estruturas",
       "levels": [
         {
           "tileSize": 256,
@@ -614,34 +587,16 @@ var APP_DATA = {
 "infoboardHotspots": [],
 "infoHotspots": [
         {
-          "yaw": -2.6707189891258984,
-          "pitch": -0.050642315582926756,
-          "title": "26",
-          "text": "Texto"
-        },
-        {
           "yaw": -0.8943943718776293,
           "pitch": 0.05213727473940466,
-          "title": "27",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.011495119898025763,
-          "pitch": 0.6298450700392095,
-          "title": "28",
-          "text": "Texto"
-        },
-        {
-          "yaw": 1.0229150024833338,
-          "pitch": 0.06648788764382907,
-          "title": "29",
-          "text": "Texto"
+          "title": "Estruturas de habitações romanas",
+          "text": "Estruturas de habitações romanas"
         }
       ]
     },
     {
       "id": "10-10",
-      "name": "10",
+      "name": "A Calçada",
       "levels": [
         {
           "tileSize": 256,
@@ -693,20 +648,14 @@ var APP_DATA = {
         {
           "yaw": 2.8341013349572375,
           "pitch": 0.08368711160190223,
-          "title": "30",
-          "text": "Texto"
-        },
-        {
-          "yaw": -1.2540149994600025,
-          "pitch": 0.22883685438323553,
-          "title": "31",
-          "text": "Texto"
+          "title": "Calçada romana e estruturas de habitações em corte",
+          "text": "Calçada romana e estruturas de habitações em corte"
         }
       ]
     },
     {
       "id": "11-10b",
-      "name": "10b",
+      "name": "A Casa Islâmica",
       "levels": [
         {
           "tileSize": 256,
@@ -746,32 +695,14 @@ var APP_DATA = {
         {
           "yaw": 1.4848719146462175,
           "pitch": 0.4462405965777201,
-          "title": "32",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.8261977993728689,
-          "pitch": 0.44385417332871313,
-          "title": "33",
-          "text": "Texto"
-        },
-        {
-          "yaw": 2.2228049221096127,
-          "pitch": 0.396944617964726,
-          "title": "34",
-          "text": "Texto"
-        },
-        {
-          "yaw": -2.260834631854852,
-          "pitch": 0.9484130538349902,
-          "title": "35",
-          "text": "Texto"
+          "title": "Estruturas que compõem uma habitação islâmica",
+          "text": "Estruturas que compõem uma habitação islâmica"
         }
       ]
     },
     {
       "id": "12-11",
-      "name": "11",
+      "name": "Os santuários",
       "levels": [
         {
           "tileSize": 256,
@@ -835,7 +766,7 @@ var APP_DATA = {
     },
     {
       "id": "13-11a",
-      "name": "11a",
+      "name": "O santuário romano",
       "levels": [
         {
           "tileSize": 256,
@@ -876,25 +807,26 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
+"infoboardHotspots": [
         {
           "yaw": -1.4918659693858416,
           "pitch": 0.8988284810320675,
-          "title": "36",
-          "text": "Texto"
-        },
+          "title": "<a href='#trintaeseis' class='modali hide-small' rel='modal:open'>Poço votivo</a><span class='hide-desktop'>Poço votivo</span>",
+          "text": "<img src=\'images/36/36a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/36/36b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Poço votivo</p><p>Poço votivo que faria parte de um santuário de cronologia romana e datado do século I- II d.C.</p><p>Neste taque foi recolhida uma <i>tabella defixionis</i>.</p><h5>Texto</h5><p><i>Domine Megare invicte! Tu, qui Attidis corpus accepisti, accipias corpus eius qui meãs sarcinas supstulit, qui me compilavit de domo Hispani. Illius corpus tibi et anima do dono ut meas res inueniat. Hunc tibi ostia quadripede done. Attis, voveo, si eas iure invenero. Domne Attis, te rogo, per tuum Nocturnum, ut me quam primum compote facias!</i></p>"
+        }
+      ],
+"infoHotspots": [
         {
           "yaw": 1.1677173152871916,
           "pitch": 0.7503592544082114,
-          "title": "37",
-          "text": "Texto"
+          "title": "Altar de oferendas",
+          "text": "Altar de oferendas"
         }
       ]
     },
     {
       "id": "14-11b",
-      "name": "11b",
+      "name": "O santuário da idade do ferro",
       "levels": [
         {
           "tileSize": 256,
@@ -940,20 +872,20 @@ var APP_DATA = {
         {
           "yaw": -0.802505058773523,
           "pitch": 0.9645958291908787,
-          "title": "38",
-          "text": "Texto"
+          "title": "Pavimento em Opus Signinum",
+          "text": "Pavimento em opus signinum de acesso ao santuário romano"
         },
         {
           "yaw": -1.7026567399463577,
           "pitch": 0.7260671988586509,
-          "title": "39",
-          "text": "Texto"
+          "title": "Vestígios do santuário da Idade do Ferro",
+          "text": "Vestígios do santuário da Idade do Ferro"
         }
       ]
     },
     {
       "id": "15-11c",
-      "name": "11c",
+      "name": "O pátio do Santuário",
       "levels": [
         {
           "tileSize": 256,
@@ -993,12 +925,6 @@ var APP_DATA = {
           "target": "14-11b"
         },
         {
-          "yaw": -0.2389957780656271,
-          "pitch": 0.08296620096785645,
-          "rotation": 0,
-          "target": "17-13"
-        },
-        {
           "yaw": 0.4111620628187467,
           "pitch": 0.09221702834789625,
           "rotation": 0,
@@ -1011,26 +937,20 @@ var APP_DATA = {
         {
           "yaw": -0.2092515949884799,
           "pitch": 0.9528814176237539,
-          "title": "40",
-          "text": "Texto"
-        },
-        {
-          "yaw": -1.4934642030255745,
-          "pitch": 0.6780474498483926,
-          "title": "41",
-          "text": "Texto"
+          "title": "Lixeira islâmica",
+          "text": "Lixeira islâmica"
         },
         {
           "yaw": 0.47372886465362285,
           "pitch": 0.46179293640193997,
-          "title": "42",
-          "text": "Texto"
+          "title": "O altar dos sacrifícios",
+          "text": "O altar dos sacrifícios"
         }
       ]
     },
     {
       "id": "16-12",
-      "name": "12",
+      "name": "O espólio",
       "levels": [
         {
           "tileSize": 256,
@@ -1058,12 +978,6 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.23232766550484918,
-          "pitch": 0.14801480726245586,
-          "rotation": 0,
-          "target": "17-13"
-        },
-        {
           "yaw": -1.5957185202902622,
           "pitch": 0.13913528536759223,
           "rotation": 0,
@@ -1089,43 +1003,25 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
+"infoboardHotspots": [
         {
           "yaw": -1.1344096908436114,
           "pitch": 0.566889072064086,
-          "title": "43",
-          "text": "Texto"
-        },
-        {
-          "yaw": 1.5173821978780353,
-          "pitch": 0.04737471129773141,
-          "title": "44",
-          "text": "Texto"
-        },
-        {
-          "yaw": -2.444672798718468,
-          "pitch": 0.08483692196363002,
-          "title": "45",
-          "text": "Texto"
-        },
-        {
-          "yaw": -3.0511772468350884,
-          "pitch": 0.06716828472649183,
-          "title": "46",
-          "text": "Texto"
+          "title": "<a href='#quarentaetres' class='modali hide-small' rel='modal:open'>Objetos votivos -  Idade do Ferro</a><span class='hide-desktop'>Objetos votivos -  Idade do Ferro</span>",
+          "text": "<img src=\'images/43/43.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Objetos votivos -  Idade do Ferro</p><p>Terracota representando Zeus em forma de águia que rapta o jovem Ganimedes.</p>"
         },
         {
           "yaw": 1.0119853964021956,
           "pitch": 0.6039827467337542,
-          "title": "47",
-          "text": "Texto"
+          "title": "<a href='#quarentaesete' class='modali hide-small' rel='modal:open'>Época Romana</a><span class='hide-desktop'>Época Romana</span>",
+          "text": "<img src=\'images/47/47.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Época Romana</p><p>Lucerna em forma de barco com vários orifícios de combustão e alimentação. A parte que se conserva corresponde à proa.</p>"
         }
-      ]
+      ],
+"infoHotspots": []
     },
     {
       "id": "17-13",
-      "name": "13",
+      "name": "retirava",
       "levels": [
         {
           "tileSize": 256,
@@ -1167,30 +1063,11 @@ var APP_DATA = {
       ],
 "linkviewHotspots": [],
 "infoboardHotspots": [],
-"infoHotspots": [
-        {
-          "yaw": 1.448575853535636,
-          "pitch": 0.8527014792483723,
-          "title": "48",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.12786653142668847,
-          "pitch": 0.749476176889539,
-          "title": "49",
-          "text": "Texto"
-        },
-        {
-          "yaw": -1.0697928309189546,
-          "pitch": 0.4675752818689958,
-          "title": "50",
-          "text": "Texto"
-        }
-      ]
+"infoHotspots": []
     },
     {
       "id": "18-15",
-      "name": "15",
+      "name": "A zona habitacional",
       "levels": [
         {
           "tileSize": 256,
@@ -1244,20 +1121,7 @@ var APP_DATA = {
       ],
 "linkviewHotspots": [],
 "infoboardHotspots": [],
-"infoHotspots": [
-        {
-          "yaw": 1.98649608283685,
-          "pitch": 0.13313603809155694,
-          "title": "51",
-          "text": "Texto"
-        },
-        {
-          "yaw": -2.5060139676834563,
-          "pitch": -0.1482111373226651,
-          "title": "52",
-          "text": "Texto"
-        }
-      ]
+"infoHotspots": []
     },
     {
       "id": "19-16",
@@ -1309,14 +1173,7 @@ var APP_DATA = {
       ],
 "linkviewHotspots": [],
 "infoboardHotspots": [],
-"infoHotspots": [
-        {
-          "yaw": -0.8696384850995216,
-          "pitch": 1.128525329168383,
-          "title": "53",
-          "text": "Texto"
-        }
-      ]
+"infoHotspots": []
     },
     {
       "id": "20-16b",
@@ -1360,7 +1217,7 @@ var APP_DATA = {
     },
     {
       "id": "21-17",
-      "name": "17",
+      "name": "Beuipo e a 1ª Idade do Ferro",
       "levels": [
         {
           "tileSize": 256,
@@ -1413,25 +1270,19 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
+"infoboardHotspots": [
         {
           "yaw": 0.1777336307519768,
           "pitch": 0.21758555570151827,
-          "title": "54",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.7241929884319784,
-          "pitch": 0.8689912528753467,
-          "title": "55",
-          "text": "Texto"
+          "title": "<a href='#cinquentaequatro' class='modali hide-small' rel='modal:open'>2ª Idade do Ferro (séculos V a II a.C.)</a><span class='hide-desktop'>2ª Idade do Ferro (séculos V a II a.C.)</span>",
+          "text": "<img src=\'images/54/54.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>2ª Idade do Ferro (séculos V a II a.C.)</p><p>Urninha engobada.</p>"
         }
-      ]
+      ],
+"infoHotspots": []
     },
     {
       "id": "22-18",
-      "name": "18",
+      "name": "Beuipo e a 2ª Idade do Ferro",
       "levels": [
         {
           "tileSize": 256,
@@ -1466,31 +1317,19 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
-        {
-          "yaw": -0.3311371150676088,
-          "pitch": 0.13820468948632936,
-          "title": "56",
-          "text": "Texto"
-        },
+"infoboardHotspots": [
         {
           "yaw": 0.5570332670626517,
           "pitch": 0.17305186749855395,
-          "title": "57",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.04857240132871077,
-          "pitch": 0.9451522791938949,
-          "title": "58",
-          "text": "Texto"
+          "title": "<a href='#cinquentaesete' class='modali hide-small' rel='modal:open'>1ª Idade do ferro (séculos VII a V a.C.)</a><span class='hide-desktop'>1ª Idade do ferro (séculos VII a V a.C.)</span>",
+          "text": "<img src=\'images/57/57a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/57/57b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>1ª Idade do ferro (séculos VII a V a.C.)</p><p>Urna de cerâmica cinzenta ou taça de cerâmica cinzenta fina com furos de suspensão.</p>"
         }
-      ]
+      ],
+"infoHotspots": []
     },
     {
       "id": "23-19",
-      "name": "19",
+      "name": "A sala do Tesouro",
       "levels": [
         {
           "tileSize": 256,
@@ -1548,14 +1387,14 @@ var APP_DATA = {
         {
           "yaw": 0.07315885478517892,
           "pitch": 0.7411138446573773,
-          "title": "59",
-          "text": "Texto"
+          "title": "A cisterna do Convento",
+          "text": "A cisterna do Convento"
         }
       ]
     },
     {
       "id": "24-20",
-      "name": "20",
+      "name": "A sala do Tesouro – As moedas",
       "levels": [
         {
           "tileSize": 256,
@@ -1596,31 +1435,19 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
+"infoboardHotspots": [
         {
           "yaw": -0.484651445685639,
           "pitch": 0.8318923758907069,
-          "title": "60",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.4005621261436829,
-          "pitch": 0.12277527288263101,
-          "title": "61",
-          "text": "Texto"
-        },
-        {
-          "yaw": 1.4500718148171412,
-          "pitch": 0.03929361070720816,
-          "title": "62",
-          "text": "Texto"
+          "title": "<a href='#sessenta' class='modali hide-small' rel='modal:open'>Tesouro - moedas</a><span class='hide-desktop'>Tesouro - moedas</span>",
+          "text": "<img src=\'images/60/60a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/60/60b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Tesouro - moedas</p><p>Moeda pré-romana com representação de atuns e a provável denominação da cidade em caracteres indígenas “Beuipo”.</p>"
         }
-      ]
+      ],
+"infoHotspots": []
     },
     {
       "id": "25-21",
-      "name": "21",
+      "name": "A sala do Tesouro – Os adornos",
       "levels": [
         {
           "tileSize": 256,
@@ -1661,37 +1488,19 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
-"infoHotspots": [
+"infoboardHotspots": [
         {
           "yaw": -0.2068771765643902,
           "pitch": 0.04465917157041943,
-          "title": "63",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.49870379956367117,
-          "pitch": 1.0593252117446337,
-          "title": "64",
-          "text": "Texto"
-        },
-        {
-          "yaw": 1.428361556860624,
-          "pitch": 0.04325662585701906,
-          "title": "65",
-          "text": "Texto"
-        },
-        {
-          "yaw": -1.3493571076421471,
-          "pitch": 0.04246563192327102,
-          "title": "66",
-          "text": "Texto"
+          "title": "<a href='#sessentaetres' class='modali hide-small' rel='modal:open'>Tesouro – Adornos</a><span class='hide-desktop'>Tesouro – Adornos</span>",
+          "text": "<img src=\'images/63/63.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Tesouro – Adornos</p><p>Terço com imagem de caveira.</p>"
         }
-      ]
+      ],
+"infoHotspots": []
     },
     {
       "id": "26-22",
-      "name": "22",
+      "name": "O poço",
       "levels": [
         {
           "tileSize": 256,
@@ -1743,8 +1552,8 @@ var APP_DATA = {
         {
           "yaw": -0.6649261811219809,
           "pitch": 0.14440035336184387,
-          "title": "67",
-          "text": "Texto"
+          "title": "O Poço Islâmico",
+          "text": "O Poço Islâmico"
         }
       ]
     }
@@ -1754,6 +1563,6 @@ var APP_DATA = {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
     "fullscreenButton": true,
-    "viewControlButtons": false
+    "viewControlButtons": true
   }
 };

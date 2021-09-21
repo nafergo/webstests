@@ -1,3 +1,18 @@
+/*
+ * Copyright 2016 Google Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 'use strict';
 
 
@@ -9,12 +24,11 @@
   // Grab elements from DOM.
   var panoElement = document.querySelector('#pano');
   var sceneNameElement = document.querySelector('#titleBar .sceneName');
-  var sceneListElement = document.querySelector('#sceneList, #mapList');
-  var sceneElements = document.querySelectorAll('#sceneList .scene, #mapList .scene');
+  var sceneListElement = document.querySelector('#sceneList');
+  var sceneElements = document.querySelectorAll('#sceneList .scene');
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
-
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
@@ -141,22 +155,17 @@
   //    showSceneList();
     //}
 
-    // Set handler for scene switch.
-      scenes.forEach(function (scene) {
-        //var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
-        var elAll = document.querySelectorAll('#sceneList .scene[data-id="' + scene.data.id + '"], #mapList .scene[data-id="' + scene.data.id + '"]');  //Get all the elements matching the selector
-        elAll.forEach(function (el) { //loop through each element to assign event listener
-          el.addEventListener("click", function () {
-            switchScene(scene);
-            // On mobile, hide scene list after selecting a scene.
-            if (document.body.classList.contains("mobile")) {
-              hideSceneList();
-            }
-          });
-        });
-      });
-
-
+  // Set handler for scene switch.
+  scenes.forEach(function(scene) {
+    var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
+    el.addEventListener('click', function() {
+      switchScene(scene);
+      // On mobile, hide scene list after selecting a scene.
+      if (document.body.classList.contains('mobile')) {
+        hideSceneList();
+      }
+    });
+  });
 
   // DOM elements for view controls.
   var viewUpElement = document.querySelector('#viewUp');
@@ -241,6 +250,15 @@
     } else {
       autorotateToggleElement.classList.add('enabled');
       startAutorotate();
+    }
+  }
+
+  function toggleFullscreen() {
+    screenfull.toggle();
+    if (screenfull.isFullscreen) {
+      fullscreenToggleElement.classList.add('enabled');
+    } else {
+      fullscreenToggleElement.classList.remove('enabled');
     }
   }
 
