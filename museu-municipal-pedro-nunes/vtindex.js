@@ -9,11 +9,12 @@
   // Grab elements from DOM.
   var panoElement = document.querySelector('#pano');
   var sceneNameElement = document.querySelector('#titleBar .sceneName');
-  var sceneListElement = document.querySelector('#sceneList');
-  var sceneElements = document.querySelectorAll('#sceneList .scene');
+  var sceneListElement = document.querySelector('#sceneList, #mapList');
+  var sceneElements = document.querySelectorAll('#sceneList .scene, #mapList .scene');
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
@@ -140,17 +141,21 @@
   //    showSceneList();
     //}
 
-  // Set handler for scene switch.
-  scenes.forEach(function(scene) {
-    var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
-    el.addEventListener('click', function() {
-      switchScene(scene);
-      // On mobile, hide scene list after selecting a scene.
-      if (document.body.classList.contains('mobile')) {
-        hideSceneList();
-      }
-    });
-  });
+    // Set handler for scene switch.
+      scenes.forEach(function (scene) {
+        //var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
+        var elAll = document.querySelectorAll('#sceneList .scene[data-id="' + scene.data.id + '"], #mapList .scene[data-id="' + scene.data.id + '"]');  //Get all the elements matching the selector
+        elAll.forEach(function (el) { //loop through each element to assign event listener
+          el.addEventListener("click", function () {
+            switchScene(scene);
+            // On mobile, hide scene list after selecting a scene.
+            if (document.body.classList.contains("mobile")) {
+              hideSceneList();
+            }
+          });
+        });
+      });
+
 
 
   // DOM elements for view controls.

@@ -33,90 +33,25 @@ var APP_DATA = {
           "yaw": 1.036108687701235,
           "pitch": 0.09332904608504577,
           "rotation": 5.497787143782138,
-          "target": "1-rua-do-municpio"
+          "target": "2-entrada"
         }
       ],
       "linkviewHotspots": [
-        {
-          "yaw": 1.336108687701235,
-          "pitch": 0.09332904608504577,
-          "rotation": 5.497787143782138,
-          "target": "1-rua-do-municpio"
-        }
-      ],
+        ],
       "infoboardHotspots": [
-        {
-          "yaw": -0.4234683576354499,
-          "pitch": 0.13996484600059844,
-          "title": "<a href='#janela_exterior' class='modali hide-small' rel='modal:open'>Janela Manuelina</a><span class='hide-desktop'>Janela Manuelina</span>",
-          "text": "<img src=\'images/janela_exterior.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Loren ipsum.</p>"
-        }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.38905596886779037,
-          "pitch": -0.06579744413984123,
-          "title": "2",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "yaw": -0.4234683576354499,
+          "pitch": 0.13996484600059844,
+          "title": "Janela Manuelina",
+          "text": "Janela mainelada de duplo vão em arco de volta perfeita, assente em duplos colunelos laterais e em coluna torsa central."
         },
         {
           "yaw": 2.2359735394686595,
           "pitch": -0.09416059035313751,
-          "title": "3",
-          "text": "Texto"
-        }
-      ]
-    },
-    {
-      "id": "1-rua-do-municpio",
-      "name": "Rua do Município",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2520,
-      "initialViewParameters": {
-        "yaw": 0.2531553756161422,
-        "pitch": -0.21352682235030684,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3241461332284175,
-          "pitch": 0.1751530638291765,
-          "rotation": 0,
-          "target": "0-praa-pedro-nunes"
-        },
-        {
-          "yaw": 0.23915488811891983,
-          "pitch": -0.1081932512699435,
-          "rotation": 4.71238898038469,
-          "target": "2-entrada"
-        }
-      ],
-      "linkviewHotspots": [],
-      "infoboardHotspots": [],
-      "infoHotspots": [
-        {
-          "yaw": -0.05421534896703761,
-          "pitch": -0.21369031091255053,
-          "title": "8",
-          "text": "Texto"
+          "title": "Paços do Concelho",
+          "text": "Edifício onde está sediada a Câmara Municipal de Alcácer do Sal."
         }
       ]
     },
@@ -152,14 +87,14 @@ var APP_DATA = {
         {
           "yaw": -0.7821571240770488,
           "pitch": 0.5009726174484932,
-          "rotation": 0,
-          "target": "3-idade-do-ferro"
+          "rotation": 1.0612,
+          "target": "4-um-porto-de-culturas"
         },
         {
           "yaw": 3.0148789819567714,
           "pitch": 0.12385153949400518,
           "rotation": 7.0685834705770345,
-          "target": "1-rua-do-municpio"
+          "target": "0-praa-pedro-nunes"
         }
       ],
       "linkviewHotspots": [],
@@ -168,26 +103,32 @@ var APP_DATA = {
         {
           "yaw": 1.0899748955072468,
           "pitch": -0.109987284421873,
-          "title": "9",
-          "text": "Texto"
+          "title": "PETRII NONNI SALACIENSIS",
+          "text": "PETRII NONNI SALACIENSIS"
         },
         {
-          "yaw": -1.873291405828482,
-          "pitch": 0.076374736335719,
-          "title": "10",
-          "text": "Texto"
+          "yaw": 3.1148789819567714,
+          "pitch": 0.22385153949400518,
+          "title": "Horário",
+          "text": "<p class=\'subtitle\'>Horário de verão  (julho e agosto)</p><p>9h30-13h; 15h-18h30</p><p class=\'subtitle\'>Horário de inverno</p><p>9h-12h30; 14h-17h30</p><br><br><p>NOTA: A última entrada é feita sempre meia hora antes da hora de encerramento.</p><p>O museu encerra à segunda-feira.</p>"
+        },
+        {
+          "yaw": -0.8328648043865236,
+          "pitch": 0.13468082782955264,
+          "title": "Pia",
+          "text": "Pia de água benta do estilo manuelino em forma de coroa do imperador (séc. XVI)."
         },
         {
           "yaw": 1.660720098792333,
           "pitch": 0.12593135437638203,
-          "title": "11",
-          "text": "Texto"
+          "title": "Placa de inauguração",
+          "text": "<p class=\'title\'>Pedro Nunes</p><p class=\'subtitle\'>Museu Municipal</p><p>Inaugurado pelo Presidente da Câmara Municipal de Alcácer do Sal, Vítor Proença, após requalificação.</p><p>Alcácer do Sal, 6 de abril de 2019</p>"
         }
       ]
     },
     {
       "id": "3-idade-do-ferro",
-      "name": "Idade do Ferro",
+      "name": "BEUIPO - Um Porto de Culturas",
       "levels": [
         {
           "tileSize": 256,
@@ -229,24 +170,11 @@ var APP_DATA = {
       ],
       "linkviewHotspots": [],
       "infoboardHotspots": [],
-      "infoHotspots": [
-        {
-          "yaw": -1.444950890972672,
-          "pitch": -0.009717240388196657,
-          "title": "12",
-          "text": "Texto"
-        },
-        {
-          "yaw": -1.0328648043865236,
-          "pitch": 0.43468082782955264,
-          "title": "13",
-          "text": "Texto"
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "4-um-porto-de-culturas",
-      "name": "Um porto de culturas",
+      "name": "Um Porto de Culturas",
       "levels": [
         {
           "tileSize": 256,
@@ -274,50 +202,39 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.983941033398459,
-          "pitch": 0.5843657090018599,
-          "rotation": 0,
-          "target": "5-na-esfera-de-roma"
+          "yaw": -3.483941033398459,
+          "pitch": 0.2843657090018599,
+          "rotation": -1.508,
+          "target": "6-na-esfera-de-roma"
         },
         {
           "yaw": 1.2190605027289454,
           "pitch": 0.4453847307357073,
-          "rotation": 0,
-          "target": "3-idade-do-ferro"
+          "rotation": -1.309,
+          "target": "2-entrada"
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
-      "infoHotspots": [
+      "infoboardHotspots": [
         {
-          "yaw": 0.10359689334805111,
+          "yaw": -0.21359689334805111,
           "pitch": 0.3381939986937521,
-          "title": "14",
-          "text": "Texto"
+          "title": "<a href='#leao-em-bronze' class='modali hide-small' rel='modal:open'>Leão em bronze</a><span class='hide-desktop'>Leão em bronze</span>",
+          "text": "<img src=\'images/14.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Imagem de leão em bronze, encontrada na zona portuária de Beuipo. Esta peça, pelas suas características poderia ter sido usada como rem</p><p>O conjunto de conjunto de artefactos de bronze onde se inclui esta peça pode interpretar-se como instrumentos litúrgicos.</p><p>De qualquer forma, o tipo de móvel, a imagem do leão e os detalhes da representação deste elemento evidenciam, por um lado uma clara ligação ao mundo mediterrâneo e, por outro, uma relação direta com um espaço religioso.</p><p>A análise deste conjunto permitiu datar esta peça entre finais do século VI e inícios do V a.C.</p>"
         },
+      ],
+      "infoHotspots": [
         {
           "yaw": 0.9321001464520435,
           "pitch": -0.0050559849829401315,
-          "title": "15",
-          "text": "Texto"
-        },
-        {
-          "yaw": 0.6351000911947917,
-          "pitch": 0.6213014108872539,
-          "title": "16",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.5652581834534658,
-          "pitch": 0.3617105753547847,
-          "title": "17",
-          "text": "Texto"
+          "title": "Sado. Um rio de Culturas",
+          "text": "Sado. Um rio de Culturas"
         }
       ]
     },
     {
       "id": "5-na-esfera-de-roma",
-      "name": "Na esfera de Roma",
+      "name": "Imperatoria Salacia",
       "levels": [
         {
           "tileSize": 256,
@@ -345,16 +262,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.0090741461854726,
-          "pitch": 0.6145987145738356,
-          "rotation": 0,
-          "target": "4-um-porto-de-culturas"
+          "yaw": -1.6595607422778016,
+          "pitch": 0.5938266830153474,
+          "rotation": -1.570,
+          "target": "6-na-esfera-de-roma"
         },
         {
-          "yaw": -1.4595607422778016,
-          "pitch": 0.5938266830153474,
-          "rotation": 0,
-          "target": "6-na-esfera-de-roma"
+          "yaw": -1.1595607422778016,
+          "pitch": 0.3938266830153474,
+          "rotation": 0.6981,
+          "target": "7-na-esfera-de-roma"
         }
       ],
       "linkviewHotspots": [],
@@ -363,20 +280,20 @@ var APP_DATA = {
         {
           "yaw": -0.8563424931503505,
           "pitch": -0.028837561328721506,
-          "title": "18",
-          "text": "Texto"
+          "title": "Imperatoria Salacia",
+          "text": "Imperatoria Salacia"
         },
         {
           "yaw": 0.03609065456822513,
           "pitch": 0.7642888773052565,
-          "title": "19",
-          "text": "Texto"
+          "title": "Mão com anel",
+          "text": "<p>Mão de estátua com anel no dedo anelar</p><p>Séc. I a. C. | Forum romano.</p>"
         },
         {
           "yaw": 2.6510286890580748,
           "pitch": 1.0704728758667308,
-          "title": "20",
-          "text": "Texto"
+          "title": "Ânfora",
+          "text": "<p>Produção da Baía de Cádis (sul de Espanha)</p><p>Séc. IV-III a. C. | Rua do Almoxarife</p>"
         },
         {
           "yaw": 1.4993578770893539,
@@ -388,7 +305,7 @@ var APP_DATA = {
     },
     {
       "id": "6-na-esfera-de-roma",
-      "name": "Na esfera de Roma",
+      "name": "O comércio e os materiais",
       "levels": [
         {
           "tileSize": 256,
@@ -416,20 +333,27 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
+          "yaw": -1.1374138994170536,
+          "pitch": 0.5647951400984539,
+          "rotation": 0.6981,
+          "target": "4-um-porto-de-culturas"
+        },
+        {
           "yaw": -1.5374138994170536,
           "pitch": 0.5647951400984539,
           "rotation": 0,
           "target": "5-na-esfera-de-roma"
-        },
-        {
-          "yaw": -2.8675879089832232,
-          "pitch": 0.6133108397056564,
-          "rotation": 0,
-          "target": "7-na-esfera-de-roma"
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.1612300580974395,
+          "pitch": 0.7132056336614738,
+          "title": "<a href='#escaravelho-egipcio' class='modali hide-small' rel='modal:open'>Escaravelho egípcio</a><span class='hide-desktop'>Escaravelho egípcio</span>",
+          "text": "<img src=\'images/24.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Séc. VII- VI a. C.</p><p>Igreja do Espírito Santo</p><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><p>Inscrição: O registo superior representaria uma esfinge com um signo Nefer; o registo médio representa, à esquerda, o falcão Hórus com um flagelo e à direita um cartucho com o nome Men-Ka-Ra (ou Men-Ka-Re); o registo inferior corresponde a um signo Neb.</p>"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": -0.7932851666113709,
@@ -444,12 +368,6 @@ var APP_DATA = {
           "text": "Texto"
         },
         {
-          "yaw": -0.1612300580974395,
-          "pitch": 0.7132056336614738,
-          "title": "24",
-          "text": "Texto"
-        },
-        {
           "yaw": 0.12764229389359372,
           "pitch": 0.24889593266016874,
           "title": "25",
@@ -459,7 +377,7 @@ var APP_DATA = {
     },
     {
       "id": "7-na-esfera-de-roma",
-      "name": "Na esfera de Roma",
+      "name": "Objetos da vida quotidiana",
       "levels": [
         {
           "tileSize": 256,
@@ -487,10 +405,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.277166995410008,
-          "pitch": 0.5521274473810962,
-          "rotation": 0,
-          "target": "6-na-esfera-de-roma"
+          "yaw": 0.077166995410008,
+          "pitch": 0.5921274473810962,
+          "rotation": -1.3963,
+          "target": "5-na-esfera-de-roma"
         },
         {
           "yaw": -1.47096664912449,
@@ -500,37 +418,38 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": 2.921858881969352,
+          "pitch": 0.26369565434584885,
+          "title": "<a href='#terra-sigillata' class='modali hide-small' rel='modal:open'>Taça em Terra Sigillata</a><span class='hide-desktop'>Taça em Terra Sigillata</span>",
+          "text": "<img src=\'images/27.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Taça em terra sigillata de cronologia romana</p><p>O termo arqueológico terra sigillata designa várias produções de cerâmicas finas de época romana cuja principal característica reside no revestimento das peças com verniz, tendo a designação surgido da impressão de uma marca, em latim sigillum, no fundo das peças.</p><p>As várias peças que compunham as baixelas eram maioritariamente baixas e abertas, como pratos, taças ou copos, apropriadas ao consumo de comida e bebida. Iniciado no centro de Itália no século I a.C., o seu fabrico alargou-se posteriormente para várias áreas do Império Romano, com destaque para os focos gauleses, hispânicos e norte-africanos dos quais a Lusitânia viria a receber inúmeras importações.</p><p>As tipologias das peças de terra sigillata, utilizadas em serviços de mesa lisos ou decorados, embora variem consoante a época e o centro produtor, tiveram um grande grau de standartização.</p>"
+        },
+        {
+          "yaw": -2.838485870545213,
+          "pitch": 0.4093116547082776,
+          "title": "<a href='#biberao' class='modali hide-small' rel='modal:open'>Biberão</a><span class='hide-desktop'>Biberão</span>",
+          "text": "<img src=\'images/29.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>século I a.C.</p><p>Necrópole da Azinhaga do Senhor dos Mártires</p><p>Esta peça tem vindo a ser identificada como um biberão de cronologia romana e datado do século I a.C.</p><p>A matéria-prima usada é o barro. Numa das pontas existe um coador, por onde seria colocado o leite e a outra ponta termina em formato de cabeça de ave, área por onde o bebé bebia o leite.</p>"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 2.4030002370777463,
           "pitch": 0.5795927538516477,
-          "title": "26",
-          "text": "Texto"
-        },
-        {
-          "yaw": 2.921858881969352,
-          "pitch": 0.26369565434584885,
-          "title": "27",
-          "text": "Texto"
+          "title": "Placa funerária",
+          "text": "<p>Placa funerária</p><p>Séc. I d.C.</p>"
         },
         {
           "yaw": -2.3448718960014894,
           "pitch": 0.6415529295993085,
           "title": "28",
           "text": "Texto"
-        },
-        {
-          "yaw": -2.838485870545213,
-          "pitch": 0.4093116547082776,
-          "title": "29",
-          "text": "Texto"
         }
       ]
     },
     {
       "id": "8-uma-economia-de-esturio",
-      "name": "Uma Economia de Estuário",
+      "name": "Uma economia de estuário",
       "levels": [
         {
           "tileSize": 256,
@@ -571,31 +490,32 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.9086050523274594,
+          "pitch": 0.6436780168721903,
+          "title": "<a href='#placa-votiva' class='modali hide-small' rel='modal:open'>Placa votiva</a><span class='hide-desktop'>Placa votiva</span>",
+          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Séc. I a. C. | Forum romano</p><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p>"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": -0.20380947419344153,
           "pitch": -0.18649157369146785,
-          "title": "30",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.9086050523274594,
-          "pitch": 0.6436780168721903,
-          "title": "31",
-          "text": "Texto"
+          "title": "O esplendor de uma economia de estuário",
+          "text": "O esplendor de uma economia de estuário"
         },
         {
           "yaw": -2.667209905237824,
           "pitch": 0.7087560749860486,
-          "title": "32",
-          "text": "Texto"
+          "title": "Armazém (horrea) com dolium defossa",
+          "text": "Este contentor encontrava-se enterrado até ao nível das asas e desempenhava a função de armazenamento de alimentos sólidos como o trigo."
         }
       ]
     },
     {
       "id": "9-8-igreja",
-      "name": "8 Igreja",
+      "name": "Igreja do Espírito Santo e os Altares Medieval",
       "levels": [
         {
           "tileSize": 256,
@@ -641,32 +561,32 @@ var APP_DATA = {
         {
           "yaw": -0.8066144390475145,
           "pitch": 0.3025889314303303,
-          "title": "33",
-          "text": "Texto"
+          "title": "Altares sobrepostos",
+          "text": "Séc. XVI/XVII e XVIII"
         },
         {
           "yaw": -1.6321917961816048,
           "pitch": -0.37100137362492447,
-          "title": "34",
-          "text": "Texto"
+          "title": "Altar-mor",
+          "text": "Séc. XIX"
         },
         {
           "yaw": 2.4400140229100282,
           "pitch": 0.06867405914544378,
-          "title": "35",
-          "text": "Texto"
+          "title": "Altar lateral",
+          "text": "Séc. XVIII"
         },
         {
           "yaw": 1.0954281737068854,
           "pitch": -0.20602767475398664,
-          "title": "36",
-          "text": "Texto"
+          "title": "Cornelii Bochi",
+          "text": "Os Cornelii Bochi: uma família influente"
         }
       ]
     },
     {
       "id": "10-9-medieval",
-      "name": "9 Medieval",
+      "name": "De Qaṣr Abī Dānis a Alcácer do Sal",
       "levels": [
         {
           "tileSize": 256,
@@ -707,43 +627,44 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
+      "infoboardHotspots": [
+        {
+          "yaw": -0.015184619970790791,
+          "pitch": 0.37249107726974273,
+          "title": "<a href='#inscricao-islamica' class='modali hide-small' rel='modal:open'>Inscrição funerária islâmica</a><span class='hide-desktop'>Inscrição funerária islâmica</span>",
+          "text": "<img src=\'images/40.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Séc. X-XI | Castelo de Alcácer</p>"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 0.8283545514183945,
           "pitch": 0.40384346319713593,
-          "title": "37",
-          "text": "Texto"
+          "title": "Entre Mouros e cristãos",
+          "text": "Entre Mouros e cristãos"
         },
         {
           "yaw": 2.475917759797033,
           "pitch": 0.46867365953717766,
-          "title": "38",
-          "text": "Texto"
+          "title": "1217. A última Batalha",
+          "text": "1217. A última Batalha"
         },
         {
           "yaw": -2.427568300230968,
           "pitch": 0.39652080218778707,
-          "title": "39",
-          "text": "Texto"
-        },
-        {
-          "yaw": -0.015184619970790791,
-          "pitch": 0.37249107726974273,
-          "title": "40",
-          "text": "Texto"
+          "title": "A Ordem de Santiago e os “freires de Alcácer”",
+          "text": "A Ordem de Santiago e os “freires de Alcácer”"
         },
         {
           "yaw": 0.4392206662263547,
           "pitch": 0.13466227796874364,
-          "title": "41",
-          "text": "Texto"
+          "title": "As cerâmicas medievais",
+          "text": "As cerâmicas medievais"
         }
       ]
     },
     {
       "id": "11-10-a-capela-e-o-hospital-do-esprito-santo",
-      "name": "10 A Capela e o Hospital do Espírito Santo",
+      "name": "A Capela e o Hospital do Espírito Santo",
       "levels": [
         {
           "tileSize": 256,
@@ -796,7 +717,7 @@ var APP_DATA = {
     },
     {
       "id": "12-11-altar",
-      "name": "11 Altar",
+      "name": "O Altar-Mor",
       "levels": [
         {
           "tileSize": 256,
@@ -842,7 +763,7 @@ var APP_DATA = {
     },
     {
       "id": "13-12-segredos-nas-paredes",
-      "name": "12 Segredos nas paredes",
+      "name": "Segredos nas paredes",
       "levels": [
         {
           "tileSize": 256,
@@ -882,14 +803,14 @@ var APP_DATA = {
         {
           "yaw": 0.49001114470742024,
           "pitch": 0.6575356675327946,
-          "title": "43",
-          "text": "Texto"
+          "title": "Segredo nas paredes",
+          "text": "Segredo nas paredes"
         }
       ]
     },
     {
       "id": "14-13-parede",
-      "name": "13 Parede",
+      "name": "O Coro",
       "levels": [
         {
           "tileSize": 256,
@@ -948,7 +869,7 @@ var APP_DATA = {
     },
     {
       "id": "15-14-plpito",
-      "name": "14 Púlpito",
+      "name": "Púlpito",
       "levels": [
         {
           "tileSize": 256,
@@ -988,7 +909,7 @@ var APP_DATA = {
     },
     {
       "id": "16-15-modernidade",
-      "name": "15 Modernidade",
+      "name": "Modernidade",
       "levels": [
         {
           "tileSize": 256,
@@ -1034,20 +955,20 @@ var APP_DATA = {
         {
           "yaw": -1.6161073424260763,
           "pitch": 0.269207898953967,
-          "title": "45",
-          "text": "Texto"
+          "title": "Tempos de paz. Novos rumos",
+          "text": "Tempos de paz. Novos rumos"
         },
         {
           "yaw": -0.49138076129822394,
           "pitch": 0.8694745063614224,
-          "title": "46",
-          "text": "Texto"
+          "title": "Cerâmica para conter líquidos",
+          "text": "Séc. XVI"
         }
       ]
     },
     {
       "id": "17-16-modernidade",
-      "name": "16 Modernidade",
+      "name": "Os achados",
       "levels": [
         {
           "tileSize": 256,
@@ -1082,25 +1003,26 @@ var APP_DATA = {
         }
       ],
       "linkviewHotspots": [],
-      "infoboardHotspots": [],
-      "infoHotspots": [
-        {
-          "yaw": -2.969487946288881,
-          "pitch": 0.8867407581883029,
-          "title": "47",
-          "text": "Texto"
-        },
-        {
-          "yaw": -3.118697296939713,
-          "pitch": 0.5738648776031852,
-          "title": "48",
-          "text": "Texto"
-        },
+      "infoboardHotspots": [
         {
           "yaw": 2.690268951203775,
           "pitch": 0.8673944186501821,
-          "title": "49",
-          "text": "Texto"
+          "title": "<a href='#imagem-terracota' class='modali hide-small' rel='modal:open'>Imagem em terracota</a><span class='hide-desktop'>Imagem em terracota</span>",
+          "text": "<img src=\'images/49a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em terracota representando a Nossa Senhora da Conceição com o menino ao colo (Século XVIII). Ainda existem vestígios de pintura em algumas áreas da peça.</p><p>Esta pequena estatueta foi recolhida durante as escavações arqueológicas efetuadas na igreja do Espírito Santo (Museu Municipal Pedro Nunes), tendo sido recolhida em contexto de revolvimento.</p>"
+        },
+        {
+          "yaw": -3.118697296939713,
+          "pitch": 0.6138648776031852,
+          "title": "<a href='#medalha' class='modali hide-small' rel='modal:open'>Inscrição funerária islâmica</a><span class='hide-desktop'>Inscrição funerária islâmica</span>",
+          "text": "<img src=\'images/50.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Medalha religiosa ou conhecidas também por “verónicas”, anepígrafa de formato octogonal. Representa o Justo e Pastor ao centro, segura com a mão direita um cajado e, a seu lado, uma pequena ovelha. Possui uma cronologia do século XVIII.</p><p>São essencialmente adereços acessíveis às camadas populares, coincidindo com o costume posterior ao século XVI da bênção papal destes itens. Podiam ser habitualmente usadas em suspensão à volta do pescoço ou fixados ao vestuário, como partes integrantes de rosários ou de fios de colar.</p><p>Foi recolhida durante as escavações arqueológicas da Igreja do Espírito Santo.</p>"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.969487946288881,
+          "pitch": 0.7867407581883029,
+          "title": "Objetos de adorno e indumentária",
+          "text": "Séc. XVII-XVIII | Igreja do Espírito Santo"
         }
       ]
     }
