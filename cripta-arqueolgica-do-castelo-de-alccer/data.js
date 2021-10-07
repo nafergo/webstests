@@ -118,14 +118,14 @@ var APP_DATA = {
           "text": "<p>Destinado às devotas da Ordem de Santa Clara de Assis, este convento foi fundado durante a segunda metade do século XVI, por iniciativa de Rui Salema. Na sua construção foi aproveitado e profundamente remodelado o anterior edifício aí existente, da Ordem de Santiago da Espada.</p><p>Este espaço viria a ser utilizado pelas freiras durante mais de duzentos anos, onde se dedicaram a uma vida de devoção religiosa, praticando também atividades ligadas à educação de meninas e jovens raparigas, ensinando leitura, escrita, canto, artes domésticas e valores cristãos.</p><p>Subsiste na memória popular do povo alcacerense a fama da doçaria produzida pelas freiras deste convento.</p>"
         },
         {
-          "yaw": -0.5735654636273182,
-          "pitch": 0.119970516330919,
+          "yaw": -0.6735654636273182,
+          "pitch": 0.139970516330919,
           "title": "Época Medieval",
           "text": "<p>Tendo como patrono o apóstolo Santiago, a Ordem Militar de Santiago de Espada viria a fixar-se em Alcácer do Sal, na sequência da conquista definitiva desta cidade aos muçulmanos, em 1217, por D.Afonso II.</p><p>Tornando-se então cabeça da Ordem tomou um grande ascendente tanto militar como religioso e social alastrando o seu poderio a vasto território que compreendia as vilas de Grândola, Santiago do Cacém e Vila Nova de Mil Fontes.</p>"
         },
         {
-          "yaw": 1.6098643396569834,
-          "pitch": -0.06499521634628636,
+          "yaw": -0.3898643396569834,
+          "pitch": -0.100970516330919,
           "title": "Época Muçulmana",
           "text": "<p>Embora os muçulmanos tenham chegado a Alcácer do Sal em meados do séc. VIII, foi com os Banu Adanis (berberes), em finais do Século IX, que com o seu investimento militar e cultural nesta urbe, permitiu dar uma projeção impar a Alcácer.</p><p>Durante todo este tempo, a Medina (cidade) comportou-se como sede cultural, militar e administrativa do Baixo Sado, incluindo a Serra da Arrábida e a Serra de Grândola.”</p>"
         }
@@ -293,7 +293,14 @@ var APP_DATA = {
         }
       ],
 "linkviewHotspots": [],
-"infoboardHotspots": [],
+"infoboardHotspots": [
+  {
+    "yaw": 1.0567509291800178,
+    "pitch": -0.19062968227440997,
+    "title": "<a href='#doze_b' class='modali hide-small' rel='modal:open'>Fragmento de cornija</a><span class='hide-desktop'>Fragmento de cornija</span>",
+    "text": "<img src=\'images/12b/12b_small.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Fragmento de cornija</p><p>Cornija incompleta, mas que corresponde a um dos ângulos do edifício pois conserva duas faces decoradas. A ornamentação é muito profusa e organiza-se em vários registos de acordo com a própria morfologia da cornija. Faria parte possivelmente de um edifício do Fórum romano.</p><p>A análise dos elementos decorativos aponta para uma cronologia posterior ao século I d.C.</p>"
+  }
+],
 "infoHotspots": [
         {
           "yaw": -0.10652849230564243,
@@ -351,13 +358,13 @@ var APP_DATA = {
           "yaw": -0.838189868203667,
           "pitch": 0.45515083956072644,
           "title": "<a href='#dezasseis' class='modali hide-small' rel='modal:open'>Fase Conventual</a><span class='hide-desktop'>Fase Conventual</span>",
-          "text": "<img src=\'images/16/16.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Fase Conventual</p><p>Pia de água benta de suspensão.</p><p>As pias de água-benta em faiança serviam de oratórios individuais.</p><p>Estaria colocada numa cella de uma das freiras do convento de Aracoelli.</p><p>Século XVIII</p>"
+          "text": "<img src=\'images/16/16.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Fase Conventual</p><p>Pia de água benta de suspensão.</p><p>As pias de água-benta em faiança serviam de oratórios individuais.</p><p>Estaria colocada numa cella de uma das freiras do convento de Aracoelli.</p><p>Cronologia: século XVIII</p>"
         },
         {
           "yaw": 0.9124088183976582,
           "pitch": 0.07664998227244979,
           "title": "<a href='#dezassete' class='modali hide-small' rel='modal:open'>O Medieval Cristão</a><span class='hide-desktop'>O Medieval Cristão</span>",
-          "text": "<img src=\'images/17/17.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>O Medieval Cristão</p><p>Taça de faiança</p><p>Século XVI</p>"
+          "text": "<img src=\'images/17/17.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>O Medieval Cristão</p><p>Taça de faiança</p><p>Cronologia: século XVI</p>"
         }
       ],
 "infoHotspots": []
@@ -410,7 +417,7 @@ var APP_DATA = {
           "yaw": 0.4841964720606686,
           "pitch": 0.05265334062354121,
           "title": "<a href='#dezanove' class='modali hide-small' rel='modal:open'>Os Almóadas </a><span class='hide-desktop'>Os Almóadas </span>",
-          "text": "<img src=\'images/19/19.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Almóadas </p><p>Jarrinha esgrafitada sobre engobe negro, motivos epigráficos e cordão da eternidade.</p><p>Século XIII</p>"
+          "text": "<img src=\'images/19/19.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Almóadas </p><p>Jarrinha esgrafitada sobre engobe negro, motivos epigráficos e cordão da eternidade.</p><p>Cronologia: século XIII</p>"
         }
       ],
 "infoHotspots": [
@@ -476,13 +483,13 @@ var APP_DATA = {
           "yaw": -1.1173054171781214,
           "pitch": 0.20244189244114352,
           "title": "<a href='#vinteedois' class='modali hide-small' rel='modal:open'>Os Omíadas</a><span class='hide-desktop'>Os Omíadas</span>",
-          "text": "<img src=\'images/22/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Omíadas</p><p>Bule de chá</p><p>Esta peça seria eventualmente usada para servir um tipo de bebida semelhante ao chá.</p><p>Séculos IX-X</p>"
+          "text": "<img src=\'images/22/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Omíadas</p><p>Bule de chá</p><p>Esta peça seria eventualmente usada para servir um tipo de bebida semelhante ao chá.</p><p>Cronologia: séculos IX-X</p>"
         },
         {
           "yaw": 1.5421680993551412,
           "pitch": 0.6877506594021412,
           "title": "<a href='#vinteetres' class='modali hide-small' rel='modal:open'>Os Almorávidas</a><span class='hide-desktop'>Os Almorávidas</span>",
-          "text": "<img src=\'images/23/23.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Almorávidas</p><p>Alcatruz de nora</p><p>Esta peça terá sido usada num engenho ou aparelho para tirar água.</p><p>Cronologia séculos XII-XIII.</p>"
+          "text": "<img src=\'images/23/23.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Almorávidas</p><p>Alcatruz de nora</p><p>Esta peça terá sido usada num engenho ou aparelho para tirar água.</p><p>Cronologia: séculos XII-XIII.</p>"
         }
       ],
 "infoHotspots": [
