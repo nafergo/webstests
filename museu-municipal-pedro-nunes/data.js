@@ -226,7 +226,7 @@ var APP_DATA = {
           "yaw": -0.21359689334805111,
           "pitch": 0.6081939986937521,
           "title": "<a href='#placa-em-osso' class='modali hide-small' rel='modal:open'>Placa em osso</a><span class='hide-desktop'>Placa em osso</span>",
-          "text": "<img src=\'images/14b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p><p>Cronologia: séculos VI-V a. C.</p><p>Rua do Rato</p>"
+          "text": "<img src=\'images/placa_osso/4b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p><p>Cronologia: séculos VI-V a. C.</p><p>Rua do Rato</p>"
         }
       ],
       "infoHotspots": [
