@@ -45,7 +45,7 @@ var APP_DATA = {
           "yaw": -0.4234683576354499,
           "pitch": 0.13996484600059844,
           "title": "Janela Manuelina",
-          "text": "Nas visitações da Ordem de Santiago em 1512 e 1534 existem referências a esta janela descrevendo-a como“ … hûu portal de pedrarja muito bem obrada e tem hûu mármore no meo do portal (…)"
+          "text": "Nas visitações da Ordem de Santiago em 1512 e 1534 existem referências a esta janela descrevendo-a como \"… hûu portal de pedrarja muito bem obrada e tem hûu mármore no meo do portal (…)\" "
         },
         {
           "yaw": 2.2359735394686595,
@@ -226,7 +226,7 @@ var APP_DATA = {
           "yaw": -0.21359689334805111,
           "pitch": 0.6081939986937521,
           "title": "<a href='#placa-em-osso' class='modali hide-small' rel='modal:open'>Placa em osso</a><span class='hide-desktop'>Placa em osso</span>",
-          "text": "<img src=\'images/14b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p><p>Cronologia: Séc. VI-V a. C.</p><p>Rua do Rato</p>"
+          "text": "<img src=\'images/14b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p><p>Cronologia: séculos VI-V a. C.</p><p>Rua do Rato</p>"
         }
       ],
       "infoHotspots": [
@@ -357,13 +357,13 @@ var APP_DATA = {
           "yaw": -0.7932851666113709,
           "pitch": 0.31392662414313754,
           "title": "<a href='#ceramica-atica' class='modali hide-small' rel='modal:open'>Cerâmica ática</a><span class='hide-desktop'>Cerâmica ática</span>",
-          "text": "<img src=\'images/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>(Kratêr-de-sino)</p><p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicas ou eróticas. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p><p>Séc. V-IV a. C.</p><p>Necrópole do Olival do Senhor dos Mártires</p>"
+          "text": "<img src=\'images/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>(Kratêr-de-sino)</p><p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicas ou eróticas. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p><p>Necrópole do Olival do Senhor dos Mártires</p><p>Cronologia: séculos V-IV a. C.</p>"
         },
         {
           "yaw": -0.1612300580974395,
           "pitch": 0.7132056336614738,
           "title": "<a href='#escaravelho-egipcio' class='modali hide-small' rel='modal:open'>Escaravelho egípcio</a><span class='hide-desktop'>Escaravelho egípcio</span>",
-          "text": "<img src=\'images/24.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Séc. VII- VI a. C.</p><p>Igreja do Espírito Santo</p><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><p>Inscrição: O registo superior representaria uma esfinge com um signo Nefer; o registo médio representa, à esquerda, o falcão Hórus com um flagelo e à direita um cartucho com o nome Men-Ka-Ra (ou Men-Ka-Re); o registo inferior corresponde a um signo Neb.</p>"
+          "text": "<img src=\'images/24.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Igreja do Espírito Santo</p><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><p>Inscrição: O registo superior representaria uma esfinge com um signo Nefer; o registo médio representa, à esquerda, o falcão Hórus com um flagelo e à direita um cartucho com o nome Men-Ka-Ra (ou Men-Ka-Re); o registo inferior corresponde a um signo Neb.</p><p>Cronologia: séculos VII- VI a. C.</p>"
         }
       ],
       "infoHotspots": [
@@ -440,6 +440,12 @@ var APP_DATA = {
           "text": "<p>M(arcus) · SVLPICIVS · ZOGRAPHVS · ANN(orum) · LXXX (octoginta) /</p><p>IVNIA · SATVLLA ·/ ANN(orum) · LXX (septuaginta) H(ic) · S(iti) · S(unt) .  ZOGRAPHVS / SIBI · ET · VXORI</p><p>Aqui jazem Marcos Sulpício Zografo, de oitenta anos, Júnia Satula, de setenta anos. Zografo – para si e para a mulher.</p><p>Séc. I d.C.</p>"
         },
         {
+          "yaw": -2.2030002370777463,
+          "pitch": -0.1095927538516477,
+          "title": "Objetos da vida quotidiana",
+          "text": "<p>Como cidade portuária, os contactos eram intensos e variados e através dos mecanismos económicos e do tráfico marítimo: circulavam também homens e ideias, o que lhe conferiu o inconfundível cosmopolismo que caracterizava a sua estrutura social e demográfica.</p><p>É com um comércio de longo curso que se vão registando a presença crescente de artigos importados da Península Itálica, primeiro, cerâmicas finas de verniz negro, de tipo campaniense, depois, em maiores quantidades cerâmica de engobe vermelho brilhante, com marcas de fabricante, conhecida pela designação de terra sigillata, lucernas ou vidros.</p>"
+        },
+        {
           "yaw": -2.3448718960014894,
           "pitch": 0.6415529295993085,
           "title": "Peças de adorno",
@@ -495,7 +501,7 @@ var APP_DATA = {
           "yaw": -0.9086050523274594,
           "pitch": 0.6436780168721903,
           "title": "<a href='#placa-votiva' class='modali hide-small' rel='modal:open'>Placa votiva</a><span class='hide-desktop'>Placa votiva</span>",
-          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Séc. I a. C. | Forum romano</p><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p><p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p>"
+          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p><p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p><p>Cronologia: século I a. C. | Forum romano</p>"
         }
       ],
       "infoHotspots": [
@@ -632,7 +638,7 @@ var APP_DATA = {
           "yaw": -0.015184619970790791,
           "pitch": 0.37249107726974273,
           "title": "<a href='#inscricao-islamica' class='modali hide-small' rel='modal:open'>Inscrição funerária islâmica</a><span class='hide-desktop'>Inscrição funerária islâmica</span>",
-          "text": "<img src=\'images/40.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em mármore que reaproveitou a parte de trás de uma moldura romana.</p><p>Trata-se do fragmento que diz:</p><p>(…)Alá tem sobre (…) segredo(…)</p><p>Mensageiro (…) meu Deus (…)</p><p>Séc. X-XI | Castelo de Alcácer</p>"
+          "text": "<img src=\'images/40.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em mármore que reaproveitou a parte de trás de uma moldura romana.</p><p>Trata-se do fragmento que diz:</p><p>(…)Alá tem sobre (…) segredo(…)</p><p>Mensageiro (…) meu Deus (…)</p><p>Cronologia: século X-XI | Castelo de Alcácer</p>"
         }
       ],
       "infoHotspots": [
