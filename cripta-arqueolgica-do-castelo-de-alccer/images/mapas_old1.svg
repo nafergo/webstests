@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    x="0px"
    y="0px"
@@ -7,15 +14,8 @@
    height="825px"
    viewBox="0 0 730 825"
    id="svg4593"
-   sodipodi:docname="mapas2.svg"
-   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   sodipodi:docname="mapas2 (copy).svg"
+   inkscape:version="1.0.1 (3bc2e81, 2020-09-07)">
   <metadata
      id="metadata4599">
     <rdf:RDF>
@@ -24,6 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -233,36 +234,6 @@
        width="24.779779"
        height="26.495234"
        id="rect5651" />
-    <rect
-       x="220.36771"
-       y="311.02618"
-       width="24.779779"
-       height="26.495234"
-       id="rect757-8-6-1-9-4-1-3-47-3-9-2-7-5-4-3" />
-    <rect
-       x="220.36771"
-       y="311.02618"
-       width="24.779779"
-       height="26.495234"
-       id="rect757-8-6-1-9-4-1-3-47-3-9-2-7-5-4-7" />
-    <rect
-       x="220.36771"
-       y="311.02618"
-       width="24.779779"
-       height="26.495234"
-       id="rect757-8-6-1-9-4-1-3-47-3-9-2-7-5-1" />
-    <rect
-       x="220.36771"
-       y="311.02618"
-       width="24.779779"
-       height="26.495234"
-       id="rect757-8-6-1-9-4-1-3-47-3-7-7" />
-    <rect
-       x="220.36771"
-       y="311.02618"
-       width="24.779779"
-       height="26.495234"
-       id="rect757-8-6-1-9-9" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -273,19 +244,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
+     inkscape:window-width="1848"
      inkscape:window-height="1016"
      id="namedview4595"
      showgrid="false"
-     inkscape:zoom="0.73881946"
-     inkscape:cx="341.08468"
-     inkscape:cy="344.46846"
-     inkscape:window-x="0"
+     inkscape:zoom="1.0448485"
+     inkscape:cx="317.47293"
+     inkscape:cy="417.2088"
+     inkscape:window-x="72"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4593"
-     inkscape:pagecheckerboard="0"
-     inkscape:lockguides="true" />
+     inkscape:current-layer="svg4593" />
   <g
      id="blender_frame_1">
     <g
@@ -420,6 +389,177 @@
     </g>
   </g>
   <g
+     id="g4357">
+    <g
+       id="blender_object_GPencil.061">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="Circle_020_Fills">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="325.307953,269.898499 323.700775,270.386047 322.219574,271.177734 320.921295,272.243225 319.855865,273.541443 319.064178,275.022644 318.576630,276.629822 318.412018,278.301208 318.576630,279.972595 319.064178,281.579773 319.855865,283.060944 320.921295,284.359222 322.219574,285.424652 323.700775,286.216339 325.307953,286.703888 326.979340,286.868469 328.650726,286.703888 330.257904,286.216339 331.739044,285.424652 333.037384,284.359222 334.102753,283.060944 334.894501,281.579773 335.382050,279.972595 335.546661,278.301208 335.382050,276.629822 334.894501,275.022644 334.102753,273.541443 333.037384,272.243225 331.739044,271.177734 330.257904,270.386047 328.650726,269.898499 326.979340,269.733887"
+           id="polygon4352" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="Circle_020_Lines" />
+    </g>
+  </g>
+  <g
+     id="g4375">
+    <g
+       id="blender_object_GPencil.060">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4370">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="374.497711,267.004944 372.890594,267.492493 371.409393,268.284180 370.111115,269.349670 369.045685,270.647888 368.253998,272.129089 367.766449,273.736267 367.601837,275.407654 367.766449,277.079102 368.253998,278.686218 369.045685,280.167419 370.111115,281.465698 371.409393,282.531128 372.890594,283.322815 374.497711,283.810364 376.169159,283.975006 377.840546,283.810364 379.447662,283.322815 380.928864,282.531128 382.227142,281.465698 383.292572,280.167419 384.084259,278.686218 384.571808,277.079102 384.736420,275.407654 384.571808,273.736267 384.084259,272.129089 383.292572,270.647888 382.227142,269.349670 380.928864,268.284180 379.447662,267.492493 377.840546,267.004944 376.169159,266.840393"
+           id="polygon4368" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4372" />
+    </g>
+  </g>
+  <g
+     id="g4384">
+    <g
+       id="blender_object_GPencil.059">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4379">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="412.113495,265.847595 410.506256,266.335083 409.025116,267.126770 407.726837,268.192261 406.661346,269.490540 405.869659,270.971680 405.382172,272.578857 405.217499,274.250244 405.382172,275.921692 405.869659,277.528809 406.661346,279.010010 407.726837,280.308289 409.025116,281.373718 410.506256,282.165466 412.113495,282.652954 413.784821,282.817566 415.456207,282.652954 417.063446,282.165466 418.544586,281.373718 419.842865,280.308289 420.908295,279.010010 421.700043,277.528809 422.187592,275.921692 422.352142,274.250244 422.187592,272.578857 421.700043,270.971680 420.908295,269.490540 419.842865,268.192261 418.544586,267.126770 417.063446,266.335083 415.456207,265.847595 413.784821,265.682922"
+           id="polygon4377" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4381" />
+    </g>
+  </g>
+  <g
+     id="g4393">
+    <g
+       id="blender_object_GPencil.058">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4388">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="451.465240,262.954102 449.858124,263.441589 448.376923,264.233337 447.078705,265.298767 446.013214,266.596985 445.221527,268.078186 444.733978,269.685364 444.569366,271.356750 444.733978,273.028137 445.221527,274.635315 446.013214,276.116516 447.078705,277.414734 448.376923,278.480225 449.858124,279.271912 451.465240,279.759399 453.136688,279.924072 454.808075,279.759399 456.415192,279.271912 457.896454,278.480164 459.194672,277.414734 460.260162,276.116516 461.051849,274.635315 461.539337,273.028137 461.704010,271.356750 461.539337,269.685364 461.051849,268.078186 460.260162,266.596985 459.194672,265.298767 457.896454,264.233337 456.415192,263.441589 454.808075,262.954102 453.136688,262.789429"
+           id="polygon4386" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4390" />
+    </g>
+  </g>
+  <g
+     id="g4402">
+    <g
+       id="blender_object_GPencil.057">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4397">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="409.798615,143.741150 408.191437,144.228699 406.710297,145.020386 405.412079,146.085815 404.346588,147.384094 403.554901,148.865234 403.067413,150.472412 402.902740,152.143860 403.067413,153.815186 403.554901,155.422363 404.346588,156.903564 405.412079,158.201782 406.710297,159.267273 408.191437,160.058960 409.798615,160.546509 411.470062,160.711121 413.141449,160.546509 414.748566,160.058960 416.229828,159.267273 417.528046,158.201782 418.593536,156.903564 419.385223,155.422363 419.872711,153.815186 420.037384,152.143860 419.872711,150.472412 419.385223,148.865234 418.593536,147.384094 417.528046,146.085815 416.229828,145.020386 414.748566,144.228699 413.141449,143.741150 411.470062,143.576477"
+           id="polygon4395" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4399" />
+    </g>
+  </g>
+  <g
+     id="g4411">
+    <g
+       id="blender_object_GPencil.056">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4406">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="435.261627,190.037354 433.654388,190.524902 432.173248,191.316650 430.874908,192.382080 429.809540,193.680359 429.017792,195.161560 428.530243,196.768677 428.365692,198.440063 428.530243,200.111511 429.017792,201.718689 429.809540,203.199829 430.874908,204.498108 432.173248,205.563538 433.654388,206.355286 435.261627,206.842773 436.933014,207.007446 438.604462,206.842773 440.211578,206.355286 441.692780,205.563538 442.990997,204.498108 444.056488,203.199829 444.848175,201.718689 445.335663,200.111511 445.500336,198.440063 445.335663,196.768677 444.848175,195.161560 444.056488,193.680359 442.990997,192.382080 441.692780,191.316650 440.211578,190.524902 438.604462,190.037354 436.933014,189.872803"
+           id="polygon4404" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4408" />
+    </g>
+  </g>
+  <g
+     id="g4420">
+    <g
+       id="blender_object_GPencil.055">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4415">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="373.919037,213.185547 372.311859,213.673035 370.830719,214.464783 369.532379,215.530212 368.467010,216.828491 367.675201,218.309631 367.187714,219.916809 367.023041,221.588257 367.187714,223.259644 367.675201,224.866821 368.467010,226.348022 369.532379,227.646240 370.830719,228.711731 372.311859,229.503418 373.919037,229.990906 375.590485,230.155518 377.261810,229.990906 378.868988,229.503418 380.350128,228.711731 381.648468,227.646240 382.713898,226.348022 383.505585,224.866821 383.993134,223.259644 384.157745,221.588257 383.993134,219.916809 383.505585,218.309631 382.713898,216.828491 381.648468,215.530212 380.350128,214.464783 378.868988,213.673035 377.261810,213.185547 375.590485,213.020935"
+           id="polygon4413" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4417" />
+    </g>
+  </g>
+  <g
+     id="g4429">
+    <g
+       id="blender_object_GPencil.054">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4424">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="413.849579,213.185547 412.242340,213.673035 410.761261,214.464783 409.462982,215.530212 408.397552,216.828491 407.605743,218.309631 407.118256,219.916809 406.953705,221.588257 407.118256,223.259644 407.605743,224.866821 408.397552,226.348022 409.462982,227.646240 410.761261,228.711731 412.242340,229.503418 413.849579,229.990906 415.520966,230.155518 417.192352,229.990906 418.799530,229.503418 420.280670,228.711731 421.579010,227.646240 422.644440,226.348022 423.436127,224.866821 423.923676,223.259644 424.088287,221.588257 423.923676,219.916809 423.436127,218.309631 422.644440,216.828491 421.579010,215.530212 420.280670,214.464783 418.799530,213.673035 417.192352,213.185547 415.520966,213.020935"
+           id="polygon4422" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4426" />
+    </g>
+  </g>
+  <g
+     id="g4438">
+    <g
+       id="blender_object_GPencil.053">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4433">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="471.141205,213.185547 469.534088,213.673035 468.052826,214.464783 466.754608,215.530212 465.689178,216.828491 464.897491,218.309631 464.409943,219.916809 464.245331,221.588257 464.409943,223.259644 464.897491,224.866821 465.689178,226.348022 466.754608,227.646240 468.052826,228.711731 469.534088,229.503418 471.141205,229.990906 472.812592,230.155518 474.484039,229.990906 476.091156,229.503418 477.572357,228.711731 478.870575,227.646240 479.936066,226.348022 480.727753,224.866821 481.215302,223.259644 481.379913,221.588257 481.215302,219.916809 480.727753,218.309631 479.936066,216.828491 478.870575,215.530212 477.572357,214.464783 476.091156,213.673035 474.484039,213.185547 472.812592,213.020935"
+           id="polygon4431" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4435" />
+    </g>
+  </g>
+  <g
      id="g4447"
      transform="matrix(1.5,0,0,1.5,-304.40396,-32.669159)">
     <g
@@ -477,6 +617,25 @@
       <!--Layer: Circle_020_Lines-->
       <g
          id="g4462" />
+    </g>
+  </g>
+  <g
+     id="g4474">
+    <g
+       id="blender_object_GPencil.049">
+      <!--Layer: Circle_020_Fills-->
+      <g
+         id="g4469">
+        <polygon
+           fill="#E7E7E7"
+           stroke="none"
+           fill-opacity="1"
+           points="656.905029,199.296692 655.297852,199.784180 653.816650,200.575867 652.518311,201.641357 651.452881,202.939636 650.661133,204.420776 650.173706,206.027954 650.009033,207.699341 650.173706,209.370789 650.661133,210.977905 651.452881,212.459106 652.518311,213.757385 653.816650,214.822815 655.297852,215.614563 656.905029,216.102051 658.576416,216.266663 660.247803,216.102051 661.854980,215.614563 663.336060,214.822815 664.634399,213.757385 665.699829,212.459106 666.491577,210.977905 666.979126,209.370789 667.143677,207.699341 666.979126,206.027954 666.491577,204.420776 665.699829,202.939636 664.634399,201.641357 663.336060,200.575867 661.854980,199.784180 660.247803,199.296692 658.576416,199.132019"
+           id="polygon4467" />
+      </g>
+      <!--Layer: Circle_020_Lines-->
+      <g
+         id="g4471" />
     </g>
   </g>
   <g
@@ -765,420 +924,138 @@
     <text
        xml:space="preserve"
        id="text755"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757);fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757);fill:#000000;fill-opacity:1;stroke:none;"
        transform="matrix(1.1866714,0,0,1.186643,224.9324,352.96118)"><tspan
          x="220.36719"
-         y="320.55834"
-         id="tspan42707"><tspan
-           style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-           id="tspan42705">1</tspan></tspan></text>
+         y="320.55834"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">1</tspan></tspan></text>
   </g>
   <text
      xml:space="preserve"
      id="text755-5"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-251.92311,-80.253598)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42711"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42709">2</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">2</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-263.40835,-156.23639)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42715"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42713">3</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">3</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-231.77904,-194.41258)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42719"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42717">4</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">4</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-187.6853,-197.10241)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42723"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42721">5</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">5</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-179.08835,-282.52681)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42727"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42725">6</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">6</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-114.13333,-365.11059)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42731"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42729">7</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">7</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-108.32668,-461.21009)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42735"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42733">8</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">8</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-4"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-4);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-4);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-56.820091,-444.06129)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42739"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42737">9</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">9</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-52.912737,-522.79289)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42743"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42741">10</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">10</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,13.632835,-521.89964)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42747"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42745">11</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">11</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1-5"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-7);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-7);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,-7.5022988,-482.38937)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42751"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42749">12</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">12</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1-6"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,139.22064,-459.4825)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42755"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42753">13</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">13</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1-6-1"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,205.52648,-498.53928)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42759"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42757">14</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">14</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1-6-1-8"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2-7);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2-7);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,258.48717,-479.70783)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42763"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42761">15</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">15</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1-6-1-8-7"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2-7-5);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2-7-5);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,258.54747,-416.65796)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42767"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42765">16</tspan></tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">16</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text755-5-1-5-8-8-0-0-6-1-6-1-8-7-1"
-     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2-7-5-4);fill:#000000;fill-opacity:1;stroke:none"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect757-8-6-1-9-4-1-3-47-3-9-2-7-5-4);fill:#000000;fill-opacity:1;stroke:none;"
      transform="matrix(1.7799645,0,0,1.7799645,139.5029,-359.06809)"><tspan
        x="220.36719"
-       y="320.55834"
-       id="tspan42771"><tspan
-         style="font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal'"
-         id="tspan42769">17</tspan></tspan></text>
-  <g
-     id="g4483-5"
-     transform="matrix(1.5,0,0,1.5,-339.71025,-86.678864)">
-    <g
-       id="blender_object_GPencil.048-3">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 "
-           id="polygon4476-6" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4"
-     transform="matrix(1.5,0,0,1.5,-377.89011,-109.3403)">
-    <g
-       id="blender_object_GPencil.048-3-0">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 "
-           id="polygon4476-6-5" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4-6"
-     transform="matrix(1.5,0,0,1.5,-396.9306,-84.311369)">
-    <g
-       id="blender_object_GPencil.048-3-0-4">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8-8">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 "
-           id="polygon4476-6-5-0" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1-8" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4-6-1"
-     transform="matrix(1.5,0,0,1.5,-439.47537,-84.837348)">
-    <g
-       id="blender_object_GPencil.048-3-0-4-0">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8-8-2">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 "
-           id="polygon4476-6-5-0-2" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1-8-9" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4-6-1-3"
-     transform="matrix(1.5,0,0,1.5,-360.49856,-37.987574)">
-    <g
-       id="blender_object_GPencil.048-3-0-4-0-7">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8-8-2-9">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 "
-           id="polygon4476-6-5-0-2-7" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1-8-9-4" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4-6-1-3-0"
-     transform="matrix(1.5,0,0,1.5,-398.69416,-33.803449)">
-    <g
-       id="blender_object_GPencil.048-3-0-4-0-7-6">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8-8-2-9-0">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 "
-           id="polygon4476-6-5-0-2-7-8" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1-8-9-4-5" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4-6-1-3-0-3"
-     transform="matrix(1.5,0,0,1.5,-439.95875,-31.997627)">
-    <g
-       id="blender_object_GPencil.048-3-0-4-0-7-6-9">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8-8-2-9-0-4">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 "
-           id="polygon4476-6-5-0-2-7-8-1" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1-8-9-4-5-5" />
-    </g>
-  </g>
-  <g
-     id="g4483-5-4-6-1-3-0-3-4"
-     transform="matrix(1.5,0,0,1.5,-494.43346,-30.384021)">
-    <g
-       id="blender_object_GPencil.048-3-0-4-0-7-6-9-1">
-      <!--Layer: Circle_020_Fills-->
-      <g
-         id="g4478-5-8-8-2-9-0-4-5">
-        <polygon
-           fill="#e7e7e7"
-           stroke="none"
-           fill-opacity="1"
-           points="542.25708,196.23853 540.58557,196.40314 538.97839,196.89069 537.49731,197.68237 536.1991,198.74786 535.13355,200.04608 534.34192,201.52728 533.85425,203.13446 533.6897,204.80585 533.85425,206.47723 534.34192,208.08441 535.13355,209.56561 536.1991,210.86383 537.49731,211.92926 538.97839,212.72101 540.58557,213.2085 542.25708,213.37317 543.92847,213.2085 545.53552,212.72101 547.01685,211.92926 548.31506,210.86383 549.38049,209.56561 550.17224,208.08441 550.65967,206.47723 550.82434,204.80585 550.65967,203.13446 550.17224,201.52728 549.38049,200.04608 548.31506,198.74786 547.01685,197.68237 545.53552,196.89069 543.92847,196.40314 "
-           id="polygon4476-6-5-0-2-7-8-1-5" />
-      </g>
-      <!--Layer: Circle_020_Lines-->
-      <g
-         id="g4480-2-1-8-9-4-5-5-4" />
-    </g>
-  </g>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="463.16888"
-     y="227.05475"
-     id="text19190"><tspan
-       sodipodi:role="line"
-       id="tspan19188"
-       x="463.16888"
-       y="227.05475"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">18</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="425.43082"
-     y="204.47229"
-     id="text19190-6"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2"
-       x="425.43082"
-       y="204.47229"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">19</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="405.74664"
-     y="228.9709"
-     id="text19190-6-5"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2-6"
-       x="405.74664"
-       y="228.9709"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">20</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="363.6358"
-     y="228.27621"
-     id="text19190-6-5-4"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2-6-6"
-       x="363.6358"
-       y="228.27621"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">21</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="442.89944"
-     y="275.04965"
-     id="text19190-6-5-4-9"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2-6-6-1"
-       x="442.89944"
-       y="275.04965"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">22</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="403.85318"
-     y="279.46805"
-     id="text19190-6-5-4-9-9"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2-6-6-1-8"
-       x="403.85318"
-       y="279.46805"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">23</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="362.80688"
-     y="280.6954"
-     id="text19190-6-5-4-9-9-3"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2-6-6-1-8-8"
-       x="362.80688"
-       y="280.6954"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">24</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     x="308.07965"
-     y="282.66183"
-     id="text19190-6-5-4-9-9-3-5"><tspan
-       sodipodi:role="line"
-       id="tspan19188-2-6-6-1-8-8-2"
-       x="308.07965"
-       y="282.66183"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">25</tspan></text>
+       y="320.55834"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">17</tspan></tspan></text>
 </svg>
