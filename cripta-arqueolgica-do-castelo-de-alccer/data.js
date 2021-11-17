@@ -42,7 +42,7 @@ var APP_DATA = {
           "yaw": -0.9074128624275772,
           "pitch": 0.05415706705665002,
           "title": "<a href='#rio_sado' class='modali hide-small' rel='modal:open'>Rio Sado</a><span class='hide-desktop'>Rio Sado</span>",
-          "text": "<img src=\'images/1/sado1.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/1/sado2.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Rio Sado.</p>        <p>O rio Sado nasce na serra da Vigia, nas proximidades de Ourique, a uma altitude de 230 metros, percorrendo cerca de 180 Km até à sua foz junto à cidade de Setúbal. A riqueza a nível dos recursos faunísticos marino-estuarinos, produção salineira e as boas condições de navegabilidade e portuária foi uma das condicionantes para a fixação humana ao longo do estuário do Sado e seus afluentes.</p>"
+          "text": "<img src=\'images/1/sado1.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/1/sado2.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>O rio Sado nasce na serra da Vigia, nas proximidades de Ourique, a uma altitude de 230 metros, percorrendo cerca de 180 quilómetros até à sua foz, junto à cidade de Setúbal. A riqueza a nível dos recursos faunísticos marino-estuarinos, produção salineira e as boas condições de navegabilidade e portuária foram condicionantes para a fixação humana ao longo do estuário do Sado e seus afluentes.</p>"
         }
       ],
       "infoHotspots": [
@@ -50,7 +50,13 @@ var APP_DATA = {
           "yaw": 2.6595773951236428,
           "pitch": -0.011099973507247896,
           "title": "Fórum romano",
-          "text": "<p>Conjunto de estruturas identificadas como parte do “Fórum de Salacia Urbs Imperatoria”, destacando-se uma grande muralha e uma grande sala em ábside, com a respetiva entrada e pavimento em lajes de mármore.</p><p>Estes edifícios foram ocupados também do período muçulmano até ao século XX.</p>"
+          "text": "<p>Conjunto de estruturas identificadas como parte do “Fórum de <span class=\"italic\">Salacia Urbs Imperatoria</span>”, destacando-se uma grande muralha e uma grande sala em ábside, com a respetiva entrada e pavimento em lajes de mármore.</p><p>Estes edifícios foram ocupados também desde o período muçulmano até ao século XX.</p>"
+        },
+        {
+          "yaw": 0.00013022997688964,
+          "pitch": 0.05656326268317493,
+          "title": "Horário de funcionamento",
+          "text": "<p class=\'subtitle\'>Verão  (julho e agosto)</p><p>9h30-13h; 15h-18h30</p><br><p class=\'subtitle\'>Inverno</p><p>9h-12h30; 14h-17h30</p><br><br>NOTAS<p class=\"italic\">A última entrada é feita sempre meia hora antes da hora de encerramento.</p><p class=\"italic\">A cripta encerra à segunda-feira.</p>"
         }
       ]
     },
@@ -90,8 +96,8 @@ var APP_DATA = {
           "target": "2-2"
         },
         {
-          "yaw": 3.0541330520180026,
-          "pitch": 0.025261554626109017,
+          "yaw": 3.0841330520180026,
+          "pitch": 0.055261554626109017,
           "rotation": 10.210176124166829,
           "target": "0-0"
         }
@@ -100,34 +106,34 @@ var APP_DATA = {
 "infoboardHotspots": [],
 "infoHotspots": [
         {
-          "yaw": -2.2071956427257145,
+          "yaw": -2.6071956427257145,
           "pitch": 0.1178720059215337,
           "title": "A Intervenção arqueológica",
-          "text": "<p>Com a remodelação e adaptação do Convento de Nossa Senhora de Aracoelli a Pousada, o IPPAR (atual DGPC) realizou, com a colaboração da CMAS, trabalhos de escavação arqueológica que puseram a descoberto estruturas e materiais resultantes da intensa atividade humana que decorreu no local, pelo menos desde a Idade do Ferro (com início no século VII a.C.) até à atualidade.</p>"
+          "text": "<p>Com a remodelação e adaptação do Convento de Nossa Senhora de <span class=\"italic\">Aracoelli</span> a Pousada, o IPPAR (atual DGPC) realizou, com a colaboração da CMAS, trabalhos de escavação arqueológica que puseram a descoberto estruturas e materiais resultantes da intensa atividade humana que decorreu no local, pelo menos desde a Idade do Ferro (com início no século VII a.C.) até à atualidade.</p>"
         },
         {
-          "yaw": 0.8071956427257145,
+          "yaw": 1.1071956427257145,
           "pitch": 0.6178720059215337,
           "title": "Marco de demarcação",
           "text": "<p>Marco com a espada da Ordem de Santiago da Espada. Estes marcos eram usados para delimitar os terrenos pertencentes a esta Ordem.</p>"
         },
         {
-          "yaw": -1.6371956097350946,
+          "yaw": -2.3371956097350946,
           "pitch": 0.3197005103365289,
           "title": "O Convento",
-          "text": "<p>Destinado às devotas da Ordem de Santa Clara de Assis, este convento foi fundado durante a segunda metade do século XVI, por iniciativa de Rui Salema. Na sua construção foi aproveitado e profundamente remodelado o anterior edifício aí existente, da Ordem de Santiago da Espada.</p><p>Este espaço viria a ser utilizado pelas freiras durante mais de duzentos anos, onde se dedicaram a uma vida de devoção religiosa, praticando também atividades ligadas à educação de meninas e jovens raparigas, ensinando leitura, escrita, canto, artes domésticas e valores cristãos.</p><p>Subsiste na memória popular do povo alcacerense a fama da doçaria produzida pelas freiras deste convento.</p>"
+          "text": "<p>Destinado às devotas da Ordem de Santa Clara de Assis, este convento foi fundado durante a segunda metade do século XVI, por iniciativa de Rui Salema. Na sua construção foi aproveitado e profundamente remodelado o anterior edifício aí existente, da Ordem de Santiago da Espada.</p><p>Este espaço viria a ser utilizado pelas freiras durante mais de 200 anos, local onde se dedicaram a uma vida de devoção religiosa, praticando também atividades ligadas à educação de meninas e jovens raparigas, ensinando leitura, escrita, canto, artes domésticas e valores cristãos.</p><p>Subsiste na memória popular do povo alcacerense a fama da doçaria produzida pelas freiras deste convento.</p>"
         },
         {
-          "yaw": -0.6735654636273182,
+          "yaw": -1.2735654636273182,
           "pitch": 0.139970516330919,
           "title": "Época Medieval",
-          "text": "<p>Tendo como patrono o apóstolo Santiago, a Ordem Militar de Santiago de Espada viria a fixar-se em Alcácer do Sal, na sequência da conquista definitiva desta cidade aos muçulmanos, em 1217, por D.Afonso II.</p><p>Tornando-se então cabeça da Ordem tomou um grande ascendente tanto militar como religioso e social alastrando o seu poderio a vasto território que compreendia as vilas de Grândola, Santiago do Cacém e Vila Nova de Mil Fontes.</p>"
+          "text": "<p>Tendo como patrono o apóstolo Santiago, a Ordem Militar de Santiago de Espada viria a fixar-se em Alcácer do Sal na sequência da conquista definitiva desta cidade aos muçulmanos, em 1217, por D.Afonso II.</p><p>Tornando-se então cabeça da Ordem, tomou um grande ascendente, tanto militar como religioso e social, alastrando o seu poderio a vasto território, que compreendia as vilas de Grândola, Santiago do Cacém e Vila Nova de Milfontes.</p>"
         },
         {
-          "yaw": -0.3898643396569834,
+          "yaw": -0.4898643396569834,
           "pitch": -0.100970516330919,
-          "title": "Época Muçulmana",
-          "text": "<p>Embora os muçulmanos tenham chegado a Alcácer do Sal em meados do séc. VIII, foi com os Banu Adanis (berberes), em finais do Século IX, que com o seu investimento militar e cultural nesta urbe, permitiu dar uma projeção impar a Alcácer.</p><p>Durante todo este tempo, a Medina (cidade) comportou-se como sede cultural, militar e administrativa do Baixo Sado, incluindo a Serra da Arrábida e a Serra de Grândola.”</p>"
+          "title": "Período Muçulmano",
+          "text": "<p>Embora os muçulmanos tenham chegado a Alcácer do Sal em meados do séc. VIII, foi com os <span class=\"italic\">Banu Adanis</span> (berberes), em finais do Século IX, que, com o seu investimento militar e cultural nesta urbe, permitiu dar uma projeção ímpar a Alcácer.</p><p>Durante todo este tempo, a Medina (cidade) comportou-se como sede cultural, militar e administrativa do Baixo Sado, incluindo a Serra da Arrábida e a Serra de Grândola.</p>"
         }
       ]
     },
@@ -178,15 +184,15 @@ var APP_DATA = {
 "infoHotspots": [
         {
           "yaw": -2.4502027473958066,
-          "pitch": 0.5815296292725414,
+          "pitch": 0.1815296292725414,
           "title": "Época Romana",
-          "text": "<p>Denominada como Salacia durante a época romana, foi capital de civitas e cunhou moeda própria.</p><p>A importância estratégica de Alcácer do Sal e a localização na margem esquerda do rio Sado cuja navegabilidade favorecia o trânsito e o transporte de mercadorias da mais diversa natureza a longa distância, constituindo um fator de prosperidade evidente inclusivamente no que dizia respeito à produção local de produtos como a lã, o sal, a produção anfórica e conserveira.</p>"
+          "text": "<p>Denominada como Salacia durante a época romana, foi capital de <span class=\"italic\">civitas</span> e cunhou moeda própria.</p><p>A importância estratégica de Alcácer do Sal e a localização na margem esquerda do rio Sado. A navegabilidade do local favorecia o trânsito e o transporte de mercadorias da mais diversa natureza a longa distância, constituindo um fator de prosperidade evidente inclusivamente no que dizia respeito à produção local de produtos como a lã, o sal, a produção anfórica e conserveira.</p>"
         },
         {
-          "yaw": -0.6584976744988609,
-          "pitch": 0.5654191076394834,
+          "yaw": -1.1584976744988609,
+          "pitch": 0.1654191076394834,
           "title": "Idade do Ferro",
-          "text": "<p>Durante a Idade do Ferro, Alcácer do Sal (Beuipo), tornou-se num ponto de convergência, que viria a desempenhar um papel relevante no desenvolvimento da atividade comercial, constituindo a transação do sal, produtos agrícolas e a difusão dos produtos mineiros de ferro e de cobre, um fator da maior relevância.</p><p>Evidenciam-se, nesta fase, contatos permanentes com as gentes do Mediterrâneo Oriental: Fenícios, Gregos e Cartagineses, o que é atestado, inclusivamente, pela presença do significativo acervo funerário das necrópoles localizadas nesta área.</p>"
+          "text": "<p>Durante a Idade do Ferro, Alcácer do Sal (<span class=\"italic\">Beuipo</span>), tornou-se num ponto de convergência, que viria a desempenhar um papel relevante no desenvolvimento da atividade comercial, constituindo a transação do sal, produtos agrícolas e a difusão dos produtos mineiros de ferro e de cobre, um fator da maior relevância.</p><p>Evidenciam-se, nesta fase, contatos permanentes com as gentes do Mediterrâneo Oriental: Fenícios, Gregos e Cartagineses, o que é atestado, inclusivamente, pela presença do significativo acervo funerário das necrópoles localizadas nesta área.</p>"
         }
       ]
     },
@@ -222,7 +228,7 @@ var APP_DATA = {
         {
           "yaw": -2.1822003224858157,
           "pitch": 0.4294263134149645,
-          "rotation": 0,
+          "rotation": 5.210176124166829,
           "target": "2-2"
         },
         {
@@ -235,10 +241,10 @@ var APP_DATA = {
 "linkviewHotspots": [],
 "infoboardHotspots": [
         {
-          "yaw": -0.9567509291800178,
+          "yaw": -1.1567509291800178,
           "pitch": 0.14062968227440997,
           "title": "<a href='#doze' class='modali hide-small' rel='modal:open'>Cláudio</a><span class='hide-desktop'>Cláudio</span>",
-          "text": "<img src=\'images/12/12.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Busto do imperador romano Cláudio.</p><p>(Tiberius Claudius Nero Germanicus -10 a.C./54 d.C.)</p>      <p>Esta peça faria parte de uma estátua de corpo inteiro. Os retratos romanos imperiais encontrados em Portugal são, na sua maioria, cabeças de encaixe elaboradas para serem inseridas numa estátua isto é, corpos aos quais se acrescentavam as cabeças consoante o imperador que estivesse no poder.</p>"
+          "text": "<img src=\'images/12/12.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Busto do imperador romano Cláudio.</p><p>(<span class=\"italic\">Tiberius Claudius Nero Germanicus</span> -10 a.C./54 d.C.)</p><p>Esta peça faria parte de uma estátua de corpo inteiro. Os retratos romanos imperiais encontrados em Portugal são, na sua maioria, cabeças de encaixe, elaboradas para serem inseridas numa estátua, isto é, corpos aos quais se acrescentavam as cabeças, consoante o imperador que estivesse no poder.</p>"
         }
     ],
 "infoHotspots": [
@@ -246,7 +252,7 @@ var APP_DATA = {
           "yaw": 0.4608480556552408,
           "pitch": 0.49647854584607565,
           "title": "Texto da inscrição",
-          "text": "<p>[L(ucius) · CORNELIVS · C (aii) · F(ilius) · BOC]CHVS · PR(aefectus) · CAESARVM · BIS/[FLAM(en) · PROVINC(iae) ·PON]T(ifex) · PERP(etuus) · FLAMEN · PERP(etuus)/</p><p>[DVVMVIR · AEDILIS ·] (?) II (bis) · PR(aefectus) · FABR(um) · V (quinquies) ·TR(ibunus) · MIL(itum) · D(e) · S(ua) · P(ecunia) · F(ecit)</p><p>Lúcio Cornélio Boco, filho de gaio, perfeito dos Césares pela segunda vez, flâmine provincial, pontífice perpétuo, flâmine perpétuo, duúnviro, edil duas vezes, perfeito dos artífices cinco vezes, tribuno militar, fez a expensas suas.</p>"
+          "text": "<p>[L(<span class=\"italic\">ucius</span>) · CORNELIVS · C (<span class=\"italic\">aii</span>) · F(<span class=\"italic\">ilius</span>) · BOC]CHVS · PR(<span class=\"italic\">aefectus</span>) · CAESARVM · BIS/[FLAM(<span class=\"italic\">en</span>) · PROVINC(<span class=\"italic\">iae</span>) ·PON]T(<span class=\"italic\">ifex</span>) · PERP(<span class=\"italic\">etuus</span>) · FLAMEN · PERP(<span class=\"italic\">etuus</span>)/</p><br><p>[DVVMVIR · AEDILIS ·] (?) II (<span class=\"italic\">bis</span>) · PR(<span class=\"italic\">aefectus</span>) · FABR(<span class=\"italic\">um</span>) · V (<span class=\"italic\">quinquies</span>) ·TR(<span class=\"italic\">ibunus</span>) · MIL(<span class=\"italic\">itum</span>) · D(<span class=\"italic\">e</span>) · S(<span class=\"italic\">ua</span>) · P(<span class=\"italic\">ecunia</span>) · F(<span class=\"italic\">ecit</span>)</p><br><p>Lúcio Cornélio Boco, filho de gaio, perfeito dos Césares pela segunda vez, flâmine provincial, pontífice perpétuo, flâmine perpétuo, duúnviro, edil duas vezes, perfeito dos artífices cinco vezes, tribuno militar, fez a expensas suas.</p>"
         }
       ]
     },
@@ -295,10 +301,10 @@ var APP_DATA = {
 "linkviewHotspots": [],
 "infoboardHotspots": [
   {
-    "yaw": 1.0567509291800178,
-    "pitch": -0.19062968227440997,
+    "yaw": 1.1567509291800178,
+    "pitch": -0.15062968227440997,
     "title": "<a href='#doze_b' class='modali hide-small' rel='modal:open'>Fragmento de cornija</a><span class='hide-desktop'>Fragmento de cornija</span>",
-    "text": "<img src=\'images/12b/12b_small.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Fragmento de cornija</p><p>Cornija incompleta, mas que corresponde a um dos ângulos do edifício pois conserva duas faces decoradas. A ornamentação é muito profusa e organiza-se em vários registos de acordo com a própria morfologia da cornija. Faria parte possivelmente de um edifício do Fórum romano.</p><p>A análise dos elementos decorativos aponta para uma cronologia posterior ao século I d.C.</p>"
+    "text": "<img src=\'images/12b/12b_small.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Cornija incompleta, mas que corresponde a um dos ângulos do edifício, pois conserva duas faces decoradas. A ornamentação é muito profusa e organiza-se em vários registos, de acordo com a própria morfologia da cornija. Faria parte, possivelmente, de um edifício do Fórum romano.</p><p>A análise dos elementos decorativos aponta para uma cronologia posterior ao século I d.C.</p>"
   }
 ],
 "infoHotspots": [
@@ -306,7 +312,7 @@ var APP_DATA = {
           "yaw": -0.10652849230564243,
           "pitch": -0.04160246332032358,
           "title": "Capitel",
-          "text": "Capitel baixo-medieval utilizado geralmente em contextos palacianos"
+          "text": "Capitel baixo-medieval, utilizado geralmente em contextos palacianos."
         }
       ]
     },
@@ -355,16 +361,16 @@ var APP_DATA = {
 "linkviewHotspots": [],
 "infoboardHotspots": [
         {
-          "yaw": -0.838189868203667,
-          "pitch": 0.45515083956072644,
+          "yaw": -0.808189868203667,
+          "pitch": -0.11515083956072644,
           "title": "<a href='#dezasseis' class='modali hide-small' rel='modal:open'>Fase Conventual</a><span class='hide-desktop'>Fase Conventual</span>",
-          "text": "<img src=\'images/16/16.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Fase Conventual</p><p>Pia de água benta de suspensão.</p><p>As pias de água-benta em faiança serviam de oratórios individuais.</p><p>Estaria colocada numa cella de uma das freiras do convento de Aracoelli.</p><p>Cronologia: século XVIII</p>"
+          "text": "<img src=\'images/16/16.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Pia de água benta de suspensão.</p><p>As pias de água-benta em faiança serviam de oratórios individuais.</p><p>Estaria colocada numa <span class=\"italic\">cella</span> de uma das freiras do convento de <span class=\"italic\">Aracoelli</span>.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XVIII</p>"
         },
         {
-          "yaw": 0.9124088183976582,
-          "pitch": 0.07664998227244979,
+          "yaw": 0.5124088183976582,
+          "pitch": 0.50664998227244979,
           "title": "<a href='#dezassete' class='modali hide-small' rel='modal:open'>O Medieval Cristão</a><span class='hide-desktop'>O Medieval Cristão</span>",
-          "text": "<img src=\'images/17/17.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>O Medieval Cristão</p><p>Taça de faiança</p><p>Cronologia: século XVI</p>"
+          "text": "<img src=\'images/17/17.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Taça de faiança</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XVI</p>"
         }
       ],
 "infoHotspots": []
@@ -417,7 +423,7 @@ var APP_DATA = {
           "yaw": 0.4841964720606686,
           "pitch": 0.05265334062354121,
           "title": "<a href='#dezanove' class='modali hide-small' rel='modal:open'>Os Almóadas </a><span class='hide-desktop'>Os Almóadas </span>",
-          "text": "<img src=\'images/19/19.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Almóadas </p><p>Jarrinha esgrafitada sobre engobe negro, motivos epigráficos e cordão da eternidade.</p><p>Cronologia: século XIII</p>"
+          "text": "<img src=\'images/19/19.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Jarrinha esgrafitada sobre engobe negro, motivos epigráficos e cordão da eternidade.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XIII</p>"
         }
       ],
 "infoHotspots": [
@@ -425,7 +431,7 @@ var APP_DATA = {
           "yaw": 2.4730348247937375,
           "pitch": 0.09817360161651223,
           "title": "Estruturas da Idade do Ferro",
-          "text": "<p>As casas são construções quadrangulares ou rectangulares, com paredes de pedra irregular e argamassa argilosa ou, eventualmente construída em adobe e taipa e com cobertura provavelmente em colmo. As paredes eram rebocadas com uma capa de barro e acabadas com um revestimento de estuque à base de cal.</p>"
+          "text": "<p>As casas são construções quadrangulares ou rectangulares, com paredes de pedra irregular e argamassa argilosa ou, eventualmente, construída em adobe e taipa e com cobertura, provavelmente em colmo. As paredes eram rebocadas com uma capa de barro e acabadas com um revestimento de estuque à base de cal.</p>"
         }
       ]
     },
@@ -459,20 +465,20 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.7738627425607696,
+          "yaw": -2.9038627425607696,
           "pitch": 0.16943840163593826,
           "rotation": 0,
           "target": "6-6"
         },
         {
-          "yaw": -0.23493225224790137,
-          "pitch": 0.21366430938537562,
+          "yaw": 2.25493918617631,
+          "pitch": 0.06635569280497222,
           "rotation": 4.71238898038469,
           "target": "8-8"
         },
         {
-          "yaw": -2.25493918617631,
-          "pitch": 0.06635569280497222,
+          "yaw": 0.23493225224790137,
+          "pitch": 0.21366430938537562,
           "rotation": 1.5707963267948966,
           "target": "9-9"
         }
@@ -480,24 +486,24 @@ var APP_DATA = {
 "linkviewHotspots": [],
 "infoboardHotspots": [
         {
-          "yaw": -1.1173054171781214,
+          "yaw": 1.4173054171781214,
           "pitch": 0.20244189244114352,
           "title": "<a href='#vinteedois' class='modali hide-small' rel='modal:open'>Os Omíadas</a><span class='hide-desktop'>Os Omíadas</span>",
-          "text": "<img src=\'images/22/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Omíadas</p><p>Bule de chá</p><p>Esta peça seria eventualmente usada para servir um tipo de bebida semelhante ao chá.</p><p>Cronologia: séculos IX-X</p>"
+          "text": "<img src=\'images/22/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Bule de chá</p><p>Esta peça seria eventualmente usada para servir um tipo de bebida semelhante ao chá.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Séculos IX-X</p>"
         },
         {
-          "yaw": 1.5421680993551412,
-          "pitch": 0.6877506594021412,
+          "yaw": -2.1421680993551412,
+          "pitch": 0.0877506594021412,
           "title": "<a href='#vinteetres' class='modali hide-small' rel='modal:open'>Os Almorávidas</a><span class='hide-desktop'>Os Almorávidas</span>",
-          "text": "<img src=\'images/23/23.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Os Almorávidas</p><p>Alcatruz de nora</p><p>Esta peça terá sido usada num engenho ou aparelho para tirar água.</p><p>Cronologia: séculos XII-XIII.</p>"
+          "text": "<img src=\'images/23/23.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Alcatruz de nora</p><p>Esta peça terá sido usada num engenho ou aparelho para tirar água.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Séculos XII-XIII.</p>"
         }
       ],
 "infoHotspots": [
         {
-          "yaw": -2.947725868979365,
-          "pitch": 0.0467898395133286,
-          "title": "Fundações de Torre islâmica",
-          "text": "<p>Durante a preparação das fundações das torres foram usados vários elementos arquitetónicos de edifícios romanos. Nesta fundação podemos ver um fragmento de coluna.</p>"
+          "yaw": -0.237725868979365,
+          "pitch": 0.2467898395133286,
+          "title": "Fundações de Torre",
+          "text": "<p>Durante a preparação das fundações das torres, foram usados vários elementos arquitetónicos de edifícios romanos. Nesta fundação podemos ver um fragmento de coluna.</p>"
         }
       ]
     },
@@ -544,7 +550,7 @@ var APP_DATA = {
           "yaw": 0.1353736271120045,
           "pitch": 0.561213663590058,
           "title": "Ânfora romana",
-          "text": "<p>Recipientes usados para transportar alimentos, nomeadamente os associados à dieta mediterrânica – vinhos, azeite e conservas de peixe e, em menor escala, uvas, figos, azeitonas, e mel.</p><p>As características dos fundos adelgaçados da maioria das ânforas facilitavam o acondicionamento em várias fiadas sobrepostas no interior das embarcações que faziam o transporte marítimo, ao mesmo tempo que permitiam um melhor aproveitamento do espaço disponível e garantiam a estabilidade da carga consensual durante a viagem.</p>"
+          "text": "<p>Recipientes usados para transportar alimentos, nomeadamente os associados à dieta mediterrânica – vinhos, azeite e conservas de peixe e, em menor escala, uvas, figos, azeitonas e mel.</p><p>As características dos fundos adelgaçados da maioria das ânforas facilitavam o acondicionamento em várias fiadas, sobrepostas no interior das embarcações, que faziam o transporte marítimo, ao mesmo tempo que permitiam um melhor aproveitamento do espaço disponível e garantiam a estabilidade da carga consensual durante a viagem.</p>"
         }
       ]
     },
@@ -649,7 +655,7 @@ var APP_DATA = {
           "yaw": 2.8341013349572375,
           "pitch": 0.08368711160190223,
           "title": "Calçada romana",
-          "text": "<p>Esta calçada ligaria uma zona habitacional (bairro) muito mais extensa. Para sua manutenção, eram usadas muitas vezes fragmentos de mós como se pode ver nesta calçada.</p>"
+          "text": "<p>Esta calçada ligaria uma zona habitacional (bairro) muito mais extensa. Para sua manutenção, eram muitas vezes usados fragmentos de mós, como se pode ver nesta calçada.</p>"
         }
       ]
     },
@@ -812,7 +818,7 @@ var APP_DATA = {
           "yaw": -1.4918659693858416,
           "pitch": 0.8988284810320675,
           "title": "<a href='#trintaeseis' class='modali hide-small' rel='modal:open'>Poço votivo</a><span class='hide-desktop'>Poço votivo</span>",
-          "text": "<img src=\'images/36/36a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/36/36b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Poço votivo</p><p>Poço votivo que faria parte de um santuário de cronologia romana e datado do século I- II d.C.</p><p>Neste taque foi recolhida uma <i>tabella defixionis</i>.</p><h5>Texto</h5><p><i>Domine Megare invicte! Tu, qui Attidis corpus accepisti, accipias corpus eius qui meãs sarcinas supstulit, qui me compilavit de domo Hispani. Illius corpus tibi et anima do dono ut meas res inueniat. Hunc tibi ostia quadripede done. Attis, voveo, si eas iure invenero. Domne Attis, te rogo, per tuum Nocturnum, ut me quam primum compote facias!</i></p>"
+          "text": "<img src=\'images/36/36a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/36/36b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Poço votivo que faria parte de um santuário de cronologia romana e datado do século I- II d.C.</p><p>Neste taque foi recolhida uma <span class=\"italic\">tabella defixionis</span>.</p><h5>Texto</h5><p><span class=\"italic\">Domine Megare invicte! Tu, qui Attidis corpus accepisti, accipias corpus eius qui meãs sarcinas supstulit, qui me compilavit de domo Hispani. Illius corpus tibi et anima do dono ut meas res inueniat. Hunc tibi ostia quadripede done. Attis, voveo, si eas iure invenero. Domne Attis, te rogo, per tuum Nocturnum, ut me quam primum compote facias!</span></p><br><h5>Tradução</h5><p>“Ó Senhora Mégara Invicta! Tu, que recebeste o corpo de Átis, digna-te receber o corpo daquele que levou as minhas bagagens, que mas roubou da casa de Hispano. Ofereço-te como dádiva o corpo e alma daquele para que eu encontre as minhas coisas. Se vier a encontrar esse ladrão, então prometo-te, ó Senhor Átis, um quadrúpede como vítima.</p><p>Ó Senhor Átis, rogo-te, pelo teu Nocturno, que faças com que eu as obtenha quanto antes.”</p>"
         }
       ],
 "infoHotspots": [
@@ -820,7 +826,7 @@ var APP_DATA = {
           "yaw": 1.1677173152871916,
           "pitch": 0.7503592544082114,
           "title": "Altar de oferendas",
-          "text": "<p>Pequeno depósito votivo construído por lateres não argamassados, onde foram descobertos vários pratos e tijelas de cerâmica comum dispostos por cima uns dos outros, um conjunto considerável de lucernas de vários tipos e uma taça votiva com pé em cerâmica comum.</p>"
+          "text": "<p>Pequeno depósito votivo construído por lateres não argamassados, onde foram descobertos vários pratos e tijelas de cerâmica comum, dispostos por cima uns dos outros, um conjunto considerável de lucernas de vários tipos e uma taça votiva com pé em cerâmica comum.</p>"
         }
       ]
     },
@@ -848,7 +854,7 @@ var APP_DATA = {
       ],
       "faceSize": 2520,
       "initialViewParameters": {
-        "yaw": -2.395762137202661,
+        "yaw": -1.395762137202661,
         "pitch": 0.5573121085837514,
         "fov": 1.3887485427646578
       },
@@ -872,14 +878,14 @@ var APP_DATA = {
         {
           "yaw": -0.802505058773523,
           "pitch": 0.9645958291908787,
-          "title": "Pavimento em Opus Signinum",
-          "text": "Pavimento em opus signinum de acesso ao santuário romano"
+          "title": "Pavimento em <span class=\"italic\">opus signinum</span>",
+          "text": "Pavimento em <span class=\"italic\">opus signinum</span> de acesso ao santuário romano."
         },
         {
           "yaw": -1.7026567399463577,
           "pitch": 0.7260671988586509,
           "title": "Santuário da Idade do Ferro",
-          "text": "<p>O santuário de Beuipo estaria inserido junto a estruturas domésticas relevantes. O acesso à zona sacra realizar-se-ia através de um pátio que antecedia a zona sacra, constituída por uma sala fechada, onde poderia existir um segundo pátio pavimentado, a céu aberto.</p><p>Numa zona relacionável com um lugar de culto, apareceram vários objectos de carácter votivo e outros de carácter mágico/protector, tais como duas terracotas e um importante conjunto de figurinhas de bronze, umas zoomórficas e outras antropomórficas, atribuíveis aos finais do século V a.C., inícios do século IV a.C.</p>"
+          "text": "<p>O santuário de <span class=\"italic\">Beuipo</span> estaria inserido junto a estruturas domésticas relevantes. O acesso à zona sacra realizar-se-ia através de um pátio que antecedia a zona sacra, constituída por uma sala fechada, onde poderia existir um segundo pátio pavimentado, a céu aberto.</p><p>Numa zona relacionável com um lugar de culto, apareceram vários objectos de carácter votivo e outros de carácter mágico/protector, tais como duas terracotas e um importante conjunto de figurinhas de bronze, umas zoomórficas e outras antropomórficas, atribuíveis aos finais do século V a.C., inícios do século IV a.C.</p>"
         }
       ]
     },
@@ -938,13 +944,13 @@ var APP_DATA = {
           "yaw": -0.2092515949884799,
           "pitch": 0.9528814176237539,
           "title": "Silo islâmico",
-          "text": "<p>Nesta área foram identificados cinco silos de conservação e armazenamento de alimentos, os quais se encontram associados a materiais cerâmicos da fase almóada (séculos XII-XIII).</p>"
+          "text": "<p>Nesta área foram identificados cinco silos de conservação e armazenamento de alimentos, os quais se encontram associados a materiais cerâmicos da fase almóada.</p><br><p>Séculos XII-XIII</p>"
         },
         {
           "yaw": 0.47372886465362285,
           "pitch": 0.46179293640193997,
           "title": "O altar dos sacrifícios",
-          "text": "<p>Este pavimento deveria fazer parte do pátio do santuário romano, que, provavelmente, seria a céu aberto, com altar sacrificial e um espaço reservado à água, para as purificações e limpezas das áreas sacras.</p>"
+          "text": "<p>Este pavimento deveria fazer parte do pátio do santuário romano que, provavelmente, seria a céu aberto, com altar sacrificial e um espaço reservado à água, para as purificações e limpezas das áreas sacras.</p>"
         }
       ]
     },
@@ -978,13 +984,13 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.5957185202902622,
+          "yaw": -1.7957185202902622,
           "pitch": 0.13913528536759223,
           "rotation": 0,
           "target": "12-11"
         },
         {
-          "yaw": 2.8219896699583327,
+          "yaw": 2.6219896699583327,
           "pitch": 0.36247106064538315,
           "rotation": 0.7853981633974483,
           "target": "18-15"
@@ -996,7 +1002,7 @@ var APP_DATA = {
           "target": "15-11c"
         },
         {
-          "yaw": 2.052741181248,
+          "yaw": 1.852741181248,
           "pitch": 0.08130444735581044,
           "rotation": 7.853981633974483,
           "target": "23-19"
@@ -1005,16 +1011,16 @@ var APP_DATA = {
 "linkviewHotspots": [],
 "infoboardHotspots": [
         {
-          "yaw": -1.1344096908436114,
+          "yaw": -1.3344096908436114,
           "pitch": 0.566889072064086,
           "title": "<a href='#quarentaetres' class='modali hide-small' rel='modal:open'>Objetos votivos -  Idade do Ferro</a><span class='hide-desktop'>Objetos votivos -  Idade do Ferro</span>",
-          "text": "<img src=\'images/43/43.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Objetos votivos -  Idade do Ferro</p><p>Terracota representando Zeus em forma de águia que rapta o jovem Ganimedes.</p>"
+          "text": "<img src=\'images/43/43.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Terracota representando Zeus em forma de águia que rapta o jovem Ganimedes.</p>"
         },
         {
-          "yaw": 1.0119853964021956,
+          "yaw": 1.5119853964021956,
           "pitch": 0.6039827467337542,
           "title": "<a href='#quarentaesete' class='modali hide-small' rel='modal:open'>Época Romana</a><span class='hide-desktop'>Época Romana</span>",
-          "text": "<img src=\'images/47/47.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Época Romana</p><p>Lucerna em forma de barco com vários orifícios de combustão e alimentação. A parte que se conserva corresponde à proa.</p>"
+          "text": "<img src=\'images/47/47.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Lucerna em forma de barco com vários orifícios de combustão e alimentação. A parte que se conserva corresponde à proa.</p>"
         }
       ],
 "infoHotspots": []
@@ -1211,7 +1217,7 @@ var APP_DATA = {
     },
     {
       "id": "21-17",
-      "name": "Beuipo - 1ª Idade do Ferro",
+      "name": "Beuipo - 2ª Idade do Ferro",
       "levels": [
         {
           "tileSize": 256,
@@ -1269,14 +1275,14 @@ var APP_DATA = {
           "yaw": 0.1777336307519768,
           "pitch": 0.21758555570151827,
           "title": "<a href='#cinquentaequatro' class='modali hide-small' rel='modal:open'>2ª Idade do Ferro (séculos V a II a.C.)</a><span class='hide-desktop'>2ª Idade do Ferro (séculos V a II a.C.)</span>",
-          "text": "<img src=\'images/54/54.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>2ª Idade do Ferro (séculos V a II a.C.)</p><p>Urninha engobada.</p>"
+          "text": "<img src=\'images/54/54.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Urninha engobada.</p><p>Séculos V a II a.C.</p>"
         }
       ],
 "infoHotspots": []
     },
     {
       "id": "22-18",
-      "name": "Beuipo - 2ª Idade do Ferro",
+      "name": "Beuipo - 1ª Idade do Ferro",
       "levels": [
         {
           "tileSize": 256,
@@ -1313,10 +1319,10 @@ var APP_DATA = {
 "linkviewHotspots": [],
 "infoboardHotspots": [
         {
-          "yaw": 0.5570332670626517,
-          "pitch": 0.17305186749855395,
+          "yaw": 0.0570332670626517,
+          "pitch": 0.07305186749855395,
           "title": "<a href='#cinquentaesete' class='modali hide-small' rel='modal:open'>1ª Idade do ferro (séculos VII a V a.C.)</a><span class='hide-desktop'>1ª Idade do ferro (séculos VII a V a.C.)</span>",
-          "text": "<img src=\'images/57/57a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/57/57b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>1ª Idade do ferro (séculos VII a V a.C.)</p><p>Urna de cerâmica cinzenta ou taça de cerâmica cinzenta fina com furos de suspensão.</p>"
+          "text": "<img src=\'images/57/57a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/57/57b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Urna de cerâmica cinzenta.</p>"
         }
       ],
 "infoHotspots": []
@@ -1416,7 +1422,7 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.8843880803184367,
+          "yaw": 1.5843880803184367,
           "pitch": 0.5010831298248064,
           "rotation": 0,
           "target": "23-19"
@@ -1434,7 +1440,7 @@ var APP_DATA = {
           "yaw": -0.484651445685639,
           "pitch": 0.8318923758907069,
           "title": "<a href='#sessenta' class='modali hide-small' rel='modal:open'>Tesouro - moedas</a><span class='hide-desktop'>Tesouro - moedas</span>",
-          "text": "<img src=\'images/60/60a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/60/60b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Tesouro - moedas</p><p>Moeda pré-romana com representação de atuns e a provável denominação da cidade em caracteres indígenas “Beuipo”.</p>"
+          "text": "<img src=\'images/60/60a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><img src=\'images/60/60b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Moeda pré-romana com representação de atuns e a provável denominação da cidade em caracteres indígenas <span class=\"italic\">“Beuipo”</span>.</p>"
         }
       ],
 "infoHotspots": []
@@ -1487,7 +1493,7 @@ var APP_DATA = {
           "yaw": -0.2068771765643902,
           "pitch": 0.04465917157041943,
           "title": "<a href='#sessentaetres' class='modali hide-small' rel='modal:open'>Tesouro – Adornos</a><span class='hide-desktop'>Tesouro – Adornos</span>",
-          "text": "<img src=\'images/63/63.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Tesouro – Adornos</p><p>Terço com imagem de caveira.</p>"
+          "text": "<img src=\'images/63/63.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Terço com imagem de caveira.</p>"
         }
       ],
 "infoHotspots": []
@@ -1522,19 +1528,19 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.4905341409446233,
+          "yaw": 1.8905341409446233,
           "pitch": 0.40385396864595435,
           "rotation": 1.5707963267948966,
           "target": "6-6"
         },
         {
-          "yaw": 0.9784261268754886,
+          "yaw": 1.3784261268754886,
           "pitch": 0.19857531861776145,
           "rotation": 0,
           "target": "5-5"
         },
         {
-          "yaw": -2.0987222581317617,
+          "yaw": -1.4987222581317617,
           "pitch": 0.3840492329592884,
           "rotation": 0,
           "target": "25-21"
@@ -1544,7 +1550,7 @@ var APP_DATA = {
 "infoboardHotspots": [],
 "infoHotspots": [
         {
-          "yaw": -0.6649261811219809,
+          "yaw": -0.8649261811219809,
           "pitch": 0.14440035336184387,
           "title": "O Poço Islâmico",
           "text": "<p>Poço usado para abastecer habitações que se situariam na envolvência.</p>"

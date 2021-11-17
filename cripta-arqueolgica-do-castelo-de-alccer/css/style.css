@@ -828,3 +828,7 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+.gallery:hover{opacity: 0.7}
+.cronologia {text-transform: uppercase;font-weight: 500;}
+.italic{font-style: italic;}
