@@ -220,13 +220,13 @@ var APP_DATA = {
           "yaw": -0.21359689334805111,
           "pitch": 0.3381939986937521,
           "title": "<a href='#leao-em-bronze' class='modali hide-small' rel='modal:open'>Leão em bronze</a><span class='hide-desktop'>Leão em bronze</span>",
-          "text": "<img src=\'images/14.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Imagem de leão em bronze, encontrada na zona portuária de <span class=\"italic\">Beuipo</span>.</p><p>Esta peça, pelas suas características, poderia ter sido usada como remate de mobiliário.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século VI e inícios do V a.C.</p>"
+          "text": "<img src=\'images/14.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Imagem de leão em bronze, encontrada na zona portuária de <span class=\"italic\">Beuipo</span>.</p><p>Esta peça, pelas suas características, poderia ter sido usada como remate de mobiliário.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século VI e inícios do V a.C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Rua do Rato</p>"
         },
         {
           "yaw": -0.21359689334805111,
           "pitch": 0.6081939986937521,
           "title": "<a href='#placa-em-osso' class='modali hide-small' rel='modal:open'>Placa em osso</a><span class='hide-desktop'>Placa em osso</span>",
-          "text": "<img src=\'images/placa_osso/4b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos VI-V a. C.</p><p>Rua do Rato</p>"
+          "text": "<img src=\'images/placa_osso/4b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos VI-V a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Rua do Rato</p>"
         }
       ],
       "infoHotspots": [
@@ -293,19 +293,13 @@ var APP_DATA = {
           "yaw": 0.03609065456822513,
           "pitch": 0.7642888773052565,
           "title": "Mão com anel",
-          "text": "<p>Mão de estátua com anel no dedo anelar</p><br><p>Século I a. C. | Forum romano.</p>"
+          "text": "<p>Mão de estátua com anel no dedo anelar</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Século I a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p> Fórum romano</p>"
         },
         {
           "yaw": 2.6510286890580748,
           "pitch": 1.0704728758667308,
           "title": "Ânfora",
-          "text": "<p>Produção da Baía de Cádis (sul de Espanha)</p><br><p>Séculos IV-III a. C. | Rua do Almoxarife</p>"
-        },
-        {
-          "yaw": 1.4993578770893539,
-          "pitch": 0.25249033154107714,
-          "title": "21",
-          "text": "Texto"
+          "text": "<p>Produção da Baía de Cádis (sul de Espanha)</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos IV-III a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p> Rua do Almoxarife</p>"
         }
       ]
     },
@@ -357,13 +351,13 @@ var APP_DATA = {
           "yaw": -0.7932851666113709,
           "pitch": 0.31392662414313754,
           "title": "<a href='#ceramica-atica' class='modali hide-small' rel='modal:open'>Cerâmica ática</a><span class='hide-desktop'>Cerâmica ática</span>",
-          "text": "<img src=\'images/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>(<span class=\"italic\">Kratêr-de-sino</span>)</p><p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicos ou eróticos. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p><p>Necrópole do Olival do Senhor dos Mártires</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Séculos V-IV a. C.</p>"
+          "text": "<img src=\'images/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>(<span class=\"italic\">Kratêr-de-sino</span>)</p><p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicos ou eróticos. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos V-IV a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole do Olival do Senhor dos Mártires</p>"
         },
         {
           "yaw": -0.1612300580974395,
           "pitch": 0.7132056336614738,
           "title": "<a href='#escaravelho-egipcio' class='modali hide-small' rel='modal:open'>Escaravelho egípcio</a><span class='hide-desktop'>Escaravelho egípcio</span>",
-          "text": "<img src=\'images/24.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><p>Inscrição: O registo superior representaria uma esfinge com um signo <span class=\"italic\">Nefer</span>; o registo médio representa, à esquerda, o falcão <span class=\"italic\">Hórus</span> com um flagelo e à direita um cartucho com o nome <span class=\"italic\">Men-Ka-Ra</span> (ou <span class=\"italic\">Men-Ka-Re</span>); o registo inferior corresponde a um signo <span class=\"italic\">Neb</span>.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Séculos VII- VI a. C.</p><p>Igreja do Espírito Santo</p>"
+          "text": "<img src=\'images/24.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><p>Inscrição: O registo superior representaria uma esfinge com um signo <span class=\"italic\">Nefer</span>; o registo médio representa, à esquerda, o falcão <span class=\"italic\">Hórus</span> com um flagelo e à direita um cartucho com o nome <span class=\"italic\">Men-Ka-Ra</span> (ou <span class=\"italic\">Men-Ka-Re</span>); o registo inferior corresponde a um signo <span class=\"italic\">Neb</span>.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos VII- VI a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
         }
       ],
       "infoHotspots": [
@@ -423,13 +417,13 @@ var APP_DATA = {
           "yaw": 2.921858881969352,
           "pitch": 0.26369565434584885,
           "title": "<a href='#terra-sigillata' class='modali hide-small' rel='modal:open'>Taça em <span class=\"italic\">terra sigillata</span></a><span class='hide-desktop'>Taça em Terra Sigillata</span>",
-          "text": "<img src=\'images/27.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Cerâmica fina datada da época romana. As várias peças que compunham as baixelas eram maioritariamente baixas e abertas, como pratos, taças ou copos, apropriadas ao consumo de comida e bebida.</p><p>Iniciado no centro de Itália no século I a.C., o seu fabrico alargou-se posteriormente para várias áreas do Império Romano, com destaque para os focos gauleses, hispânicos e norte-africanos, dos quais a Lusitânia viria a receber inúmeras importações.</p>"
+          "text": "<img src=\'images/27.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Cerâmica fina datada da época romana. As várias peças que compunham as baixelas eram maioritariamente baixas e abertas, como pratos, taças ou copos, apropriadas ao consumo de comida e bebida.</p><p>Iniciado no centro de Itália no século I a.C., o seu fabrico alargou-se posteriormente para várias áreas do Império Romano, com destaque para os focos gauleses, hispânicos e norte-africanos, dos quais a Lusitânia viria a receber inúmeras importações.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole da Azinhaga do Senhor dos Mártires</p>"
         },
         {
           "yaw": -2.838485870545213,
           "pitch": 0.4093116547082776,
           "title": "<a href='#biberao' class='modali hide-small' rel='modal:open'>Biberão</a><span class='hide-desktop'>Biberão</span>",
-          "text": "<img src=\'images/29.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Esta peça tem vindo a ser identificada como um biberão. Foi recolhida numa sepultura de cremação na Necrópole Romana da Azinhaga do Senhor dos Mártires.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século I a.C.</p>"
+          "text": "<img src=\'images/29.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Esta peça tem vindo a ser identificada como um biberão. Foi recolhida numa sepultura de cremação na Necrópole Romana da Azinhaga do Senhor dos Mártires.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século I a.C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole Romana da Azinhaga do Senhor dos Mártires</p>"
         }
       ],
       "infoHotspots": [
@@ -437,7 +431,7 @@ var APP_DATA = {
           "yaw": 2.4030002370777463,
           "pitch": 0.5795927538516477,
           "title": "Placa funerária de calcário",
-          "text": "<p>M(<span class=\"italic\">arcus</span>) · SVLPICIVS · ZOGRAPHVS · ANN(<span class=\"italic\">orum</span>) · LXXX (<span class=\"italic\">octoginta</span>) / IVNIA · SATVLLA ·/ ANN(<span class=\"italic\">orum</span>) · LXX (<span class=\"italic\">septuaginta</span>) H(<span class=\"italic\">ic</span>) · S(<span class=\"italic\">iti</span>) · S(<span class=\"italic\">unt</span>) .  ZOGRAPHVS / SIBI · ET · VXORI</p><br><p>Aqui jazem Marcos Sulpício Zografo, de oitenta anos, Júnia Satula, de setenta anos. Zografo – para si e para a mulher.</p><br><p>Século I d.C.</p>"
+          "text": "<p>M(<span class=\"italic\">arcus</span>) · SVLPICIVS · ZOGRAPHVS · ANN(<span class=\"italic\">orum</span>) · LXXX (<span class=\"italic\">octoginta</span>) / IVNIA · SATVLLA ·/ ANN(<span class=\"italic\">orum</span>) · LXX (<span class=\"italic\">septuaginta</span>) H(<span class=\"italic\">ic</span>) · S(<span class=\"italic\">iti</span>) · S(<span class=\"italic\">unt</span>) .  ZOGRAPHVS / SIBI · ET · VXORI</p><br><p>Aqui jazem Marcos Sulpício Zografo, de oitenta anos, Júnia Satula, de setenta anos. Zografo – para si e para a mulher.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Século I d.C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole do Olival do Senhor dos Mártires</p>"
         },
         {
           "yaw": -2.2030002370777463,
@@ -449,7 +443,7 @@ var APP_DATA = {
           "yaw": -2.3448718960014894,
           "pitch": 0.6415529295993085,
           "title": "Peças de adorno",
-          "text": "<p>Séculos I a. C. – I d. C.</p><p>Necrópole da Azinhaga do Senhor dos Mártires e Castelo</p>"
+          "text": "<h6 class=\"cronologia\">Cronologia</h6><p> Séculos I a. C. – I d. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole da Azinhaga do Senhor dos Mártires e Castelo de Alcácer do Sal</p>"
         }
       ]
     },
@@ -501,7 +495,7 @@ var APP_DATA = {
           "yaw": -0.9086050523274594,
           "pitch": 0.6436780168721903,
           "title": "<a href='#placa-votiva' class='modali hide-small' rel='modal:open'>Placa votiva</a><span class='hide-desktop'>Placa votiva</span>",
-          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p><p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século I a. C.</p><p>Forum romano</p>"
+          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p><p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Século I a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Fórum romano</p>"
         }
       ],
       "infoHotspots": [
@@ -626,6 +620,12 @@ var APP_DATA = {
           "target": "11-10-a-capela-e-o-hospital-do-esprito-santo"
         },
         {
+          "yaw": 0.125917759797033,
+          "pitch": 2.56867365953717766,
+          "rotation": 0.0,
+          "target": "9-8-igreja"
+        },
+        {
           "yaw": 1.5377148571284645,
           "pitch": 0.11767467974926582,
           "rotation": 1.5707963267948966,
@@ -638,7 +638,7 @@ var APP_DATA = {
           "yaw": -0.015184619970790791,
           "pitch": 0.37249107726974273,
           "title": "<a href='#inscricao-islamica' class='modali hide-small' rel='modal:open'>Inscrição funerária islâmica</a><span class='hide-desktop'>Inscrição funerária islâmica</span>",
-          "text": "<img src=\'images/40.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em mármore que reaproveitou a parte de trás de uma moldura romana.</p><p>Trata-se do fragmento que diz:</p><br><p>(…)Alá tem sobre (…) segredo(…)</p><p>Mensageiro (…) meu Deus (…)</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século X-XI</p><p>Castelo de Alcácer</p>"
+          "text": "<img src=\'images/40.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em mármore que reaproveitou a parte de trás de uma moldura romana.</p><p>Trata-se do fragmento que diz:</p><br><p>(…)Alá tem sobre (…) segredo(…)</p><p>Mensageiro (…) meu Deus (…)</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século X-XI</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Castelo de Alcácer</p>"
         }
       ],
       "infoHotspots": [
@@ -664,13 +664,13 @@ var APP_DATA = {
           "yaw": -0.4392206662263547,
           "pitch": 0.13466227796874364,
           "title": "Cerâmica islâmica",
-          "text": "<p>Séculos XII-XIII</p><p>Alcácer do Sal</p>"
+          "text": "<h6 class=\"cronologia\">Cronologia</h6><p>Séculos XII-XIII</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Alcácer do Sal</p>"
         },
         {
           "yaw": 0.4392206662263547,
           "pitch": 0.13466227796874364,
           "title": "As cerâmicas medievais",
-          "text": "<p>Séculos XIV a XV</p>"
+          "text": "<h6 class=\"cronologia\">Cronologia</h6><p>Séculos XIV a XV</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Alcácer do Sal</p>"
         }
       ]
     },
@@ -723,7 +723,7 @@ var APP_DATA = {
           "yaw": 0.5314333298426934,
           "pitch": 0.26633634102785564,
           "title": "Portas decoradas de possível oratório ou altar",
-          "text": "<p>Igreja do Espírito Santo</p><br><p>Século XVIII/XIX</p>"
+          "text": "<h6 class=\"cronologia\">Cronologia</h6><p>Século XVIII/XIX</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
         }
       ]
     },
@@ -875,7 +875,7 @@ var APP_DATA = {
           "yaw": -0.6232451463677453,
           "pitch": 0.37103862843881785,
           "title": "Gaiola pombalina",
-          "text": "<p>Estrutura em alvenaria tipo “gaiola pombalina”.</p><br><p>Século XIX</p>"
+          "text": "<p>Estrutura em alvenaria tipo “gaiola pombalina”.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XIX</p>"
         }
       ]
     },
@@ -974,7 +974,7 @@ var APP_DATA = {
           "yaw": -0.49138076129822394,
           "pitch": 0.8694745063614224,
           "title": "Cerâmica para conter líquidos",
-          "text": "Século XVI"
+          "text": "<h6 class=\"cronologia\">Cronologia</h6><p>Século XVI</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Largo dos Açougues</p>"
         }
       ]
     },
@@ -1020,7 +1020,7 @@ var APP_DATA = {
           "yaw": 2.690268951203775,
           "pitch": 0.8673944186501821,
           "title": "<a href='#imagem-terracota' class='modali hide-small' rel='modal:open'>Imagem em terracota</a><span class='hide-desktop'>Imagem em terracota</span>",
-          "text": "<img src=\'images/49a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em terracota representando a Nossa Senhora da Conceição com o menino ao colo. Ainda existem vestígios de pintura em algumas áreas da peça.</p><p>Esta pequena estatueta foi recolhida durante as escavações arqueológicas efetuadas na igreja do Espírito Santo (Museu Municipal Pedro Nunes), tendo sido recolhida em contexto de revolvimento.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XVIII</p><p>Igreja do Espírito Santo</p>"
+          "text": "<img src=\'images/49a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em terracota representando a Nossa Senhora da Conceição com o menino ao colo. Ainda existem vestígios de pintura em algumas áreas da peça.</p><p>Esta pequena estatueta foi recolhida durante as escavações arqueológicas efetuadas na igreja do Espírito Santo (Museu Municipal Pedro Nunes), tendo sido recolhida em contexto de revolvimento.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XVIII</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
         }
       ],
       "infoHotspots": [
@@ -1028,7 +1028,7 @@ var APP_DATA = {
           "yaw": -2.969487946288881,
           "pitch": 0.7867407581883029,
           "title": "Objetos de adorno e indumentária",
-          "text": "<p>Séculos XVII-XVIII</p><p>Igreja do Espírito Santo</p>"
+          "text": "<h6 class=\"cronologia\">Cronologia</h6><p>Séculos XVII-XVIII</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
         }
       ]
     }
