@@ -122,7 +122,7 @@ var APP_DATA = {
           "yaw": 1.660720098792333,
           "pitch": 0.12593135437638203,
           "title": "Placa de inauguração",
-          "text": "<p class=\'title\'>Pedro Nunes</p><p class=\'subtitle\'>Museu Municipal</p><p>Inaugurado pelo Presidente da Câmara Municipal de Alcácer do Sal, Vítor Proença, após requalificação.</p><p>Alcácer do Sal, 6 de abril de 2019</p>"
+          "text": "<p style=\"text-align:center;\" class=\'title\'>Pedro Nunes</p><p style=\"text-align:center;\" class=\'subtitle\'>Museu Municipal</p><br><p>Inaugurado pelo Presidente da Câmara Municipal de Alcácer do Sal, Vítor Proença, após requalificação.</p><br><p style=\"text-align:right;\">Alcácer do Sal, 6 de abril de 2019</p>"
         }
       ]
     },
@@ -351,13 +351,13 @@ var APP_DATA = {
           "yaw": -0.7932851666113709,
           "pitch": 0.31392662414313754,
           "title": "<a href='#ceramica-atica' class='modali hide-small' rel='modal:open'>Cerâmica ática</a><span class='hide-desktop'>Cerâmica ática</span>",
-          "text": "<img src=\'images/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>(<span class=\"italic\">Kratêr-de-sino</span>)</p><p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicos ou eróticos. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos V-IV a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole do Olival do Senhor dos Mártires</p>"
+          "text": "<img src=\'images/22.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>(<span class=\"italic\">Kratêr-de-sino</span>)</p><br><p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicos ou eróticos. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos V-IV a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole do Olival do Senhor dos Mártires</p>"
         },
         {
           "yaw": -0.1612300580974395,
           "pitch": 0.7132056336614738,
           "title": "<a href='#escaravelho-egipcio' class='modali hide-small' rel='modal:open'>Escaravelho egípcio</a><span class='hide-desktop'>Escaravelho egípcio</span>",
-          "text": "<img src=\'images/24.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><p>Inscrição: O registo superior representaria uma esfinge com um signo <span class=\"italic\">Nefer</span>; o registo médio representa, à esquerda, o falcão <span class=\"italic\">Hórus</span> com um flagelo e à direita um cartucho com o nome <span class=\"italic\">Men-Ka-Ra</span> (ou <span class=\"italic\">Men-Ka-Re</span>); o registo inferior corresponde a um signo <span class=\"italic\">Neb</span>.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos VII- VI a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
+          "text": "<img src=\'images/escaravelho_1.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><img src=\'images/escaravelho_1.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p><br><p>Inscrição: O registo superior representaria uma esfinge com um signo <span class=\"italic\">Nefer</span>; o registo médio representa, à esquerda, o falcão <span class=\"italic\">Hórus</span> com um flagelo e à direita um cartucho com o nome <span class=\"italic\">Men-Ka-Ra</span> (ou <span class=\"italic\">Men-Ka-Re</span>); o registo inferior corresponde a um signo <span class=\"italic\">Neb</span>.</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Séculos VII- VI a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
         }
       ],
       "infoHotspots": [
@@ -417,7 +417,7 @@ var APP_DATA = {
           "yaw": 2.921858881969352,
           "pitch": 0.26369565434584885,
           "title": "<a href='#terra-sigillata' class='modali hide-small' rel='modal:open'>Taça em <span class=\"italic\">terra sigillata</span></a><span class='hide-desktop'>Taça em Terra Sigillata</span>",
-          "text": "<img src=\'images/27.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Cerâmica fina datada da época romana. As várias peças que compunham as baixelas eram maioritariamente baixas e abertas, como pratos, taças ou copos, apropriadas ao consumo de comida e bebida.</p><p>Iniciado no centro de Itália no século I a.C., o seu fabrico alargou-se posteriormente para várias áreas do Império Romano, com destaque para os focos gauleses, hispânicos e norte-africanos, dos quais a Lusitânia viria a receber inúmeras importações.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole da Azinhaga do Senhor dos Mártires</p>"
+          "text": "<img src=\'images/27.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/>br><img src=\'images/27b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Cerâmica fina datada da época romana. As várias peças que compunham as baixelas eram maioritariamente baixas e abertas, como pratos, taças ou copos, apropriadas ao consumo de comida e bebida.</p><br><p>Iniciado no centro de Itália no século I a.C., o seu fabrico alargou-se posteriormente para várias áreas do Império Romano, com destaque para os focos gauleses, hispânicos e norte-africanos, dos quais a Lusitânia viria a receber inúmeras importações.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Necrópole da Azinhaga do Senhor dos Mártires</p>"
         },
         {
           "yaw": -2.838485870545213,
@@ -495,7 +495,7 @@ var APP_DATA = {
           "yaw": -0.9086050523274594,
           "pitch": 0.6436780168721903,
           "title": "<a href='#placa-votiva' class='modali hide-small' rel='modal:open'>Placa votiva</a><span class='hide-desktop'>Placa votiva</span>",
-          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p><p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Século I a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Fórum romano</p>"
+          "text": "<img src=\'images/31.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p><br><p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p><p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p><br><h6 class=\"cronologia\">Cronologia</h6><p> Século I a. C.</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Fórum romano</p>"
         }
       ],
       "infoHotspots": [
@@ -1020,7 +1020,7 @@ var APP_DATA = {
           "yaw": 2.690268951203775,
           "pitch": 0.8673944186501821,
           "title": "<a href='#imagem-terracota' class='modali hide-small' rel='modal:open'>Imagem em terracota</a><span class='hide-desktop'>Imagem em terracota</span>",
-          "text": "<img src=\'images/49a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><p>Peça em terracota representando a Nossa Senhora da Conceição com o menino ao colo. Ainda existem vestígios de pintura em algumas áreas da peça.</p><p>Esta pequena estatueta foi recolhida durante as escavações arqueológicas efetuadas na igreja do Espírito Santo (Museu Municipal Pedro Nunes), tendo sido recolhida em contexto de revolvimento.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XVIII</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
+          "text": "<img src=\'images/49a.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><img src=\'images/49b.jpg\' class=\'responsive-image\' alt=\'\' title=\'\'/><br><p>Peça em terracota representando a Nossa Senhora da Conceição com o menino ao colo. Ainda existem vestígios de pintura em algumas áreas da peça.</p><br><p>Esta pequena estatueta foi recolhida durante as escavações arqueológicas efetuadas na igreja do Espírito Santo (Museu Municipal Pedro Nunes), tendo sido recolhida em contexto de revolvimento.</p><br><h6 class=\"cronologia\">Cronologia</h6><p>Século XVIII</p><br><h6 class=\"cronologia\">Proveniência</h6><p>Igreja do Espírito Santo</p>"
         }
       ],
       "infoHotspots": [

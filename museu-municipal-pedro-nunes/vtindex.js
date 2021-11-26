@@ -27,7 +27,7 @@
         document.body.classList.add('desktop');
       }
     };
-    var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
+    var mql = matchMedia("(max-width: 700px), (max-height: 700px)");
     setMode();
     mql.addListener(setMode);
   } else {
