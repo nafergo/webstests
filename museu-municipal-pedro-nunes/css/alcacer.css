@@ -123,7 +123,7 @@ a.close-modal:hover {opacity: 1.0;}
 
 .modal_content_main {color: black; height: 100%; overflow-y: auto; overflow-x: hidden;display: flex;}
 .modal_content_main_small {color: black; height: 100%; overflow: auto;}
-.modal_content_main h1, .modal_content_main_small h1  {font-size: 2em; font-weight:800; ; text-transform: uppercase;color: rgb(255, 178, 70); margin-bottom: 1em;}
+.modal_content_main h1, .modal_content_main_small h1  {font-size: 1.5em; font-weight:800; ; text-transform: uppercase;color: rgb(255, 178, 70); margin-bottom: 1em;}
 .modal_content_main h2, .modal_content_main_small h2 {font-size: 1em; font-weight:600; text-transform: uppercase;color: rgb(255, 178, 70); margin-bottom: 1em;margin-top: 2em;}
 .modal_content_main h3, .modal_content_main_small h3 {font-size: 0.9em; font-weight:500; text-transform: uppercase; margin-bottom: 0.2em;margin-top: 1em;}
 .modal_content_main p, .modal_content_main_small p {font-size: 1em; margin-top: 1em; font-weight: 300;line-height: normal;}
