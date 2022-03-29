@@ -1,0 +1,55 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "asset_manager" : {},
+                "skinify" : {
+                    "connect_mesh" : 0,
+                    "connect_parents" : 0,
+                    "generate_all" : 0,
+                    "thickness" : 0.800000011920929,
+                    "finger_thickness" : 0.25,
+                    "apply_mod" : 1,
+                    "parent_armature" : 1,
+                    "sub_level" : 1
+                },
+                "blenderkitUI" : {
+                    "assetbar_on" : 0,
+                    "turn_off" : 0
+                },
+                "pbr_material_settings" : {},
+                "uuid" : "545d480d-6026-49d3-ba28-abe7907529a8",
+                "assets reported" : {},
+                "b_export" : 1,
+                "export_path" : "/media/nafergo/KINGSTON/Viriato-3D/aframe/1/",
+                "s_output" : "exporting...",
+                "b_bake_lightmap" : 0,
+                "b_settings" : 1,
+                "b_renderer" : 1,
+                "b_player" : 1,
+                "b_raycast" : 1,
+                "b_stats" : 0,
+                "b_joystick" : 0,
+                "b_cubemap" : 1,
+                "b_camera_cube" : 1,
+                "b_show_env_sky" : 0,
+                "b_cubemap_background" : 0,
+                "b_cast_shadows" : 1,
+                "b_use_default_lights" : 1,
+                "b_aa" : 1,
+                "b_colorManagement" : 1,
+                "b_physicallyCorrectLights" : 1,
+                "b_interactive" : 1,
+                "f_player_speed" : 0.5,
+                "f_player_height" : 1.899999976158142,
+                "thumbs_mats_dielectrics_node" : 26
+            },
+            "name" : "Scene"
+        }
+    ]
+}

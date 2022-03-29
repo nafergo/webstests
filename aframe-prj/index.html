@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+        <head>
+        <title>VR Application</title>
+        <link rel="icon" type="image/png" href="favicon.ico"/>
+        <meta name="description" content="3D Application">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/aframe.1.1.min.js"></script>        
+        <script src="js/aframe-extras.6.1.1.min.js"></script>
+        <script type="text/javascript" src="js/webxr.js"></script>
+        <script type="text/javascript" src="js/joystick.js"></script>
+        <script type="text/javascript" src="js/camera-cube-env.js"></script>
+        <script type="text/javascript" src="js/aframe-physics-system.min.js"></script> 
+        <script type="text/javascript" src="js/aframe-environment-component.min.js"></script> 
+        <script type="text/javascript" src="js/aframe-extras.controls.min.js"></script> 
+        <script type="text/javascript" src="js/aframe-extras.loaders.min.js"></script> 
+        <script type="text/javascript" src="js/aframe-extras.misc.min.js"></script> 
+        <script type="text/javascript" src="js/aframe-extras.pathfinding.min.js"></script> 
+        <script type="text/javascript" src="js/aframe-extras.primitives.min.js"></script>   
+        <script type="text/javascript" src="js/aframe-event-set-component.min.js"></script>   
+        <script type="text/javascript" src="js/instanced-mesh.js"></script>   
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="init();">
+        <a-scene   shadow="type: pcfsoft; autoUpdate: true;" renderer="antialias: true; colorManagement: true; physicallyCorrectLights: true;">
+            <!-- Assets -->
+            <a-assets>
+                <a-asset-item id="albergaria" src="./assets/albergaria.glb"></a-asset-item>
+                <a-asset-item id="casa" src="./assets/casa.glb"></a-asset-item>
+                <a-asset-item id="misericordia" src="./assets/misericordia.glb"></a-asset-item>
+                <a-asset-item id="pelourinho" src="./assets/pelourinho.glb"></a-asset-item>
+                <a-asset-item id="solar" src="./assets/solar.glb"></a-asset-item>
+                <a-asset-item id="via" src="./assets/via.glb"></a-asset-item>                
+                                
+               <a-asset-item id="tree" src="./assets/tree1.glb" response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
+
+                <a-asset-item id="rock1" src="./assets/rock1.glb"></a-asset-item>
+                <a-asset-item id="grass.001" src="./assets/grass1.glb"></a-asset-item>
+                <a-asset-item id="peixinho.001" src="./assets/peixinho1.glb"></a-asset-item>
+
+            
+            
+				<a-asset-item id="estrada" src="./assets/estrada.gltf"></a-asset-item>
+				<a-asset-item id="nav-mesh" src="./assets/nav-mesh.gltf"></a-asset-item>
+				<a-asset-item id="Plane" src="./assets/Plane.gltf"></a-asset-item>
+				<a-asset-item id="Plane.001" src="./assets/Plane.001.gltf"></a-asset-item>
+				<a-asset-item id="Screenshot from 2022-02-24 18-18-03" src="./assets/Screenshot from 2022-02-24 18-18-03.gltf"></a-asset-item>
+				<a-asset-item id="Suzanne" src="./assets/Suzanne.gltf"></a-asset-item>
+                <img id="sky"                 src="./resources/sky.jpg">
+                <img id="icon-play"           src="./resources/play.png">
+                <img id="icon-pause"          src="./resources/pause.png">
+                <img id="icon-play-skip-back" src="./resources/play-skip-back.png">
+                <img id="icon-mute"           src="./resources/mute.png">
+                <img id="icon-volume-low"     src="./resources/volume-low.png">
+                <img id="icon-volume-high"    src="./resources/volume-high.png">
+            </a-assets>
+
+            <!-- Entities -->
+               <a-entity environment="active:true;preset:default;ground: none; shadow:true;"></a-entity>
+
+
+        <a-entity id="#albergaria" animation-mixer gltf-model="#albergaria" scale="1 1 1" position="98.0 0.0 -12.6" rotation="0 -40 0" visible="true" shadow="cast: true" ></a-entity>
+            <a-entity id="#casa" animation-mixer gltf-model="#casa" scale="1 1 1" position="-58.27055358886719 0.0006553232669830322 51.32279968261719" visible="true" shadow="cast: true" ></a-entity>
+        <a-entity id="#solar" animation-mixer gltf-model="#solar" scale="1 1 1" position="26.4 0.0 -62.1" rotation="0 -40 0" visible="true" shadow="cast: true" ></a-entity>
+            <a-entity id="#via" animation-mixer gltf-model="#via" scale="1 1 1" position="-73. 1.5 -1.2" visible="true" shadow="cast: true" ></a-entity>
+            <a-entity id="#pelourinho" animation-mixer gltf-model="#pelourinho" scale="1 1 1" position="13.6 0.0 22.6" rotation="0 -40 0" visible="true" shadow="cast: true" ></a-entity>
+            <a-entity id="#misericordia" animation-mixer gltf-model="#misericordia" scale="1 1 1" rotation="0 -40 0" position="-6.2 0.0 75.5" visible="true" shadow="cast: true" ></a-entity>
+
+
+                
+          
+
+     <a-entity id="mesh1" gltf-model="#tree" scale="1 1 1" instanced-mesh></a-entity>
+
+
+            <a-entity id="#tree0" scale="5 5 5" rotation="0 70 0" position="93.5780029296875 0 69.7087631225586" instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree1" scale="1 1 1" rotation="0 50 0" position="83.5780029296875 0 -67.7087631225586" instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree2" scale="4 4 4" rotation="0 10 0"  position="-68.19247436523438 0 -80.44161224365234" instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree3" scale="1 1 1" rotation="0 70 0"  position="-98.4329833984375 0 95.29660034179688" instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree4" scale="4 4 4" rotation="0 10 0"  position="71.3756866455078 0 -95.82713317871094" instanced-mesh-member="mesh:#mesh1"></a-entity>
+
+            <a-entity id="#tree5" scale="1 1 1" position="51.1564178466797 -0.00232696533203125 89.0775375366211" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree6" scale="3 3 3" position="-35.77088928222656 -0.00232696533203125 11.81038665771484" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree7" scale="4 4 4" position="38.9541015625 -0.00232696533203125 17.19590759277344" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree8" scale="3 3 3" position="-83.5780029296875 -0.00232696533203125 14.18305206298828" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree9" scale="1 1 1" position="-68.19247436523438 -0.00232696533203125 16.91590118408203" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree10" scale="4 4 4" position="71.3756866455078 -0.00232696533203125 32.30142211914062" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree11" scale="1 1 1" position="20.0522918701172 -0.00232696533203125 82.44584655761719" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree12" scale="3 3 3" position="14.66676330566406 -0.00232696533203125 95.17869567871094" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree13" scale="1 1 1" position="17.8499755859375 -0.00232696533203125 11.56422424316406" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree14" scale="2 2 2" position="-63.8951110839844 -0.00232696533203125 70.28775024414062" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree15" scale="2 2 2" position="-48.50958251953125 -0.00232696533203125 83.02059936523438" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree16" scale="1 1 1" position="-51.69281005859375 -0.00232696533203125 98.4061279296875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree17" scale="4 4 4" position="12.8682632446289 -0.00232696533203125 42.58262252807617" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree18" scale="3 3 3" position="-34.48757934570312 -0.00232696533203125 29.731868743896484" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree19" scale="2 2 2" position="19.10204315185547 -0.00232696533203125 42.464717864990234" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree20" scale="5 5 5" position="78.33038330078125 -0.00232696533203125 17.573772430419922" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree21" scale="1 1 1" position="62.94485473632812 -0.00232696533203125 30.306621551513672" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree22" scale="3 3 3" position="66.12808227539062 -0.00232696533203125 45.6921501159668" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree23" scale="1 1 1" position="24.247657775878906 -0.00232696533203125 53.35838317871094" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree24" scale="3 3 3" position="45.866973876953125 -0.00232696533203125 40.50762939453125" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree25" scale="1 1 1" position="30.48143768310547 -0.00232696533203125 53.240478515625" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree26" scale="4 4 4" position="89.70977783203125 -0.00232696533203125 28.3495330810547" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree27" scale="1 1 1" position="74.32424926757812 -0.00232696533203125 41.08238220214844" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree28" scale="3 3 3" position="77.50747680664062 -0.00232696533203125 56.46791076660156" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree29" scale="3 3 3" position="2.856477737426758 -0.00232696533203125 17.53192138671875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree30" scale="1 1 1" position="24.475793838500977 -0.00232696533203125 4.68116760253906" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree31" scale="1 1 1" position="9.09025764465332 -0.00232696533203125 17.4140167236328" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree32" scale="5 5 5" position="-68.31859588623047 -0.00232696533203125 92.5230712890625" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree33" scale="1 1 1" position="-52.933067321777344 -0.00232696533203125 05.25592041015625" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree34" scale="4 4 4" position="-56.116294860839844 -0.00232696533203125 20.64144897460938" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree35" scale="5 5 5" position="-37.63397216796875 -0.00232696533203125 -87.8172302246094" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree36" scale="1 1 1" position="-16.0146541595459 -0.00232696533203125 74.96649169921875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree37" scale="3 3 3" position="-31.400190353393555 -0.00232696533203125 87.6993408203125" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree38" scale="2 2 2" position="27.828147888183594 -0.00232696533203125 62.8083801269531" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree39" scale="2 2 2" position="12.442619323730469 -0.00232696533203125 75.5412292480469" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree40" scale="2 2 2" position="15.625846862792969 -0.00232696533203125 90.9267578125" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree41" scale="1 1 1" position="22.719715118408203 -0.00232696533203125 46.6429748535156" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree42" scale="5 5 5" position="44.33903503417969 -0.00232696533203125 33.792236328125" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree43" scale="4 4 4" position="-28.9534969329834 -0.00232696533203125 46.52508544921875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree44" scale="1 1 1" position="-88.18183898925781 -0.00232696533203125 21.6341247558594" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree45" scale="3 3 3" position="72.79631042480469 -0.00232696533203125 34.3669738769531" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree46" scale="2 2 2" position="-75.97953796386719 -0.00232696533203125 49.75250244140625" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree47" scale="2 2 2" position="-18.21604919433594 -0.00232696533203125 75.6738586425781" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree48" scale="3 3 3" position="-39.8353729248047 -0.00232696533203125 62.8231201171875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree49" scale="1 1 1" position="24.44983673095703 -0.00232696533203125 75.55596923828125" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree50" scale="3 3 3" position="83.6781768798828 -0.00232696533203125 -50.6650085449219" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree51" scale="1 1 1" position="68.2926483154297 -0.00232696533203125 -63.3978576660156" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree52" scale="4 4 4" position="71.4758758544922 -0.00232696533203125 -78.78338623046875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree53" scale="2 2 2" position="24.4881591796875 -0.00232696533203125 -30.5194091796875" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree54" scale="1 1 1" position="-46.10748291015625 -0.00232696533203125 17.66867065429688" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree55" scale="3 3 3" position="30.7219543457031 -0.00232696533203125 30.40151977539062" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree56" scale="1 1 1" position="-89.9502868652344 -0.00232696533203125 05.51055908203125" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree57" scale="5 5 5" position="74.56475830078125 -0.00232696533203125 18.243408203125" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+            <a-entity id="#tree58" scale="1 1 1" position="-77.74798583984375 -0.00232696533203125 33.62893676757812" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree59" scale="1 1 1" position="34.4197692871094 -0.00232696533203125 33.65545654296875" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree60" scale="3 3 3" position="56.0390930175781 -0.00232696533203125 -20.8047180175781" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree61" scale="4 4 4" position="40.653564453125 -0.00232696533203125 -33.5375671386719" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree62" scale="2 2 2" position="-99.88189697265625 -0.00232696533203125 -08.6466064453125" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree63" scale="1 1 1" position="84.4963684082031 -0.00232696533203125 -21.37945556640625" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+            <a-entity id="#tree64" scale="5 5 5" position="-87.6795959472656 -0.00232696533203125 -36.7649841308594" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+
+
+
+               
+            
+               
+            
+			<a-entity id="#estrada" gltf-model="#estrada" scale="1 1 1" position="14.2042236328125 -0.0471402108669281 52.62306213378906" visible="true" shadow="cast: true" ></a-entity>
+			<a-entity id="#nav-mesh" gltf-model="#nav-mesh" scale="1 1 1" position="14.204230308532715 -0.0471402108669281 52.62306213378906" visible="true" shadow="cast: true" ></a-entity>
+			<a-entity id="#Plane" gltf-model="#Plane" scale="1 1 1" position="-1.5447062253952026 0.09772644191980362 20.378082275390625" visible="true" shadow="cast: true" ></a-entity>
+			<a-entity id="#Plane.001" gltf-model="#Plane.001" scale="1 1 1" position="-1.6782536506652832 -2.526031017303467 20.365747451782227" visible="true" shadow="cast: true" ></a-entity>
+			<a-entity id="#Screenshot from 2022-02-24 18-18-03" gltf-model="#Screenshot from 2022-02-24 18-18-03" scale="1 1 1" position="12.338815689086914 -0.9008647799491882 19.31291961669922" visible="true" shadow="cast: true" ></a-entity>
+			<a-entity id="#Suzanne" gltf-model="#Suzanne" scale="1 1 1" position="-4.77449893951416 1.8083624839782715 41.529815673828125" visible="true" shadow="cast: true"  animation= "property: rotation; to: 0 360 0; loop: true; dur: 10000" ></a-entity>
+
+            <!-- Camera -->
+            <a-entity id="player" 
+                position="0 -0.2 0" 
+                movement-controls="speed: 0.5;">
+                <a-entity id="camera" 
+                    camera="near: 0.001" 
+                    position="0 1.899999976158142 0" 
+                    look-controls="pointerLockEnabled: true">
+                        <a-entity id="cursor" cursor="fuse: false;" animation__click="property: scale; startEvents: click; easing: easeInCubic; dur: 50; from: 	0.1 0.1 0.1; to: 1 1 1"
+                            position="0 0 -0.1"
+                            geometry="primitive: circle; radius: 0.001;"
+                            material="color: #CCC; shader: flat;"
+                            raycaster = "far: 10.0; interval: 1500.0; objects: .clickable,.links">
+                        </a-entity>
+                </a-entity>
+                    <a-entity id="leftHand" oculus-touch-controls="hand: left" vive-controls="hand: left"></a-entity>
+					<a-entity id="rightHand" laser-controls oculus-touch-controls="hand: right" vive-controls="hand: right" raycaster = "far: 10.0; interval: 1500.0; objects: .clickable,.links"></a-entity>
+            </a-entity>
+
+            <!-- Lights -->
+            <a-entity light="intensity: 2.0; castShadow: true; shadowBias: -0.001; shadowCameraFar: 501.02; shadowCameraBottom: 12; shadowCameraFov: 101.79; shadowCameraNear: 0; shadowCameraTop: -5; shadowCameraRight: 10; shadowCameraLeft: -10; shadowRadius: 2" position="1.36586 7.17965 1"></a-entity>
+			<a-entity light="type: ambient; intensity: 0.1"></a-entity>
+
+            <!-- Sky -->
+            <a-sky color="#ECECEC"></a-sky>
+        </a-scene>
+    </body>
+</html>
+<!--  -->
