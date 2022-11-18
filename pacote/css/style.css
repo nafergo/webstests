@@ -1,0 +1,30 @@
+/* Custom Stylesheet */
+/**
+ *
+ *
+ *
+ * Made By Alfobre.com
+ */
+
+
+body {
+line-height: 2rem;
+font-size: 1.1rem;
+
+}
+
+.sketchfab-embed-wrapper {}
+
+nav a {text-transform: uppercase;}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav
+{-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0);}
+
+.sidenav li > a {font-weight: 400;}
+
+ul.lista-referencias li {margin-top: 0.5em !important;}
+
+p.lista-ficha-nome {text-transform: uppercase; font-size: 1.5rem; margin-bottom: 1em; margin-top: 15px !important;}
+ul.lista-ficha li span.categoria {text-transform: uppercase;}
+ul.lista-ficha {margin-top: 15px !important;}
