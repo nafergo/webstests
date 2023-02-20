@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cripta Arqueológica do Castelo de Alcácer - Visita 360</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery.modal.min.css" />
+<link rel="stylesheet" href="css/simple-lightbox.min.css" />
+<link rel="stylesheet" href="css/alcacer.css">
+<link rel="stylesheet" href="css/linkview.css">
+<link rel="stylesheet" href="css/linkhotspots.css">
+<link rel="stylesheet" href="css/infoboard.css">
+<link rel="stylesheet" href="css/infohotspots.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+      <a href="javascript:void(0)" class="scene" data-id="0-0"><li class="text">Entrada</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="1-1"><li class="text">Receção</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="2-2"><li class="text">Galeria Expositiva</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="3-3"><li class="text">A Sala das Pedras</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="4-4"><li class="text">Os elementos arquitetónicos</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="5-5"><li class="text">Do Convento ao Período Medieval</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="6-6"><li class="text">Qaṣr Abī Dānis</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="7-7"><li class="text">Dos Almorávidas aos Omíadas</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="8-8"><li class="text">A Casa Romana</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="9-9"><li class="text">O Bairro</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="10-10"><li class="text">A Calçada</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="11-10b"><li class="text">A Casa Islâmica</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="12-11"><li class="text">Os santuários</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="13-11a"><li class="text">O santuário romano</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="14-11b"><li class="text">O santuário da idade do ferro</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="15-11c"><li class="text">O pátio do Santuário</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="16-12"><li class="text">O espólio</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="18-15"><li class="text">A zona habitacional</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="19-16"><li class="text">As estruturas</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="21-17"><li class="text">Beuipo - 2ª Idade do Ferro</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="22-18"><li class="text">Beuipo - 1ª Idade do Ferro</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="23-19"><li class="text">A sala do Tesouro</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="24-20"><li class="text">As moedas</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="25-21"><li class="text">Os adornos</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="26-22"><li class="text">O poço</li></a>
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<div id="toggleDeviceOrientation">
+
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.svg">
+  <img class="icon on" src="img/windowed.svg">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+
+<div id="welcome-modal" class="modal">
+    <div class="modal_content_main hidemodal-small">
+        <div class="modal_content_50 modal_content_left welcome-logo">        </div>
+
+        <div class="modal_content_50 modal_content_right">
+        <div class="welcome-right">
+          <h1 id="welcome-title">Visita Virtual 360</h1>
+          <h3><a id="start-button" href="#" rel="modal:close">ENTRAR</a></h3>
+          <p><br /></p>
+          <h6 id="welcome-footer">&#9400; 2021 | CM de Alcácer do Sal</h6>
+        </div>
+        </div>
+    </div>
+    <div class="modal_content_main hidemodal-desktop">
+        <div class="welcome-right">
+        <img src="images/logo2.jpg" class="responsive-image">
+
+          <h1 id="welcome-title">Visita Virtual 360</h1>
+          <h3><a id="start-button" href="#" rel="modal:close">ENTRAR</a></h3>
+          <p><br /></p>
+          <h6 id="welcome-footer">&#9400; 2021 | CM de Alcácer do Sal</h6>
+        </div>
+    </div>
+</div>
+
+
+<a href="#ficha-modal" class="modal_about modali" rel="modal:open"><img class="icon" src="img/people.svg"></a>
+
+<div id="ficha-modal" class="modal">
+    <div class="modal_content_main hidemodal-small">
+        <div class="modal_content_70 modal_content_left">
+          <h1>FICHA TÉCNICA</h1>
+          <h2>Projecto de Valorização da Cripta</h2>
+          <ul>
+            <li><h3>Promotor</h3></li>
+            <li>Direção Regional de Cultura do Alentejo</li>
+            <li>Câmara Municipal de Alcácer do Sal</li>
+          </ul>
+
+          <ul>
+            <li><h3>Coordenação executiva do projeto</h3></li>
+            <li>Manuel Lacerda (IPPAR), Miguel Soromenho (IPPAR), Alexandre Braz Mimoso (IPPAR) e Jorge Vila Nova Alves (IPPAR).</li>
+            <li><h3>Coordenação científica</h3></li>
+            <li>António Cavaleiro Paixão (IPPAR) e Maria Filomena Barata (IPPAR/DRE).</li>
+            <li><h3>Coordenação geral</h3></li>
+            <li>Esmeralda Gomes (IPPAR) e Frederico Tátá Regala (IPPAR).</li>
+
+            <li><h3>Projecto</h3></li>
+            <li>Canon, centro de estudos e projectos, Lda. | Diogo Pimentel e Hugo Venade</li>
+            <li>Sentido: designers associados, Lda. | João Camacho e Nuno Gonçalves</li>
+
+            <li><h3>Coordenação Geral da Intervenção na Cripta</h3></li>
+            <li>Alexandre Braz Mimoso (IPPAR).</li>
+
+            <li><h3>Guia-base da Cripta</h3></li>
+            <li>Esmeralda Gomes (IPPAR) e Frederico Tátá Regala (IPPAR).</li>
+
+            <li><h3>Intervenção na Cripta Arqueológica</h3></li>
+            <li>Consórcio Brera, Sociedade de Construções e Representações.</li>
+          </ul>
+
+           
+          <h2>MUSEOGRAFIA</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Museografia</span> Sentido: designers associados, Lda.</li>
+          <li><span class="nome-creditos">Arquitetura Expositiva</span> Sentido: designers associados, Lda.</li>
+          <li><span class="nome-creditos">Design Gráfico</span> João Camacho e Nuno Gonçalves.</li>
+          <li><span class="nome-creditos">Seleção de objetos arqueológicos</span> Esmeralda Gomes e Frederico Tátá Regala.</li>
+          <li><span class="nome-creditos">Produção de conteúdos</span> Esmeralda Gomes e Frederico Tátá Regala.</li>
+          <li><span class="nome-creditos">Ilustrações</span> Nuno Gonçalves e João Camacho.</li>
+          <li>Equimuseus, Equipamentos para museus, Lda.</li>
+          <li><span class="nome-creditos">Execução técnica</span> Esmeralda Gomes e Frederico Tátá Regala.</li>
+          </ul>
+           
+          <h2>Documentário</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Coordenação</span> Alexandre Vaz Mimoso, Jorge Vila A. Nova Alves.</li>
+          <li><span class="nome-creditos">Produção</span> Bustrope, Produção de Audivisuais, Lda.</li>
+          <li><span class="nome-creditos">Imagem</span> Raul Caldas e Tânea Tavares.</li>
+          <li><span class="nome-creditos">Edição</span> Micael Espinha</li>
+          <li><span class="nome-creditos">Locução</span> Teresa Fernandes e Valerie Bradell.</li>
+          <li><span class="nome-creditos">Som</span> Bus Pátio Das Cantigas</li>
+          <li><span class="nome-creditos">Direção de Fotografia</span> Raúl Caldas</li>
+          <li><span class="nome-creditos">Layot & After Effects</span> Tânea Tavares</li>
+          <li><span class="nome-creditos">Pós-produção</span> David Gabriel</li>
+          <li><span class="nome-creditos">Coordenação</span> Alexandre Braz Mimoso e Jorge Vila Nova Alves.</li>
+          <li><span class="nome-creditos">Direção de Produção</span> José Luís Reis e Patrícia André</li>
+          <li><span class="nome-creditos">Assistência de Realização</span> Tânea Tavares</li>
+          <li><span class="nome-creditos">Realização</span> David Gabriel</li>
+          <li><span class="nome-creditos">Guião</span> Esmeralda Gomes e Frederico Tátá Regala</li>
+          <li><span class="nome-creditos">Tradução</span> Maia Langley</li>
+          </ul>
+
+        </div>
+        <div class="modal_content_30 modal_content_right">
+          <h2>Horário de funcionamento</h2>
+          <ul>
+            <li><h3>Verão (julho e agosto)</h3></li>
+            <li>9h30-13h; 15h-18h30</li>
+            <li><h3>Inverno</h3></li>
+            <li>9h-12h30; 14h-17h30</li>
+            <li> &nbsp;</li>
+            <li><span class="small">NOTA: A última entrada é feita sempre meia-hora antes da hora de encerramento.</span></li>
+            <li> &nbsp;</li>
+            <li><span class="small">A cripta encerra à segunda-feira.</span></li>
+          </ul>
+
+          <h2>Contactos</h2>
+          <ul>
+            <li>Rua do Convento de Aracoelli 12</li>
+            <li>7580-131 Alcácer do Sal</li>
+            <li> &nbsp;</li>
+            <li><span class="material-icons">mail_outline</span> cripta.arqueologica@m-alcacerdosal.pt</li>
+            <li><span class="material-icons">phone</span> 265 612 058</li>
+          </ul>
+        </div>
+    </div>
+    <div class="modal_content_main_small hidemodal-desktop">
+        <div class="modal_content_100">
+          <h1>FICHA TÉCNICA</h1>
+          <h2>Projecto de Valorização da Cripta</h2>          
+          <ul>
+            <li><h3>Promotor</h3></li>
+            <li>Direção Regional de Cultura do Alentejo</li>
+            <li>Câmara Municipal de Alcácer do Sal</li>
+          </ul>
+
+          <ul>
+            <li><h3>Coordenação executiva do projeto</h3></li>
+            <li>Manuel Lacerda (IPPAR), Miguel Soromenho (IPPAR), Alexandre Braz Mimoso (IPPAR) e Jorge Vila Nova Alves (IPPAR).</li>
+            <li><h3>Coordenação científica</h3></li>
+            <li>António Cavaleiro Paixão (IPPAR) e Maria Filomena Barata (IPPAR/DRE).</li>
+            <li><h3>Coordenação geral</h3></li>
+            <li>Esmeralda Gomes (IPPAR) e Frederico Tátá Regala (IPPAR).</li>
+
+            <li><h3>Projecto</h3></li>
+            <li>Canon, centro de estudos e projectos, Lda. | Diogo Pimentel e Hugo Venade</li>
+            <li>Sentido: designers associados, Lda. | João Camacho e Nuno Gonçalves</li>
+
+            <li><h3>Coordenação Geral da Intervenção na Cripta</h3></li>
+            <li>Alexandre Braz Mimoso (IPPAR).</li>
+
+            <li><h3>Guia-base da Cripta</h3></li>
+            <li>Esmeralda Gomes (IPPAR) e Frederico Tátá Regala (IPPAR).</li>
+
+            <li><h3>Intervenção na Cripta Arqueológica</h3></li>
+            <li>Consórcio Brera, Sociedade de Construções e Representações.</li>
+          </ul>
+
+           
+          <h2>MUSEOGRAFIA</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Museografia</span> Sentido: designers associados, Lda.</li>
+          <li><span class="nome-creditos">Arquitetura Expositiva</span> Sentido: designers associados, Lda.</li>
+          <li><span class="nome-creditos">Design Gráfico</span> João Camacho e Nuno Gonçalves.</li>
+          <li><span class="nome-creditos">Seleção de objetos arqueológicos</span> Esmeralda Gomes e Frederico Tátá Regala.</li>
+          <li><span class="nome-creditos">Produção de conteúdos</span> Esmeralda Gomes e Frederico Tátá Regala.</li>
+          <li><span class="nome-creditos">Ilustrações</span> Nuno Gonçalves e João Camacho.</li>
+          <li>Equimuseus, Equipamentos para museus, Lda.</li>
+          <li><span class="nome-creditos">Execução técnica</span> Esmeralda Gomes e Frederico Tátá Regala.</li>
+          </ul>
+           
+          <h2>Documentário</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Coordenação</span> Alexandre Vaz Mimoso, Jorge Vila A. Nova Alves.</li>
+          <li><span class="nome-creditos">Produção</span> Bustrope, Produção de Audivisuais, Lda.</li>
+          <li><span class="nome-creditos">Imagem</span> Raul Caldas e Tânea Tavares.</li>
+          <li><span class="nome-creditos">Edição</span> Micael Espinha</li>
+          <li><span class="nome-creditos">Locução</span> Teresa Fernandes e Valerie Bradell.</li>
+          <li><span class="nome-creditos">Som</span> Bus Pátio Das Cantigas</li>
+          <li><span class="nome-creditos">Direção de Fotografia</span> Raúl Caldas</li>
+          <li><span class="nome-creditos">Layot & After Effects</span> Tânea Tavares</li>
+          <li><span class="nome-creditos">Pós-produção</span> David Gabriel</li>
+          <li><span class="nome-creditos">Coordenação</span> Alexandre Braz Mimoso e Jorge Vila Nova Alves.</li>
+          <li><span class="nome-creditos">Direção de Produção</span> José Luís Reis e Patrícia André</li>
+          <li><span class="nome-creditos">Assistência de Realização</span> Tânea Tavares</li>
+          <li><span class="nome-creditos">Realização</span> David Gabriel</li>
+          <li><span class="nome-creditos">Guião</span> Esmeralda Gomes e Frederico Tátá Regala</li>
+          <li><span class="nome-creditos">Tradução</span> Maia Langley</li>
+          </ul>
+
+        </div>
+        <div class="modal_content_100">
+          <h2>Horário de funcionamento</h2>
+          <ul>
+            <li><h3>Verão (julho e agosto)</h3></li>
+            <li>9h30-13h; 15h-18h30</li>
+            <li><h3>Inverno</h3></li>
+            <li>9h-12h30; 14h-17h30</li>
+            <li> &nbsp;</li>
+            <li><span class="small">NOTA: A última entrada é feita sempre meia-hora antes da hora de encerramento.</span></li>
+            <li> &nbsp;</li>
+            <li><span class="small">A cripta encerra à segunda-feira.</span></li>
+          </ul>
+
+          <h2>Contactos</h2>
+          <ul>
+            <li>Rua do Convento de Aracoelli 12</li>
+            <li>7580-131 Alcácer do Sal</li>
+            <li> &nbsp;</li>
+            <li><span class="material-icons">mail_outline</span> cripta.arqueologica@m-alcacerdosal.pt</li>
+            <li><span class="material-icons">phone</span> 265 612 058</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+<!--
+<a href="mapa.html" class="modal_map modali" rel="modal:open"><img class="icon" src="img/map.svg"></a>
+-->
+<!-- mapa -->
+<a href="#mapa_mmpn" class="modal_map  modali" rel="modal:open"><img class="icon" src="img/map.svg"></a>
+
+<div id="mapa_mmpn" class="modal">
+  <div class="modal_content_main hidemodal-small">
+    <div class="modal_content_60 modal_content_left">
+      <h1><span class="modal_titulo">Mapa da Visita</span></h1><br>
+      <div id="mapa-fundo"></div>
+    </div>
+  <div class="modal_content_40 modal_content_right" style="padding-left:5%;">
+    <div id="mapList">
+      <ul class="scenes">
+      <li class="text"><span> &nbsp;</span></li>
+      <li class="text"><span> &nbsp;</span></li>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="0-0"><li class="text"><span>1 Entrada</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="1-1"><li class="text"><span>2 Receção</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="2-2"><li class="text"><span>3 Galeria Expositiva</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="3-3"><li class="text"><span>4 A Sala das Pedras</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="4-4"><li class="text"><span>5 Os elementos arquitetónicos</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="5-5"><li class="text"><span>6 Do Convento ao Período Medieval</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="6-6"><li class="text"><span>7 Qaṣr Abī Dānis</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="7-7"><li class="text"><span>8 Dos Almorávidas aos Omíadas</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="8-8"><li class="text"><span>9 A Casa Romana</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="9-9"><li class="text"><span>10 O Bairro</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="10-10"><li class="text"><span>11 A Calçada</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="11-10b"><li class="text"><span>12 A Casa Islâmica</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="12-11"><li class="text"><span>13 Os santuários</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="13-11a"><li class="text"><span>14 O santuário romano</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="14-11b"><li class="text"><span>15 O santuário da idade do ferro</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="15-11c"><li class="text"><span>16 O pátio do Santuário</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="16-12"><li class="text"><span>17 O espólio</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="18-15"><li class="text"><span>18 A zona habitacional</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="19-16"><li class="text"><span>19 As estruturas</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="21-17"><li class="text"><span>20 Beuipo - 2ª Idade do Ferro</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="22-18"><li class="text"><span>21 Beuipo - 1ª Idade do Ferro</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="23-19"><li class="text"><span>22 A sala do Tesouro</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="24-20"><li class="text"><span>23 As moedas</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="25-21"><li class="text"><span>24 Os adornos</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="26-22"><li class="text"><span>25 O poço</span></li></a>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="modal_content_main_small hidemodal-desktop">
+    <h1><span class="modal_titulo">Mapa da Visita</span></h1>
+    <img src="images/mapas.svg" class="responsive-image">
+  <div id="mapList">
+    <ul class="scenes">
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="0-0"><li class="text"><span>1 Entrada</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="1-1"><li class="text"><span>2 Receção</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="2-2"><li class="text"><span>3 Galeria Expositiva</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="3-3"><li class="text"><span>4 A Sala das Pedras</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="4-4"><li class="text"><span>5 Os elementos arquitetónicos</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="5-5"><li class="text"><span>6 Do Convento ao Período Medieval</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="6-6"><li class="text"><span>7 Qaṣr Abī Dānis</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="7-7"><li class="text"><span>8 Dos Almorávidas aos Omíadas</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="8-8"><li class="text"><span>9 A Casa Romana</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="9-9"><li class="text"><span>10 O Bairro</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="10-10"><li class="text"><span>11 A Calçada</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="11-10b"><li class="text"><span>12 A Casa Islâmica</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="12-11"><li class="text"><span>13 Os santuários</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="13-11a"><li class="text"><span>14 O santuário romano</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="14-11b"><li class="text"><span>15 O santuário da idade do ferro</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="15-11c"><li class="text"><span>16 O pátio do Santuário</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="16-12"><li class="text"><span>17 O espólio</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="18-15"><li class="text"><span>18 A zona habitacional</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="19-16"><li class="text"><span>19 As estruturas</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="21-17"><li class="text"><span>20 Beuipo - 2ª Idade do Ferro</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="22-18"><li class="text"><span>21 Beuipo - 1ª Idade do Ferro</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="23-19"><li class="text"><span>22 A sala do Tesouro</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="24-20"><li class="text"><span>23 As moedas</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="25-21"><li class="text"><span>24 Os adornos</span></li></a>
+    <a href="javascript:void(0)" rel="modal:close" class="scene" data-id="26-22"><li class="text"><span>25 O poço</span></li></a>
+    </ul>
+  </div>
+</div>
+</div>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<div id="rio_sado" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/1/sado1b.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/1/sado1.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/1/sado2b.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/1/sado2.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Rio Sado</span></h1>
+        <p>O rio Sado nasce na serra da Vigia, nas proximidades de Ourique, a uma altitude de 230 metros, percorrendo cerca de 180 quilómetros até à sua foz, junto à cidade de Setúbal. A riqueza a nível dos recursos faunísticos marino-estuarinos, produção salineira e as boas condições de navegabilidade e portuária foram condicionantes para a fixação humana ao longo do estuário do Sado e seus afluentes.</p>
+      </div>
+    </div>
+</div>
+
+<div id="doze" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/12/12_small.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/12/12.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Cláudio</span></h1>
+      <p>Busto do imperador romano Cláudio (<span class="italic">Tiberius Claudius Nero Germanicus</span>, 10 a.C. - 54 d.C.).</p>
+      <p>Esta peça faria parte de uma estátua de corpo inteiro. Os retratos romanos imperiais encontrados em Portugal são, na sua maioria, cabeças de encaixe, elaboradas para serem inseridas numa estátua, isto é, corpos aos quais se acrescentavam as cabeças, consoante o imperador que estivesse no poder.</p>
+      <p>Foi recolhida durante a demolição da Igreja de São Vicente em Alcácer do Sal. A peça entrou no Museu de Alcácer do Sal em 1896, depositada por Faria Gentil.</p>
+      </div>
+    </div>
+</div>
+
+<div id="doze_b" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/12b/12b_small.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/12b/12b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Fragmento de cornija</span></h1>
+      <p>Cornija incompleta, mas que corresponde a um dos ângulos do edifício, pois conserva duas faces decoradas.</p>
+      <p>A ornamentação é muito profusa e organiza-se em vários registos, de acordo com a própria morfologia da cornija. Assim, na base, junto à face de assentamento inferior, observa¬se um cordão, de relevo saliente, decorado pelo motivo tradicional de astrágalos e óvulos. A superfície apresenta acentuado desgaste pelo que não é possível perceber a pormenorização dos motivos e, por tal facto, inferir se a simplicidade que apresentam será mais resultado do desgaste ou se do imperfeito acabamento ornamental.</p>
+      <p>Faria parte, possivelmente, de um edifício do Fórum romano.</p>
+      <p><span class="cronologia">Cronologia</span> Séculos I d.C./II d.C.</p>
+      </div>
+    </div>
+</div>
+
+<div id="dezasseis" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/16/16_small.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/16/16.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Fase Conventual</span></h1>
+      <h2><span class="modal_titulo">Pia de água benta</span></h2>
+      <p>Pia de água benta de suspensão, encimando o espaldar um queribum e dois orifícios na parte superior.</p>
+      <p>Possui lateralmente duas colunas que limitam o retábulo onde está desenhada uma cruz alusiva ao martírio de Cristo. A bacia circular de bordo simples saliente possui a sigla IHS com cruz no H referência à Companhia de Jesus.</p>
+      <p>As pias de água-benta em faiança serviam de oratórios individuais. Estaria colocada numa <span class="italic">cella</span> de uma das freiras do convento de <span class="italic">Aracoelli</span>.</p>
+      <p><span class="cronologia">Cronologia</span> Século XVIII</p>
+      </div>
+    </div>
+</div>
+
+<div id="dezassete" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/17/17.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/17/17.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">O Medieval Cristão</span></h1>
+      <h2><span class="modal_titulo">Taça de faiança</span></h2>
+      <p>A designação Faiança tem origem na cidade italiana de Faenza, importante centro produtor e exportador de cerâmica desde o séc. XV. Atualmente, refere-se a um grande grupo de produtos cerâmicos de PASTA mais ou menos porosa, e mais frequentemente branca, recoberta por um revestimento de VIDRO com ou sem decoração. Inclui-se neste grupo uma grande parte das loiças utilitárias, de mesa e decorativas.</p>
+      <p>As produções de cerâmica branca, de pastas claras estanhíferas surgem em Portugal nos finais do século XIV com o seu auge nos séculos XV a XIX. São sobretudo oriundas das oficinas de Sevilha e de Málaga que fazem as suas produções chegar a todo o mediterrâneo.</p>
+      <p>A origem da produção de faiança em Portugal remonta à dita louça “malegueira”, produção que surge documentada em Lisboa no século XVI, associada a artesãos andaluzes. No entanto, estas primeiras produções não chegavam a todas as classes sociais. As primeiras peças registadas nos contextos arqueológicos, nacionais e estrangeiros, foram inspiradas em objetos de elevado valor, cujo consumo era destinado às elites. Só passadas algumas décadas começa aquela louça a ser utilizada pelas classes menos abastadas.</p>
+      <p><span class="cronologia">Cronologia</span> Século XVI</p>
+      </div>
+    </div>
+</div>
+
+<div id="dezanove" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/19/19.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/19/19.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Os Almóadas</span></h1>
+      <p>Jarrinha esgrafitada sobre engobe negro, motivos epigráficos e cordão da eternidade.</p>
+      <p><span class="cronologia">Cronologia</span> Século XIII</p>
+      </div>
+    </div>
+</div>
+
+<div id="vinteedois" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/22/22.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/22/22.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Os Omíadas</span></h1>
+      <h2><span class="modal_titulo">Bule de chá</span></h2>
+      <p>Esta peça seria eventualmente usada para servir um tipo de bebida semelhante ao chá.</p>
+      <p><span class="cronologia">Cronologia</span> Séculos IX-X</p>
+      </div>
+    </div>
+</div>
+
+<div id="vinteetres" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/23/23.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/23/23.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Os Almorávidas</span></h1>
+      <h2><span class="modal_titulo">Alcatruz de nora</span></h2>
+      <p>Esta peça terá sido usada num engenho ou aparelho para tirar água.</p>
+      <p><span class="cronologia">Cronologia</span> Séculos XII-XIII.</p>
+      </div>
+    </div>
+</div>
+
+<div id="trintaeseis" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/36/36a.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/36/36a.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/36/36b.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/36/36b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Poço votivo</span></h1>
+      <p>Poço votivo que faria parte de um santuário de cronologia romana e datado do século I- II d.C.</p>
+      <p>Neste taque foi recolhida uma <span class="italic">tabella defixionis</span>.</p>
+      <br><h5>Texto</h5>
+      <p><span class="italic">“Domine Megare invicte! Tu, qui Attidis corpus accepisti, accipias corpus eius qui meãs sarcinas supstulit, qui me compilavit de domo Hispani. Illius corpus tibi et anima do dono ut meas res inueniat. Hunc tibi ostia quadripede done. Attis, voveo, si eas iure invenero. Domne Attis, te rogo, per tuum Nocturnum, ut me quam primum compote facias!”</span></p>
+      <br><h5>Tradução</h5>
+      <p>“Ó Senhora Mégara Invicta! Tu, que recebeste o corpo de Átis, digna-te receber o corpo daquele que levou as minhas bagagens, que mas roubou da casa de Hispano. Ofereço-te como dádiva o corpo e alma daquele para que eu encontre as minhas coisas. Se vier a encontrar esse ladrão, então prometo-te, ó Senhor Átis, um quadrúpede como vítima.</p>
+      <p>Ó Senhor Átis, rogo-te, pelo teu Nocturno, que faças com que eu as obtenha quanto antes.”</p>
+      </div>
+    </div>
+</div>
+
+<div id="quarentaetres" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_40 modal_content_left">
+        <div class="gallery" style="background-image: url('images/43/43.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/43/43.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/43/43_1_small.jpg'); float:left; width: 48%; height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/43/43_1.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <div class="gallery" style="background-image: url('images/43/43_2_small.jpg');  float:right; width: 48%; height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/43/43_2.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+
+      </div>
+      <div class="modal_content_60 modal_content_right">
+      <h1><span class="modal_titulo">Terracota representando Zeus</span></h1>
+      <p>Terracota representando Zeus em forma de águia que rapta o jovem Ganimedes.</p>
+      <p>A águia (personificação de Zeus) prende com as suas garras o jovem Ganimedes ao nível do ombro direito e do antebraço esquerdo. A estatueta está partida ao nível da cabeça da águia e ao nível da cauda e na base das asas.
+      Ganimedes apresenta-se nu usando simplesmente uma capa como proteção e o barrete frígio. O seu braço direito segura a capa.</p>
+      <p>Ganimedes era um príncipe troiano, filho de Tros o fundador de Tróia. Segundo a Ilíada de Homero, ele era o mais belo dos adolescentes. Perto de Tróia, cuidava ele do seu rebanho quando Zeus, transformado em águia, o rapta, levando-o para o Olimpo, cidade dos deuses.
+      Hera, a ciumenta mulher de Zeus, fica contrariada com o facto de Ganimedes se ter tornado o escanção dos deuses, função que já pertencia a Hebe, sua filha. Compele Zeus expulsar Ganimedes do Olimpo. Zeus não querendo enfurecer a deusa, acede à sua vontade, mas decide imortalizá-lo devido à sua beleza. Em vez de o mandar para Tróia, Zeus coloca-o no céu sob a forma da constelação do Aquário (o portador de água).</p>
+      <p><span class="cronologia">Cronologia</span> Século III a.C.</p>
+      </div>
+    </div>
+</div>
+
+<div id="quarentaetres_dois" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/43/432_1.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/43/432_1.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/43/432_2.jpg'); height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/43/432_2.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Talismã egípcio</span></h1>
+      <p>Talismã egípcio de osso esculpido que mede apenas 14 mm de comprimento. </p>
+      <p>Uma das faces exibe a representação do olho de Horus, deus egípcio, filho de Osíris e de Ísis. Na face oposta, encontra-se a figura de um quadrúpede ungulado, provavelmente o boi Ápis ou a vaca Hathor. </p>
+      <p>Este artefacto constitui mais um admirável testemunho dos contactos com os povos do Mediterrâneo Oriental possibilitados pelas rotas comerciais fenícias.</p>
+      <p><span class="cronologia">Cronologia</span> Séculos VII a.C. a V a.C.</p>
+      </div>
+    </div>
+</div>
+
+<div id="quarentaesete" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/47/47.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/47/47.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Época Romana</span></h1>
+      <p>Lucerna em forma de barco com vários orifícios de combustão e alimentação. A parte que se conserva corresponde à proa.</p>
+      </div>
+    </div>
+</div>
+
+<div id="cinquentaequatro" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/54/54_small.jpg'); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/54/54.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Urninha engobada a vermelho</span></h1>
+      <p>A cerâmica de engobe vermelho possui uma longa tradição historiográfica, em consequência de ser considerada como um indicador da presença /influência de populações de origem oriental.</p>
+      <p><span class="cronologia">Cronologia</span> Séculos V a II a.C.</p>
+
+      </div>
+    </div>
+</div>
+
+
+
+<div id="cinquentaequatro_b" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/54/54_a_small.jpg'); height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/54/54_a.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/54/54_b_small.jpg'); float:left; width:48%; height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/54/54_b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <div class="gallery" style="background-image: url('images/54/54_c_small.jpg'); float:right; width:48%;  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/54/54_c.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Cossoiros</span></h1>
+      <h2><span class="modal_titulo">Fusaiolas, cossoiros ou verticili </span></h2>
+      <p>Não são artefactos específicos de uma época, sendo pequenas peças cilíndricas ou cónicas colocadas no fundo dos fusos, utilizadas como remate, equilibrando o fuso e servindo de volante, que mantinha e prolongava o movimento rotativo da mão da fiandeira.</p>
+      <p>São geralmente feitos de barro e são o principal testemunho arqueológico da actividade de fiação, já que os fusos eram maioritariamente feitos de materiais. São objetos que pela sua função se prolongam pelos tempos, não sendo por isso típicos de uma só época. As diferentes formas e tamanhos estão diretamente relacionadas com as diferentes espessuras dos fios e/ou com as próprias matérias-primas utilizadas.</p>
+      <p>A produção de lã foi bastante importante na prosperidade económica de Beuipo e Salácia. Já Plínio fala da importância das lãs aqui produzidas, nomeadamente as fabricadas em lã branca e preta, a que chamavam escudados.</p>
+      </div>
+    </div>
+</div>
+
+<div id="cinquentaesete" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/57/57a.jpg');  height: 50%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/57/57a.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <div class="gallery" style="background-image: url('images/57/57b_small.jpg');  height: 50%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/57/57b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">1ª Idade do ferro</span></h1>
+      <h2><span class="modal_titulo">Em cima</span></h2>
+      <p>Taça de cerâmica cinzenta fina com furos de suspensão</p>
+      <p><span class="cronologia">Cronologia</span> Séculos VI a V a.C</p>
+      <h2><span class="modal_titulo">Em baixo</span></h2>
+      <p>Urna de cerâmica cinzenta</p>
+      <p><span class="cronologia">Cronologia</span> Séculos VI a V a.C</p>
+      </div>
+    </div>
+</div>
+
+<div id="sessenta" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_30 modal_content_left">
+        <div class="gallery" style="background-image: url('images/60/60a_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/60/60a.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/60/60b_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/60/60b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+
+      </div>
+      <div class="modal_content_70 modal_content_right">
+      <h1><span class="modal_titulo">Tesouro - moedas</span></h1>
+      <p>Moeda pré-romana com representação de atuns e a provável denominação da cidade em caracteres indígenas “<span class="italic">Beuipo</span>”.</p>
+      <p>Em Alcácer cunhou-se moeda, provavelmente desde o século II a.C., com iconografias que sublinham uma forte ligação a Cádiz através da representação, nos anversos, da efígie do Hércules de Cádiz (<span class="italic">Gades</span>), de inspiração cartaginesa ou, em menor expressão, de Neptuno e, nos reversos atuns, de golfinhos, hipocampos e, mais raramente, espigas. Estes símbolos estariam relacionados com a riqueza do rio e a produção de cereais.</p>
+      <p>As cunhagens incluem por norma unidades e divisores, o que sublinha o carácter funcional destas moedas, como instrumento de troca, alinhadas com a metrologia de outros núcleos da área do estreito de Gibraltar ou das extensões norte-africanas deste ambiente de cariz mediterrâneo.</p>
+      <p>As emissões mais antigas de moedas exibem uma legenda toponímica em caracteres indígenas que poderá interpretar-se como <span class="italic">Beuipo</span>. Trata-se de moedas bilingues, pois foram grafados nos anversos os nomes dos magistrados responsáveis pelas cunhagens em caracteres latinos. </p>
+      <p>Ao copiar os cunhos de Gadir, revela uma provável dependência desta importantíssima cidade do mediterrâneo. Perante os dados divulgados em relação às cunhagens, é possível que estas emissões pudessem ter sido efetuadas por oficinas itinerantes, cujos serviços seriam requisitados pelos líderes, com a finalidade de facilitar o comércio nos mercados dominados por Gadir. O uso de iconografia equiparável à da moeda forte propiciava uma integração mais fácil e directa em mercados fixos de determinadas cidades.</p>
+      <p>Em dado momento, o aglomerado sadino recebeu a designação de <span class="italic">Salacia</span>, nome que perdurou pelos séculos do domínio romano. Algumas das antigas moedas ostentam um <span class="italic">S</span> impresso sobre a velha legenda toponímica e outras emissões exibem a nova legenda <span class="italic">IMP. SAL</span>, lida como <span class="italic">Imperatoria Salacia</span>, um cognome registado também pelo autor latino Plínio-o-Velho, quando se lhe refere como uma das mais notáveis cidades da costa atlântica – “<span class="italic">Salácia</span>, cognominada <span class="italic">Urbs Imperatoria</span>”.</p>
+        <p><span class="cronologia">Cronologia</span> Século II a.C</p>
+      </div>
+    </div>
+</div>
+
+<div id="sessentaetres" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/63/63_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/63/63.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/63/63_1.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/63/63_1.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Terço com imagem de caveira</span></h1>
+      <p>Durante as escavações arqueológicas realizadas no Convento de Aracoeli foram recolhidas um conjunto de peças em materiais que vão do azeviche e osso, marfim e pasta vítrea.</p>
+      <p>Esta coleção é constituída por várias dezenas de objetos, de dimensão e decoração variadas, como contas e braços de cruzes.</p>
+      <p>Algumas das contas estão relacionadas com o adorno pessoal (ex: colares) ou elementos decorativos de vestuário, no entanto, a maioria fariam parte de rosários ou terços.</p>
+      <p>Este tipo de objetos aparecem frequentemente associados a sepulturas datáveis entre o século XVII e o princípio do século XIX.</p>
+      </div>
+    </div>
+</div>
+
+<div id="sessentaetres_b" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/63/63_3_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/63/63_3.jpg" class=""><div class="empty-full"></div></a>
+        </div><br>
+        <div class="gallery" style="background-image: url('images/63/63_2_small.jpg');  float:left; width: 48%; height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/63/63_2.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <div class="gallery" style="background-image: url('images/63/63_4_small.jpg'); float:right; width: 48%; height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/63/63_4.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+      <h1><span class="modal_titulo">Sanguessuga</span></h1>
+      <p>Denominada como Sanguessuga por causa do seu formato, são pendentes de uma xorca ou colar, normalmente em bronze.</p>
+      <p>É um elemento de adorno, essencialmente usado por guerreiros.</p>
+      <p>Estes adereços são bem conhecidos na Idade do Ferro peninsular havendo, contudo, uma distribuição concentrada na área da Meseta Norte e no território atualmente português.</p>
+      <p>Foram recolhidas durante as escavações arqueológicas no cemitério pré-romano do Olival do Senhor dos Mártires, tendo sido recolhidas algumas destas peças completas, tendo sido depositadas no Museu Nacional de Arqueologia após as escavações.</p>
+<br>
+      <p><span class="cronologia">Cronologia</span> Século VI/V a.C</p>
+
+      </div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+<script src="vendor/DeviceOrientationControlMethod.js"></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+<script src="js/jquery.modal.min.js"></script>
+<script src="js/simple-lightbox.min.js"></script>
+
+<script src="init.js"></script>
+
+
+<script>
+(function() {
+		var $gallery = new SimpleLightbox('.gallery a', {
+      nav: false,
+      captions: false,
+      showCounter: false,
+      animationSpeed: 100
+      });
+    	})();
+</script>
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#welcome-modal').modal();
+    });
+</script>
+
+</body>
+</html>

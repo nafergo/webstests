@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Museu Municipal Pedro Nunes - Visita 360</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jquery.modal.min.css" />
+<link rel="stylesheet" href="css/simple-lightbox.min.css" />
+<link rel="stylesheet" href="css/alcacer.css">
+<link rel="stylesheet" href="css/linkview.css">
+<link rel="stylesheet" href="css/linkhotspots.css">
+<link rel="stylesheet" href="css/infoboard.css">
+<link rel="stylesheet" href="css/infohotspots.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+      <a href="javascript:void(0)" class="scene" data-id="0-praa-pedro-nunes"><li class="text">Praça Pedro Nunes</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="2-entrada"><li class="text">Entrada</li></a>
+<li class="text nolink">Idade do Ferro</li>
+      <a href="javascript:void(0)" class="scene" data-id="4-um-porto-de-culturas"><li class="text minus">Beuipo. Um Porto de Culturas</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="6-na-esfera-de-roma"><li class="text minus">O comércio e os materiais</li></a>
+<li class="text  nolink">Romano</li>
+      <a href="javascript:void(0)" class="scene" data-id="5-na-esfera-de-roma"><li class="text minus">Imperatoria Salacia</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="7-na-esfera-de-roma"><li class="text minus">Objetos da vida quotidiana</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="8-uma-economia-de-esturio"><li class="text minus">Uma economia de estuário</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="9-8-igreja"><li class="text">Igreja do Espírito Santo e os Altares</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="10-9-medieval"><li class="text">De Qaṣr Abī Dānis a Alcácer do Sal</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="11-10-a-capela-e-o-hospital-do-esprito-santo"><li class="text">A Capela e o Hospital do Espírito Santo</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="12-11-altar"><li class="text">O Altar-Mor</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="13-12-segredos-nas-paredes"><li class="text">Segredos nas paredes</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="14-13-parede"><li class="text">O Coro</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="15-14-plpito"><li class="text">Púlpito</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="16-15-modernidade"><li class="text">Modernidade</li></a>
+      <a href="javascript:void(0)" class="scene" data-id="17-16-modernidade"><li class="text">Os achados </li></a>
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<div id="toggleDeviceOrientation">
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.svg">
+  <img class="icon on" src="img/windowed.svg">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+
+<div id="welcome-modal" class="modal">
+    <div class="modal_content_main hidemodal-small">
+        <div class="modal_content_50 modal_content_left welcome-logo"></div>
+        <div class="modal_content_50 modal_content_right">
+        <div class="welcome-right">
+          <h1 id="welcome-title">Visita Virtual 360</h1>
+          <h3><a id="start-button" href="#" rel="modal:close">ENTRAR</a></h3>
+          <p><br /></p>
+          <h6 id="welcome-footer">&#9400; 2021 | CM de Alcácer do Sal</h6>
+        </div>
+        </div>
+    </div>
+    <div class="modal_content_main hidemodal-desktop">
+        <div class="welcome-right">
+        <img src="images/logo2.jpg" class="responsive-image">
+          <h1 id="welcome-title">Visita Virtual 360</h1>
+          <h3><a id="start-button" href="#" rel="modal:close">ENTRAR</a></h3>
+          <p><br /></p>
+          <h6 id="welcome-footer">&#9400; 2021 | CM de Alcácer do Sal</h6>
+        </div>
+    </div>
+</div>
+
+
+
+<a href="#ficha-modal" class="modal_about modali" rel="modal:open"><img class="icon" src="img/people.svg"></a>
+
+<div id="ficha-modal" class="modal">
+    <div class="modal_content_main hidemodal-small">
+        <div class="modal_content_70 modal_content_left">
+          <h1>FICHA TÉCNICA</h1>
+          <ul>
+            <li><h3>Promotor</h3></li>
+            <li>Câmara Municipal de Alcácer do Sal</li>
+            <li><h3>Coordenação municipal do projeto</h3></li>
+            <li>Marisol Ferreira</li>
+          </ul>
+           
+          <h2>MUSEOGRAFIA</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Museografia</span> Eon, Indústrias Criativas, Lda</li>
+          <li><span class="nome-creditos">Arquitetura Expositiva</span> Spaceworkers</li>
+          <li><span class="nome-creditos">Design Gráfico</span> Catarina Sousa</li>
+          <li><span class="nome-creditos">Seleção de objetos arqueológicos</span> Marisol Ferreira, Pedro Sobral de Carvalho, Paulo Celso Monteiro.</li>
+          <li><span class="nome-creditos">Produção de conteúdos</span> Ana Margarida Arruda, Carlos Fabião, Isabel Cristina F. Fernandes, Maria Teresa Lopes Pereira, Marisol Ferreira, Pedro Sobral de Carvalho.</li>
+          <li><span class="nome-creditos">Ilustrações</span> Luís Tacklim</li>
+          </ul>
+           
+          <h2>MULTIMÉDIA E FILME</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Ideia e conceção</span> Glorybox</li>
+          <li><span class="nome-creditos">Montagem</span> M&A Digital</li>
+          <li><span class="nome-creditos">Fotografia de peças arqueológicas</span> Pedro Sobral de Carvalho</li>
+          </ul>
+
+          <ul class="lista-seguida">
+          <li><h3>Documentário</h3></li>
+          </ul>
+          <ul class="lista-seguida lista-fix">
+          <li><span class="nome-creditos">Coordenação</span> Glorybox</li>
+          <li><span class="nome-creditos">Produção</span> Glorybox</li>
+          <li><span class="nome-creditos">Realização</span> Sérgio Pereira</li>
+          <li><span class="nome-creditos">Guião</span> Paulo Celso Monteiro, Pedro Sobral de Carvalho.</li>
+          <li><span class="nome-creditos">Recolha de Imagens</span> Sérgio Pereira, João Pereira.</li>
+          <li><span class="nome-creditos">Montagem e edição</span> Sérgio Pereira</li>
+          <li><span class="nome-creditos">Pós-produção</span> Sérgio Pereira</li>
+          <li><span class="nome-creditos">Locução</span> Jorge Moreira</li>
+          </ul>
+
+          <h2>MONTAGEM</h2>
+          <ul class="lista-seguida">
+          <li>Glorybox,</li>
+          <li>AMS Publicidade,</li>
+          <li>Movecho,</li>
+          <li>Disoestrela.</li>
+          </ul>
+        </div>
+        <div class="modal_content_30 modal_content_right">
+          <h2>Horário de funcionamento</h2>
+          <ul>
+            <li><h3>Verão (julho e agosto)</h3></li>
+            <li>9h30-13h; 15h-18h30</li>
+            <li><h3>Inverno</h3></li>
+            <li>9h-12h30; 14h-17h30</li>
+            <li> &nbsp;</li>
+            <li><span class="small">NOTA: A última entrada é feita sempre meia hora antes da hora de encerramento.</span></li>
+            <li> &nbsp;</li>
+            <li><span class="small">O museu encerra à segunda-feira.</span></li>
+          </ul>
+
+          <h2>Contactos</h2>
+          <ul>
+            <li>Rua do Município</li>
+            <li>Praça Pedro Nunes</li>
+            <li>7580 Alcácer do Sal</li>
+            <li> &nbsp;</li>
+            <li><span class="material-icons">mail_outline</span> museu.nunes@cm-alcacerdosal.pt</li>
+            <li><span class="material-icons">phone</span> 265 610 045</li>
+          </ul>
+        </div>
+    </div>
+    <div class="modal_content_main_small hidemodal-desktop">
+        <div class="modal_content_100">
+          <h1>FICHA TÉCNICA</h1>
+          <ul>
+            <li><h3>Promotor</h3></li>
+            <li>Câmara Municipal de Alcácer do Sal</li>
+            <li><h3>Coordenação municipal do projeto</h3></li>
+            <li>Marisol Ferreira</li>
+          </ul>
+           
+          <h2>MUSEOGRAFIA</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Museografia</span> Eon, Indústrias Criativas, Lda</li>
+          <li><span class="nome-creditos">Arquitetura Expositiva</span> Spaceworkers</li>
+          <li><span class="nome-creditos">Design Gráfico</span> Catarina Sousa</li>
+          <li><span class="nome-creditos">Seleção de objetos arqueológicos</span> Marisol Ferreira, Pedro Sobral de Carvalho, Paulo Celso Monteiro.</li>
+          <li><span class="nome-creditos">Produção de conteúdos</span> Ana Margarida Arruda, Carlos Fabião, Isabel Cristina F. Fernandes, Maria Teresa Lopes Pereira, Marisol Ferreira, Pedro Sobral de Carvalho.</li>
+          <li><span class="nome-creditos">Ilustrações</span> Luís Tacklim</li>
+          </ul>
+           
+          <h2>MULTIMÉDIA E FILME</h2>
+          <ul class="lista-seguida">
+          <li><span class="nome-creditos">Ideia e conceção</span> Glorybox</li>
+          <li><span class="nome-creditos">Montagem</span> M&A Digital</li>
+          <li><span class="nome-creditos">Fotografia de peças arqueológicas</span> Pedro Sobral de Carvalho</li>
+          </ul>
+
+          <ul class="lista-seguida">
+          <li><h3>Documentário</h3></li>
+          </ul>
+          <ul class="lista-seguida lista-fix">
+          <li><span class="nome-creditos">Coordenação</span> Glorybox</li>
+          <li><span class="nome-creditos">Produção</span> Glorybox</li>
+          <li><span class="nome-creditos">Realização</span> Sérgio Pereira</li>
+          <li><span class="nome-creditos">Guião</span> Paulo Celso Monteiro, Pedro Sobral de Carvalho.</li>
+          <li><span class="nome-creditos">Recolha de Imagens</span> Sérgio Pereira, João Pereira.</li>
+          <li><span class="nome-creditos">Montagem e edição</span> Sérgio Pereira</li>
+          <li><span class="nome-creditos">Pós-produção</span> Sérgio Pereira</li>
+          <li><span class="nome-creditos">Locução</span> Jorge Moreira</li>
+          </ul>
+
+          <h2>MONTAGEM</h2>
+          <ul class="lista-seguida">
+          <li>Glorybox,</li>
+          <li>AMS Publicidade,</li>
+          <li>Movecho,</li>
+          <li>Disoestrela.</li>
+          </ul>
+        </div>
+        <div class="modal_content_100">
+          <h2>Horário de funcionamento</h2>
+          <ul>
+            <li><h3>Verão (julho e agosto)</h3></li>
+            <li>9h30-13h; 15h-18h30</li>
+            <li><h3>Inverno</h3></li>
+            <li>9h-12h30; 14h-17h30</li>
+            <li> &nbsp;</li>
+            <li><span class="small">NOTA: A última entrada é feita sempre meia hora antes da hora de encerramento.</span></li>
+            <li> &nbsp;</li>
+            <li><span class="small">O museu encerra à segunda-feira.</span></li>
+          </ul>
+
+          <h2>Contactos</h2>
+          <ul>
+            <li>Rua do Município</li>
+            <li>Praça Pedro Nunes</li>
+            <li>7580 Alcácer do Sal</li>
+            <li> &nbsp;</li>
+            <li><span class="material-icons">mail_outline</span> museu.nunes@cm-alcacerdosal.pt</li>
+            <li><span class="material-icons">phone</span> 265 610 045</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+<!-- mapa -->
+<a href="#mapa_mmpn" class="modal_map  modali" rel="modal:open"><img class="icon" src="img/map.svg"></a>
+
+<div id="mapa_mmpn" class="modal">
+  <div class="modal_content_main hidemodal-small">
+    <div class="modal_content_60 modal_content_left">
+      <h1><span class="modal_titulo">Mapa da Visita</span></h1><br>
+      <div id="mapa-fundo"></div>
+    </div>
+  <div class="modal_content_40 modal_content_right" style="padding-left:5%;">
+    <div id="mapList">
+      <ul class="scenes">
+      <li class="text"><span> &nbsp;</span></li>
+      <li class="text"><span> &nbsp;</span></li>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="0-praa-pedro-nunes"><li class="text"><span>1 Praça Pedro Nunes</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="2-entrada"><li class="text"><span>2 Entrada</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="4-um-porto-de-culturas"><li class="text"><span>3 Beuipo. Um Porto de Culturas</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="6-na-esfera-de-roma"><li class="text"><span>4 O comércio e os materiais</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="5-na-esfera-de-roma"><li class="text"><span>5 Imperatoria Salacia</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="7-na-esfera-de-roma"><li class="text"><span>6 Objetos da vida quotidiana</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="8-uma-economia-de-esturio"><li class="text"><span>7 Uma economia de estuário</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="9-8-igreja"><li class="text"><span>8 Igreja do Espírito Santo e os Altares</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="10-9-medieval"><li class="text"><span>9 De Qaṣr Abī Dānis a Alcácer do Sal</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="11-10-a-capela-e-o-hospital-do-esprito-santo"><li class="text"><span>10 A Capela e o Hospital do Espírito Santo</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="12-11-altar"><li class="text"><span>11 O Altar-Mor</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="13-12-segredos-nas-paredes"><li class="text"><span>12 Segredos nas paredes</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="14-13-parede"><li class="text"><span>13 O Coro</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="15-14-plpito"><li class="text"><span>14 Púlpito</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="16-15-modernidade"><li class="text"><span>15 Modernidade</span></li></a>
+        <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="17-16-modernidade"><li class="text"><span>16 Os achados</span></li></a>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="modal_content_main_small hidemodal-desktop">
+    <h1><span class="modal_titulo">Mapa da Visita</span></h1>
+    <img src="images/mapas.svg" class="responsive-image">
+  <div id="mapList">
+    <ul class="scenes">
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="0-praa-pedro-nunes"><li class="text"><span>1 Praça Pedro Nunes</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="2-entrada"><li class="text"><span>2 Entrada</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="4-um-porto-de-culturas"><li class="text"><span>3 Beuipo. Um Porto de Culturas</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="6-na-esfera-de-roma"><li class="text"><span>4 O comércio e os materiais</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="5-na-esfera-de-roma"><li class="text"><span>5 Imperatoria Salacia</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="7-na-esfera-de-roma"><li class="text"><span>6 Objetos da vida quotidiana</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="8-uma-economia-de-esturio"><li class="text"><span>7 Uma economia de estuário</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="9-8-igreja"><li class="text"><span>8 Igreja do Espírito Santo e os Altares</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="10-9-medieval"><li class="text"><span>9 De Qaṣr Abī Dānis a Alcácer do Sal</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="11-10-a-capela-e-o-hospital-do-esprito-santo"><li class="text"><span>10 A Capela e o Hospital do Espírito Santo</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="12-11-altar"><li class="text"><span>11 O Altar-Mor</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="13-12-segredos-nas-paredes"><li class="text"><span>12 Segredos nas paredes</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="14-13-parede"><li class="text"><span>13 O Coro</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="15-14-plpito"><li class="text"><span>14 Púlpito</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="16-15-modernidade"><li class="text"><span>15 Modernidade</span></li></a>
+      <a href="javascript:void(0)" rel="modal:close"  class="scene" data-id="17-16-modernidade"><li class="text"><span>16 Os achados</span></li></a>
+    </ul>
+  </div>
+
+</div>
+</div>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<div id="leao-em-bronze" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/14.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/14.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Leão em bronze</span></h1>
+        <p>Imagem de leão em bronze, encontrada na zona portuária de <span class="italic">Beuipo</span>. </p>
+        <p>Esta peça, pelas suas características, poderia ter sido usada como remate de mobiliário.</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Século VI e inícios do V a.C.</p>
+        <p><span class="cronologia">Proveniência</span> Rua do Rato</p>
+      </div>
+    </div>
+</div>
+
+<div id="placa-em-osso" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/placa_osso/4b.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/placa_osso/4b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Placa em osso</span></h1>
+        <p>Placa em osso decorada com o típico motivo da «árvore da vida». Era um símbolo recorrente no mundo próximo oriental e de elevada carga simbólica. Seria um elemento decorativo destinado a encastrar em móveis ou a revestirem recipientes cilíndricos.</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Séculos VI-V a. C.</p>
+        <p><span class="cronologia">Proveniência</span> Rua do Rato</p>
+      </div>
+    </div>
+</div>
+
+<div id="ceramica-atica" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/22.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/22.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Cerâmica ática</span></h1>
+        <p>(<span class="italic">Kratêr-de-sino</span>)</p>
+        <p>Normalmente a cerâmica grega era decorada com temas do dia-a-dia, mitológicos ou eróticos. Eram peças importadas da Grécia, usadas como recipientes para conter, vinho, água, óleos ou mesmo perfumes e de apoio a cerimónias religiosas e fúnebres.</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Séculos V-IV a. C.</p>
+        <p><span class="cronologia">Proveniência</span> Necrópole do Olival do Senhor dos Mártires</p>
+      </div>
+    </div>
+</div>
+
+<div id="escaravelho-egipcio" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/escaravelho/escaravelho_1.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/escaravelho/escaravelho_1.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <br>
+        <div class="gallery" style="background-image: url('images/escaravelho/escaravelho_2.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/escaravelho/escaravelho_2.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Escaravelho egípcio</span></h1>
+        <p>Escaravelho realizado em pedra (esteatite branca). Possui a cabeça e clípeos bem marcados, patas sugeridas lateralmente, apresentando inscrição na base, perfurado longitudinalmente.</p>
+        <p>Inscrição: O registo superior representaria uma esfinge com um signo <span class="italic">Nefer</span>; o registo médio representa, à esquerda, o falcão <span class="italic">Hórus</span> com um flagelo e à direita um cartucho com o nome <span class="italic">Men-Ka-Ra</span> (ou <span class="italic">Men-Ka-Re</span>); o registo inferior corresponde a um signo <span class="italic">Neb</span>.</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Séculos VII- VI a. C.</p>
+        <p><span class="cronologia">Proveniência</span> Igreja do Espírito Santo</p>
+      </div>
+    </div>
+</div>
+
+<div id="biberao" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/29.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/29.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Biberão</span></h1>
+        <p>Esta peça tem vindo a ser identificada como um biberão. Foi recolhida numa sepultura de cremação na Necrópole Romana da Azinhaga do Senhor dos Mártires.</p>
+        <p><span class="cronologia">Cronologia</span> Século I a.C.</p>
+        <p><span class="cronologia">Proveniência</span> Necrópole da Azinhaga do Senhor dos Mártires</p>
+
+      </div>
+    </div>
+</div>
+
+<div id="terra-sigillata" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/27_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/27.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <br>
+        <div class="gallery" style="background-image: url('images/27b_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/27b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Taça em <span class="italic">terra sigillata</span></span></h1>
+        <p>Cerâmica fina datada da época romana. As várias peças que compunham as baixelas eram maioritariamente baixas e abertas, como pratos, taças ou copos, apropriadas ao consumo de comida e bebida.</p>
+        <p>Iniciado no centro de Itália no século I a.C., o seu fabrico alargou-se posteriormente para várias áreas do Império Romano, com destaque para os focos gauleses, hispânicos e norte-africanos, dos quais a Lusitânia viria a receber inúmeras importações.</p>
+        <br>
+        <p><span class="cronologia">Proveniência</span> Necrópole da Azinhaga do Senhor dos Mártires</p>
+      </div>
+    </div>
+</div>
+
+<div id="placa-votiva" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/31.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/31.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Placa votiva</span></h1>
+        <p>Placa votiva em mármore branco cristalino (das pedreiras de Estremoz / Vila Viçosa), tem representação de uma árula moldurada, com inscrição, e, sob esta, uma ovelha, em cima de um plinto.</p>
+        <p>DEDICA/VIT // [Q(uintus] · PORCI (vel POMPEI)]VS (hedera) Q(uinti) · PO[RCI vel MPEI] / [LIB (ertus)] ·[H]EMERO[S]</p>
+        <p>Dedicou Quinto Pórcio (ou Pompeu) Hémero, liberto de Quinto Pórcio (ou Pompeu).</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Século I a. C.</p>
+        <p><span class="cronologia">Proveniência</span> Fórum romano</p>
+      </div>
+    </div>
+</div>
+
+<div id="inscricao-islamica" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/40.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/40.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Inscrição funerária islâmica</span></h1>
+        <p>Peça em mármore que reaproveitou a parte de trás de uma moldura romana.</p>
+        <p>Trata-se do fragmento que diz:</p>
+        <p>(…)Alá tem sobre (…) segredo(…)</p>
+        <p>Mensageiro (…) meu Deus (…)</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Século X-XI</p>
+        <p><span class="cronologia">Proveniência</span> Castelo de Alcácer</p>
+      </div>
+    </div>
+</div>
+
+<div id="imagem-terracota" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/49a_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/49a.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+        <br>
+        <div class="gallery" style="background-image: url('images/49b_small.jpg');  height: 48%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/49b.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Imagem em terracota</span></h1>
+        <p>Peça em terracota representando a Nossa Senhora da Conceição com o menino ao colo (Século XVIII). Ainda existem vestígios de pintura em algumas áreas da peça.</p>
+        <p>Esta pequena estatueta foi recolhida durante as escavações arqueológicas efetuadas na igreja do Espírito Santo (Museu Municipal Pedro Nunes), tendo sido recolhida em contexto de revolvimento.</p>
+        <br>
+        <p><span class="cronologia">Cronologia</span> Século X-XI</p>
+        <p><span class="cronologia">Proveniência</span> Igreja do Espírito Santo</p>
+      </div>
+    </div>
+</div>
+
+<div id="medalha" class="modal">
+    <div class="modal_content_main">
+      <div class="modal_content_50 modal_content_left">
+        <div class="gallery" style="background-image: url('images/50.jpg');  height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+          <a href="images/50.jpg" class=""><div class="empty-full"></div></a>
+        </div>
+      </div>
+      <div class="modal_content_50 modal_content_right">
+        <h1><span class="modal_titulo">Medalha</span></h1>
+        <p>Medalha religiosa ou conhecidas também por “verónicas”, anepígrafa de formato octogonal. Representa o Justo e Pastor ao centro, segura com a mão direita um cajado e, a seu lado, uma pequena ovelha. Possui uma cronologia do século XVIII.</p>
+        <p>São essencialmente adereços acessíveis às camadas populares, coincidindo com o costume posterior ao século XVI da bênção papal destes itens. Podiam ser habitualmente usadas em suspensão à volta do pescoço ou fixados ao vestuário, como partes integrantes de rosários ou de fios de colar.</p>
+        <p>Foi recolhida durante as escavações arqueológicas da Igreja do Espírito Santo.</p>
+      </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+<script src="vendor/DeviceOrientationControlMethod.js"></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+<script src="js/jquery.modal.min.js"></script>
+<script src="js/simple-lightbox.min.js"></script>
+
+<script src="init.js"></script>
+
+
+<script>
+(function() {
+		var $gallery = new SimpleLightbox('.gallery a', {
+      nav: false,
+      captions: false,
+      showCounter: false,
+      animationSpeed: 100
+      });
+    	})();
+</script>
+
+
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#welcome-modal').modal();
+    });
+</script>
+
+
+</body>
+</html>

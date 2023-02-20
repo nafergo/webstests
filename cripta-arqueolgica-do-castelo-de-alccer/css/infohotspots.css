@@ -1,0 +1,38 @@
+.info-hotspot .info-hotspot-header {background-color: rgb(122, 106, 199);}
+.info-hotspot .info-hotspot-header:hover {background-color: rgb(152, 133, 247);}
+.info-hotspot .info-hotspot-close-wrapper {background-color: rgb(152, 133, 247);}
+.info-hotspot .info-hotspot-text {background-color: rgb(58,68,84, 0.3);}
+.info-hotspot-modal .info-hotspot-text {background-color: rgb(30,30,30);}
+.info-hotspot-modal .info-hotspot-header {background-color: rgb(152, 133, 247); text-transform: uppercase;}
+.info-hotspot-modal .info-hotspot-close-wrapper {background-color: rgb(152, 133, 247);}
+
+
+
+
+#toggleDeviceOrientation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: rgb(103,115,131);
+  background-color: rgba(103,115,131,0.8);
+  display: none;
+}
+
+#toggleDeviceOrientation img {
+  width: 34px;
+  margin: 8px;
+}
+
+#toggleDeviceOrientation .disable {
+  display: none;
+}
+
+#toggleDeviceOrientation.enabled .disable {
+  display: block;
+}
+
+#toggleDeviceOrientation.enabled .enable {
+  display: none;
+}
