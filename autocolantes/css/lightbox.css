@@ -209,6 +209,22 @@ body.lb-disable-scrolling {
 body {padding: em;}
 
 
-.info {
-  padding: 1rem;
+.fix {
+  padding-top: 56px;}
+
+.alfobre-link{text-decoration: none;}
+a.alfobre-link:hover {text-decoration: underline;}
+
+.offcanvas {
+
+  background-image: url('../images/carnation_928345_c.png');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
 }
+
+#offcanvasNavbarLabel {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+}
+
+
