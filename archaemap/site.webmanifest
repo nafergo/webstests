@@ -1,0 +1,13 @@
+{
+  "name": "Archaemap",
+  "short_name": "Archaemap",
+  "description": "Archaeological analysis of early medieval agricultural practices in Alto Alentejo (2026-2028).",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#eef0f3",
+  "theme_color": "#16213a",
+  "icons": [
+    {"src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}
