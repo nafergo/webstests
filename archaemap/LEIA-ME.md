@@ -11,14 +11,11 @@ assets/photos/             TODAS as fotos
    banner.jpg                           faixa de "Em resumo"
    contact.jpg                          secção "Contacto"
    og-image.jpg                         imagem de partilha (1200x630)
-   team/sara-prata.jpg, collaborator-1..3.jpg   equipa (circulares via CSS)
+   team/sara-prata.jpg, ....jpg   equipa (circulares via CSS)
 assets/icons/              favicon + ícones
 robots.txt, sitemap.xml, site.webmanifest
 ```
 
-## Como trocar uma foto
-Substitua o ficheiro em `assets/photos/` mantendo o mesmo nome. Pode ser qualquer
-proporção: as da equipa são recortadas automaticamente em círculo (ideal: quadrada, 480x480).
 
 ## Antes de publicar
 1. Testar a partilha em https://developers.facebook.com/tools/debug/ e https://cards-dev.twitter.com/validator
